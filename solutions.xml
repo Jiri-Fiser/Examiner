@@ -1,0 +1,3800 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tasks>
+    <Task id="Task1">
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Bolom_Benjamin_Oliver"><![CDATA[seznam = ["míč", "láhev", "pes", "škola", "monitor"]
+seznam.append("tužka")
+for prvek in seznam:
+  print(prvek)
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="da_Palma_Anna_Sofia"><![CDATA[seznam= ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+seznam.remove('vehál')
+print(seznam)]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Dvorak_Vitek"><![CDATA[seznam = ["míč","láhev","pes","škola","monitor"]
+seznam.append("puk")
+for seznam in seznam:
+    print (seznam)]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Gabcanova_Anezka"><![CDATA[my_list = ["míč", "láhev", "pes", "škola", "monitor"]
+list.append = ["test"]
+
+for seznam  in seznam:
+    print(seznam)]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Helisova_Natalie"><![CDATA[seznam = ["čím", "vehál", "sep", "alokš", "rotinom"]
+for slovo in seznam:
+  slovo_po_zpátku = seznam[::-1]
+  print(slovo)
+
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Kubiznakova_Nikola"><![CDATA[seznam = ["čím", "vehál", "sep", "alokš", "rotinom"]
+seznam.remove("sep")
+for seznam in seznam:
+ print(seznam)
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Maresova_Zuzana"><![CDATA[seznam=list(map["čím", "vehál", "sep","alokš","rotinom"])))
+for idx in range (len(seznam)):
+  seznam[idx].sort(reverse=True)
+print(seznam[idx])
+  seznam[idx+1]
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Matejka_Jaroslav"><![CDATA[jméno = [["míč"], ["láhev"], ["pes"],[ "škola"], ["monitor"]]
+for  idx in range (len(jméno)):
+  for pet in range (len(jméno[idx])):
+    if jméno[pet] > jméno[pet]:
+      jméno[pet] , jméno[pet+1] = jméno[pet+1] ,jméno[pet]
+print (jméno)
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Motejlova_Monika"><![CDATA[seznam = ["míč", "láhev","pes","škola","monitor"]
+seznam.append("kočka")
+print(seznam)
+for items in seznam:
+ print(items)]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Pernova_Aneta"><![CDATA[seznam = ["čím", "vehál", "sep", "alokš", "rotinom"]
+seznam.append("čotolok")
+seznam
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Riabchenko_Yekateryna"><![CDATA[seznam = ['čím','vehál', 'sep', 'alokš', 'rotinom']
+seznam.remove('sep')
+for item in seznam:
+    print(item)]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Svec_David"><![CDATA[seznam = ["míč", "láhev", "pes", "škola", "monitor"]
+seznam == seznam.append("auto")
+print(seznam)]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Wünsch_Tadeas"><![CDATA[seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+
+seznam.remove('alokš')
+
+for x in seznam:
+    r = ''
+    for i in range(0, len(x)):
+        r += x[len(x) - i - 1]
+    print(r)]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Zaderlik_Adam"><![CDATA[seznam = ["čím, vehál, sep, alokš, rotinom"]
+for idx in range(len(seznam)):
+    seznam[idx] = "míč, láhev, pes, škola, monitor"
+
+print(seznam)
+
+for seznam1 in seznam:
+    print(seznam1)
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Bartosek_Jan"><![CDATA[from random import randint
+seznam = ("strom, řeka, auto, kniha, počítač ")
+
+print(seznam)]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Belor_Ondrej"><![CDATA[]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Beskoski_Filip"><![CDATA[seznam=['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Celko_Filip"><![CDATA[
+def obracecka(slovo,seznam):
+  for slovo in seznam:
+    return
+
+seznam = ["míč","láhev","pes","škola","monitor"]
+seznam += "kočka"
+
+obracečka(,seznam)]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Dobes_Simon"><![CDATA[import random
+seznam =  ["čím", "vehál", "alokš", "rotinom"]
+seznam.append("kočka")
+
+for idx in range(len(seznam)):
+
+     nahodne_cislo = random.randint(1, 10)
+     nahodne_cislo = str(nahodne_cislo)
+     slovo = seznam[idx] + nahodne_cislo
+     print(slovo)]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Doubeta_Michal"><![CDATA[import random
+
+seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+seznam.append(".")
+
+for slovo in seznam
+
+nahodne_cislo =
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Haborova_Sabina"><![CDATA[import random
+
+seznam = ["strom", "reka", "auto", "kniha", "pocitac"]
+seznam.append("les")
+
+for idx in range(len(seznam)):
+  nahodne_cislo = random.randint(1, 10)
+  nahodne_cislo = str(nahodne_cislo)
+  slovo = seznam[idx] + nahodne_cislo
+  print(slovo)
+
+
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Hortova_Eva"><![CDATA[seznam = ["strom","řeka","auto","kniha","počítač"]
+seznam.append("pomoc")
+
+for idx in range(len(seznam)):
+    seznam[idx] = seznam[idx][::-1]
+print(seznam)]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kacur_Dan"><![CDATA[seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+seznam.remove('vehál')
+
+for idx in range(len(seznam)):
+  slovo_pozpatku = seznam[idx][::-1]
+  print(slovo_pozpatku)
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kanyzova_Kristyna"><![CDATA[seznam = ['míč', 'láhev', 'pes', 'škola', 'monitor']
+seznam.append('auto')
+for slovo in seznam:
+   print(slovo[::-1])]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Knotte_Anezka"><![CDATA[import random
+
+seznam = ["strom", "řeka", "auto", "kniha", "počítač"]
+seznam.append("pomoc")
+
+for idx in range(len(seznam)):
+    seznam[idx] = seznam[idx][random(1,6)]
+
+print(seznam)]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kopriva_Jan"><![CDATA[seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+seznam.append ('čím')
+for slovo in seznam:
+
+  print(slovo[::-1])]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Krebsova_Karolina"><![CDATA[import random
+
+seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+seznam.append('nové_slovo')
+
+  for slovo in seznam:
+   nahodne_cislo = random.randint(1, 10)
+   transformovane_slovo = str(nahodne_cislo) + slovo
+   print("slovo:", slovo + ",", "náhodné číslo:", nahodne_cislo + ",", "slovo které vypíšete bude:", transformovane_slovo)]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Kubinec_Jan"><![CDATA[seznam=["míč","láhev","pes","škola","monitor"]
+a=input("Zadejte slovo: ")
+seznam.append(a)
+for idx in range(len(seznam)):
+  (seznam[idx])#obrátit slova
+  print(seznam[idx])
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Lhotska_Anna"><![CDATA[import random
+
+seznam = ['čím', 'vehál', 'sep', 'alkoš', 'rotinom']
+seznam.append('nové')
+
+for slovo in seznam:
+    nahodne_cislo = random.randint(1,10)
+    transformovane_slovo = str(nahodne_cislo)+slovo
+    print("slovo:", slovo, "nahodne cislo:", nahodne_cislo, "slovo ktere vypises bude:", transformovane_slovo)
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Martin_Dominik"><![CDATA[seznam = ['míč', 'láhev', 'pes', 'škola', 'monitor']
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Matvieieva_Liza"><![CDATA[import random
+
+seznam = ["čím", "vehál", "sep", "alokš", "rotinom"]
+seznam.append("pisa")
+
+for idx in range(len(seznam)):
+    nahodne_cislo = random.randint(1, 10)
+    nahodne_cislo = str(nahodne_cislo)
+    slovo = seznam[idx] + nahodne_cislo
+    print(slovo)
+
+print(seznam)]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Munster_Ondrej"><![CDATA[import random
+seznam = ["čím", "vehál", "sep", "alokš", "rotinom"]
+
+seznam.append("míč")
+for slovo in seznam:
+  print(slovo[::-1])]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Prusova_Johana_Marie"><![CDATA[seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+seznam.append("osam")
+
+for idx in range(len(seznam)):
+  seznam
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Samkova_Denisa"><![CDATA[import random
+
+seznam = ["strom", "řeka", "auto", "kniha", "počítač"]
+seznam.append("stůl")
+
+for slovo in seznam:
+  nahodné_číslo = random.randint(1,10)
+  transformované_číslo = slovo + str (nahodné_číslo)
+  print(transformované_číslo)]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Stehlik_Ondrej"><![CDATA[]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Titerova_Michaela"><![CDATA[import random
+
+seznam = ['strom', 'řeka', 'auto', 'kniha', 'počítač']
+seznam.append('mobil')
+
+for slovo in seznam:
+  nahodne_cislo = random.randint(1,10)
+  slovo_s_cislem = f"{slovo}{nahodne_cislo}"
+  print(f"slovo: {slovo}, nahodne cislo: (nahodne_cislo), slovo ktere vypisete bude: {slovo_s_cislem}")
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Vajgl_Vojtech"><![CDATA[import random
+seznam = ('míč', 'láhev', 'pes', 'škola', 'monitor')
+seznam.append('zachod')
+for slovo in seznam:
+  nahodne_cislo = random.randint(1, 10)
+  transformovane_slovo = f"{slovo}{nahodne_cislo}"
+
+print({transformovane_slovo})]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Valentova_Nikol"><![CDATA[import random
+seznam = ['strom', 'řeka', 'auto', 'kniha', 'počítač']
+seznam.append('dům')
+for slovo in seznam:
+   nahodne_cislo = random.randint(1, 10)
+   slovo_s_cislem = f"{slovo}{nahodne_cislo}"
+   print(f"slovo: {slovo}, náhodné číslo: {nahodne_cislo}, slovo které vypíšete bude: {slovo_s_cislem}")]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0" date="13-3-24" student="Cepkova_Martina"><![CDATA[import random
+
+seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+for idx in range(len(seznam)):
+    random = random
+
+
+for slovo in seznam:
+  print(slovo)
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Hrabakova_Simona"><![CDATA[seznam = ['strom', 'řeka', 'auto', 'kniha', 'počítač']
+seznam.append ('kočka')
+import random
+cislo = random.randint(1, 10)
+
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Kindlova_Elen"><![CDATA[seznam = ["strom", "řeka", "auto", "kniha", "počítač"]
+for idx in range(len(seznam)):
+    seznam[idx] = "hora"
+print(seznam)
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Kosikova_Karolina"><![CDATA[seznam = ["strom", "řeka","auto","kniha","počítač"]
+for idx in range(len(seznam)):
+  seznam[idx] = "budka"
+
+slovo1 = "strom"
+for slovo1 in range(len(seznam)):
+  print(slovo1, random(int(input(cislo))))
+slovo2 = "řeka"
+for slovo2 in range(len(sezbnam)):
+  print(slovo2, random(int(input(cislo))))
+slovo3 = "auto"
+for slovov3 in range(len(seznam)):
+  print(slovo3, random(int(input(cislo))))
+slovo4 = "kniha"
+for slovo4 in range(len(seznam)):
+  print(slovo4, random(int(input(cislo))))
+slovo5 = "počítač"
+for slovo5 in range (len(szenam)):
+  print(slovo5, random(int(input(cislo))))
+slovo6 = "budka"
+for slovo6 in range(loen(seznam)):
+  print(slovo6, random(int(input(cislo))))
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Krupicka_Tadeas"><![CDATA[print(d)
+seznam = ["strom", "řeka", "auto", "kniha", "počítač"]
+nove = input("zadejte nove slovo")
+seznam.append(nove)
+seznam = [x + "5" for x in seznam]
+for x in seznam:
+  print(x)]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Kubjakova_Tereza"><![CDATA[from typing import List, Tuple
+from random import randint
+seznam=['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+seznam.append('jídlo')
+for idx in seznam:
+  slovo[idx].append(randint(1,11))
+  seznam.append(slovo[idx])
+  print(seznam)]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Otcova_Valentyna"><![CDATA[seznam = sep
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Prosova_Lucie"><![CDATA[Kelvin="K"
+Farenheit="F"
+
+if
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Salaiova_Karolina"><![CDATA[seznam = ["strom", "řeka", "auto", "kniha", "počítač"]
+seznam.append("sos")
+print(seznam)
+x = int(rand)idkkkk
+seznam[x]
+
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Souckova_Anezka"><![CDATA[seznam =["čím", "vehál", "sep", "alokš", "rotinom"]
+seznam.append("ghgfuz")
+
+random.randit(1,10)
+
+for slovo in seznam:
+  print(f"{slovo} {random}")]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Stejskal_Matej"><![CDATA[seznam = ["čím", "vehál", "sep", "alokš", "rotinom"]
+
+vyber = seznam.append ("polom")
+
+for cislo in range(1,10):
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Surovska_Simona"><![CDATA[ import random
+
+ seznam = ['strom', 'řeka', 'auto', 'kniha', 'počítač']
+ seznam.append ('pes')
+
+ for slovo in seznam:
+  nahodnecislo = random.randint (1,10)
+  print (f"{slovo}{nahodnecislo}")]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Szilagyiová_Adela"><![CDATA[seznam = ["strom", "řeka", "auto", "kniha","počítač"]
+
+slovo = seznam.append("pes")
+
+def index(slovo, idx)
+  for slovo in range(len(seznam)):
+
+
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Tocina_Tobias"><![CDATA[ import random
+ seznam = ["čím", "vehál", "sep", "alokš", "rotinom"]
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Vandrovec_Lukas"><![CDATA[Dobrý den,
+přeji pěkné chvíle při opravování:D
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Voborilova_Viktorie_Vilemina"><![CDATA[import random
+seznam = ["strom", "řeka", "auto", "kniha", "počítač"]
+seznam.append("list")
+slovo = "strom"
+for i in range(0, 1):
+  print(seznam[0], i)
+i = random.randint(1, 10)
+i += 1]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Wangle_Samuel_Clarence">
+            <![CDATA[]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Wogurkova_Anna"><![CDATA[seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+for prvek in seznam: print(seznam)
+for random in range(0,10):
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Antal_Daniel"><![CDATA[seznam = ['míč', 'láhev', 'pes', 'škola', 'monitor']
+seznam.append('wtf')
+for i in range(len(seznam)):
+  p = seznam[i]
+  seznam[i] = ''.join(reversed(p))
+print(seznam)]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Bitrich_Adam_Jeremias"><![CDATA[def prevod_teplot(seznamteplot,jednotka):
+  seznamteplot[20,30,40]
+  jednotka["K","F"]
+  if jednotka == F:
+
+
+  elif jednotka == K:
+
+
+  else:
+
+     print('Neplatná hodnota')]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Federovicova_Petra"><![CDATA[seznam=['čím', 'vehál', 'sep', 'alokš']
+seznam.remove("čím")
+for i in range (1, len(slovo),5):
+
+print(seznam[i])
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Frankova_Bara"><![CDATA[]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Galia_Sebastian_Vincent"><![CDATA[seznam = ["mic", "lahev", "pes", "skola", "monitor"]
+seznam.append("florbal")
+print(seznam)
+for idx in range(len(seznam)):
+
+
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="12-3-24" student="Horakova_Nela"><![CDATA[seznam = ["čím", "vehál", "sep", "alokš", "rotinom"]
+seznam.remove("rotinom")
+
+for item in seznam:
+  print(item)]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="12-3-24" student="Jilek_Jakub"><![CDATA[seznam = [čím, vehál, sep, alokš, rotinom]
+seznam - alokš = novy_seznam
+print(novy_seznam)pozpátku]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Krejca_Jonas"><![CDATA[seznam = ["míč", "láhev", "pes", "škola", "monitor"]
+seznam.append ("kuwuba")
+for jmeny in seznam:
+    print(jmeny)
+    for jmeno in jmeny:
+        print(jmeno)
+promenna = seznam
+for idx in range ()
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Kuhnova_Karolina"><![CDATA[seznam=["míč", "láhev", "pes", "škola", "monitor"]
+seznam.append("smrdis")
+for mic in seznam:
+    print(mic)
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Lacinova_Viktorie"><![CDATA[seznam = [ "míč", "láhev", "pes", "škola", "monitor"]
+seznam.append("telefon")
+for slovo in seznam:
+    print(slovo)
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Latislav_Vilem"><![CDATA[seznam = ["míč", "láhev", "pes", "škola", "monitor"]
+seznam.append("bagr")
+kolekce_pismen = ""
+for i in range(len(seznam)):
+    #zkusil bych vypsat písmena jednotlivých slov a uložil bych je do kolekce. Potom bych celou kolekci pomocí reverse obrátil.
+
+print(seznam)]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Nemeckova_Johana"><![CDATA[seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+seznam.remove('vehál')
+print(seznam)]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="19-3-24" student="Polakova_Eliska"><![CDATA[]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Sifalda_Josef"><![CDATA[seznam = ["Míč", "Láhev", "Pes", "Škola", "Monitor"]
+
+seznam.append("Jablko")
+
+for i in seznam:
+    print(i)]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Svoboda_Vit"><![CDATA[seznam = ['míč', 'láhev', 'pes', 'škola', 'monitor']
+seznam.append('jablko')
+"""
+for idx in range(len(seznam)):
+    seznam[idx] = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+
+print(seznam)
+"""
+for prvek in seznam:
+    print(prvek)]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="19-3-24" student="Trnkova_Rozalie"><![CDATA[seznam = ['čím', 'vehál', 'sep', 'alokš', 'rotinom']
+seznam.remove('sep')
+for item in seznam:
+  print(item)]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Vokal_Jakub"><![CDATA[seznam = ["míč", "láhev", "pes", "škola", "monitor"]
+seznam.append("kočka")
+for item in seznam:
+  print(item)
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Zajicova_Lia"><![CDATA[seznam=["čím", "vehál", "sep", "alokš", "rotinom"]
+seznam.remove("rotinom")
+slovo="k"
+ot=""
+for idx in range (-1, seznam, -1):
+    slovo=seznam[idx]
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Zamecnik_Petr"><![CDATA[seznam = ['míč', 'láhev', 'pes', 'škola', 'monitor']
+seznam.append('myš')
+]]></Solution>
+    </Task>
+    <Task id="Task2">
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Bolom_Benjamin_Oliver"><![CDATA[def prevodnik_kurzu_men(cisla, měna):
+  if měna == "USD":
+    vysledek = cisla[0] / 23.254 and cisla[1] / 23.254 and cisla[2] / 23.254
+    for prvek in vysledek:
+      print(prvek)
+  elif měna == "EUR":
+    vysledek = cisla[0] / 25.228 and cisla[1] / 25.228 and cisla[2] / 25.228
+    for prvek in vysledek:
+      print(prvek)
+  elif měna == "GPB":
+    vysledek = cisla[0] / 29.500 and cisla[1] / 29.500 and cisla[2] / 29.500
+    for prvek in vysledek:
+      print(prvek)
+
+prevodnik_kurzu_men([45378, 4523, 378], "GPB")]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="da_Palma_Anna_Sofia"><![CDATA[def preved_teplot()
+    if stupne == "F":
+       F= C*9/5+32
+
+  stupne(input("zadej v jakych stupnich to budes chtit "))
+  teplota(int(input("zadej kolik stupnu")))
+  print(F)
+
+    if stupne =="K":
+        K= C+273,15
+
+  stupne(input("zadej v jakych stupnich to budes chtit "))
+  teplota(int(input("zadej kolik stupnu")))
+  print(K)
+
+    else:
+      print(neplatná hodnota)
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Dvorak_Vitek"><![CDATA[měna = (str(input("zadejte měnu- USD,EUR,GBP")))
+částka = [float(input("zadejte 1. hodnotu"),input("zadejte 2. hodnotu"),input("zadejte3. hodnotu"))]
+prevodnik_kurzu_men = (částka,měna)
+if měna == "USD":
+    nova_hodnota_v_dolarech = částka * float(23.254)
+    print(nova_hodnota_v_dolarech)
+elif měna == "EUR":
+    nova_hodnota_v_eurech = částka * float(25.228)
+    print(nova_hodnota_v_eurech)
+else měna == "GBP":
+
+  ]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Gabcanova_Anezka"><![CDATA[prevodnik_kurzu_men()
+def seznam_men :
+  seznam_men = ["24", "45", "64"]
+print(seznam_men)
+mena = ("EUR")
+eur_mena = (seznam*22,228)
+print(eur_mena)]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Helisova_Natalie"><![CDATA[def prevod_teplot():
+  while True:
+    celsium = float(input("Zadejte teplotu v celsiích: "))
+    zvolte_jednotku = input("Zvolte funkci F (fahrenheit) nebo K (kelvin): ")
+    if zvolte_jednotku != "F" or "K":
+      print("Neplatná hodnota")
+      break
+    elif zvolte_jednotku == "F":
+      f = celsium * 9/5 + 32.1
+      return f
+      print(f"Převod z {celsium} celsia je {f} fahrenheit.")
+    else:
+      k = celsium + 273.15
+      return k
+      print(f"Převod z {celsium} celsia je {k} kelvin.")
+
+
+prevod_teplot()]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Kubiznakova_Nikola"><![CDATA[def prevod_teplot():
+  seznam = []
+  seznam.append(30)
+  print(seznam)
+
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Maresova_Zuzana"><![CDATA[def prevod_teplot(Celsius, Kelvin):
+  result= Celsius + 273.15
+  return result
+
+Celsius = 20
+prevod_teplot_vysledek = prevod_teplot(Celsius+273.15)
+print(prevod_teplot-vysledek)
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Matejka_Jaroslav"><![CDATA[def secti(v1:float, v2:float, v3:float)
+     if měna == "USD":
+        A = v1 / 23,254 , v2/ 23,254, v3/ 23,254
+      elif měna == "EUR":
+        A = v1 / 25,228 , v2/ 25,228, v3/ 25,228
+      elif měna == "GBP":
+        A = v1 / 29,500 , v2/ 29,500, v3/ 29,500
+      else :
+
+      return v1, v2, v3
+měna = (input("zadej  na jakou měnu budeš chtít převádět:"))
+částka1 = float(input("zadej částku kterou budeš chtít převést" ))
+částka2= float(input("zadej částku kterou budeš chtít převést" ))
+částka3 = float(input("zadej částku kterou budeš chtít převést" ))
+vysledek = secti(v1=částka1, v2=částka2, v3= částka3 )
+
+print(vysledek)]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Motejlova_Monika"><![CDATA[
+def prevodnik_kurzu_men()]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Pernova_Aneta"><![CDATA[def preved(hod1:float, hod2:float , hod3:float):
+if měna == "USD":
+    prevod(100*USD)
+    return prevod
+hod1/ 23,254 , hod2/ 23,254, hod3/23,254
+
+
+měna = (input("napíšte do jaké měny chcete peníze převést")):
+hodnota = int(input("Zadejte hodnotu peněz které chcete převést"))
+vysledek_prevodu = 23,254*
+  if měna = USD
+měna == 23,254
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Riabchenko_Yekateryna"><![CDATA[Fahrenheitt = []
+Kelvinn = []
+
+def prevod_teplot()
+
+ F = celsius * 9/5 + 32
+    Fahrenheitt.append(F)
+ K = celsius + 273.15
+     Kelvinn.append(K)
+  return K
+  return F
+
+ celsius = []
+while True:
+    něco = input(napiš teplotu)
+    if něco.lower() == 'stop':
+        break
+    celsius.append(něco)
+
+      prevod_teplot()
+
+
+    print(Zadal jsem tři teploty: {celsius} a  'F' funkce mi vratíla:{celsius}  , pro stejný vstup ale 'K' funkce vrátí {celsius}  )
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Svec_David"><![CDATA[
+def prevod(mena):
+  if mena == "usd":
+    return castka * 23,254
+  elif mena == "eur":
+    return castka * 25,228
+  elif mena == "gbp":
+    return castka * 29,500
+
+
+
+
+mena = input("Zadejte měnu:")
+castka = int(input("Zadejte částku:"))
+
+mena = prevod()
+if mena
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Wünsch_Tadeas"><![CDATA[def prevod_teplot(teploty, jednotka):
+    for x in range(len(teploty)):
+        c = teploty[x]
+        if jednotka == 'F':
+            teploty[x] = c * 9/5 + 32
+        elif jednotka == 'K':
+            teploty[x] = c + 273.15
+        else:
+            return 'Neplatná hodnota'
+    return teploty]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Zaderlik_Adam">
+            <![CDATA[prevod_teplot()]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Bartosek_Jan"><![CDATA[teploty = (22.5,24,19.5, 23.0, 25.5, 21.0, 20.5)
+co_chcete_vedet = input("zadejte jakou informaci chcete vědět, průměrnou teplotu - prum, maximální teplotu - max, minimální teplotu - min ")
+def analyza_pocasi(teploty):
+  prumer = sum(teploty)/len(teploty)
+  maximalni_teplota = max(teploty)
+  minimalni_teplota = min(teploty)
+  if co_chcete_vedet == "prum":
+    print(f"průměrná teplota pro tento týden je {prumer}")
+  elif co_chcete_vedet == "max":
+    print(f"maximální tepltota tohoto týdne je {(maximalni_teplota)}")
+  elif co_chcete_vedet == "min":
+    print(f"minimální tepltota tohoto týdne je { minimalni_teplota}")
+  else:
+    print("neplatný typ výstupu")
+
+#řešení bez funkce
+prumer = sum(teploty)/len(teploty)
+maximalni_teplota = max(teploty)
+minimalni_teplota = min(teploty)
+if co_chcete_vedet == "prum":
+    print(f"průměrná teplota pro tento týden je {prumer}")
+elif co_chcete_vedet == "max":
+    print(f"maximální tepltota tohoto týdne je {(maximalni_teplota)}")
+elif co_chcete_vedet == "min":
+    print(f"minimální tepltota tohoto týdne je { minimalni_teplota}")
+else:
+    print("neplatný typ výstupu")
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Belor_Ondrej"><![CDATA[def prevodnik_kurzu_men(mena, castka)
+
+kurz_USD = 23,254
+kurz_EUR = 25,228
+kurz_GBP = 29,500
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Beskoski_Filip"><![CDATA[def pomoc(x,b,c):
+  return x, b, c
+x, b , c=input("Zadejte 3 teploty, které jsou měřeny ve spupních Celsia (oddělte mezerou): ").split()
+uzivatel = input("Zadejte ve které hodnotě chcete měřit(F, K): ")
+e=int(x)
+f=int(b)
+g=int(c)
+if uzivatel =="F":
+  fahrenheit1= e * 9/5 + 32
+  fahrenheit2= f * 9/5 + 32
+  fahrenheit3= g * 9/5 + 32
+  print(f"{fahrenheit1}°F, {fahrenheit2}°F, {fahrenheit3}°F")
+
+elif uzivatel =="K":
+  kelvin1= e + 273.15
+  kelvin2= f + 273.15
+  kelvin3= g + 273.15
+  print(f"{kelvin1} K, {kelvin2} K, {kelvin3} K")
+else:
+  print("CHYBA!!!!!!!!!!!")
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Celko_Filip"><![CDATA[meny=["USD","EUR","GBP"]
+
+def prevodnik_kurzu_men(seznam_castek,cilova_mena):
+  for castka in seznam_castek:
+    if cilova_mena == USD:
+      castka /= 23.254
+    elif cilova_mena == EUR:
+      castka /= 25.228
+    elif cilova_mena == GBP:
+      castka /= 29.500
+    else:
+      print("neplatná hodnota")
+    return castka
+
+castky=[10,50,100]
+prevodnik_kurzu_men(castky,USD)]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Dobes_Simon"><![CDATA[def prevodnik_kurzu_men(cena, mena):
+    hodnota_po_prevodu = []
+    for hodnota in cena:
+      if mena == "USD":
+        hodnota /=23.254
+        hodnota_po_prevodu.append(hodnota)
+      elif mena == "EUR":
+           hodnota /=25.228
+           hodnota_po_prevodu.append(hodnota)
+      elif mena == "GBP":
+           hodnota /= 29.500
+           hodnota_po_prevodu.append(hodnota)
+      else:
+        print("neplatná měna")
+    return hodnota_po_prevodu
+mena = input("do jake meny chcete prevest")
+print(prevodnik_kurzu_men([150, 8, 6], mena))
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Doubeta_Michal"><![CDATA[def prevod_teplot(teploty, Fahrenheit):
+  Kelvin = teploty+273,15
+  Fahrenheit = teploty*9/5 + 324
+
+teploty = [20,30,40]
+
+print(prevod_teplot(teploty))
+
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Haborova_Sabina"><![CDATA[import statistics
+def analyza_pocasi(teploty, typ_vstupu):
+  for teplota in teploty:
+    if typ_vstupu == "max":
+      teplota = max(teploty)
+      return teplota
+    elif typ_vstupu == "min":
+      teplota = min(teploty)
+      return teplota
+    elif typ_vstupu == "prum":
+      teplota = statistics.median(teploty)
+      return teplota
+    else:
+     print("Neplatny typ vystupu")
+
+typ_vstupu = input("Jaky typ vstupu chcete:")
+print(analyza_pocasi([5, 8, 3, 1, 9, 4, 10], typ_vstupu))
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Hortova_Eva"><![CDATA[analyza_pocasi(teploty,typ_vystupu)
+teploty = [14,16,10,12,11,9,10]
+typ_vystupu = input("chcete max, min nebo prumer?")
+    if typ_vystupu == "max":
+        print(max(teploty))
+    elif typ_vystupu == "min":
+        print(min(teploty))
+    elif typ_vystupu == "prumer":
+        print(sum(teploty)/7)
+    else:
+print("neplatny typ vystupu")
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kacur_Dan"><![CDATA[
+def prevod_teplot(seznam_teplot, jednotka):
+  vysledne_teploty = []
+  for teplota in range(len(seznam_teplot)):
+
+    if jednotka == "F":
+      prevod = teplota * 9/5 + 32.1
+      vysledne_teploty.append(prevod)
+
+    elif jednotka == "K":
+      prevod = teplota + 273.15
+      vysledne_teploty.append(prevod)
+
+    else:
+      vysledne_teploty = "Neplatny vstup"
+  return vysledne_teploty
+
+seznam_teplot = [20,30,40]
+jednotka = input("Vyber jednotku prevodu (K pro kelviny F pro farenheity)").upper()
+print(prevod_teplot(seznam_teplot, jednotka))]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kanyzova_Kristyna"><![CDATA[def prevodnik_kurzu_men(castky, cilova_mena):
+   if cilova_mena == 'USD':
+       return [castka / 23.254 for castka in castky]
+   elif cilova_mena == 'EUR':
+       return [castka / 25.228 for castka in castky]
+   elif cilova_mena == 'GBP':
+       return [castka / 29.500 for castka in castky]
+   else:
+       return "Neplatná hodnota"]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Knotte_Anezka"><![CDATA[def analyza_pocasi(teploty,typ_vstupu):
+    cisla = []
+    for hodnota in teploty:
+      if typ_vstupu == "max":
+        hodnota = max(teploty)
+        cisla.append(hodnota)
+      elif typ_vstupu == "min":
+        hodnota = min(teploty)
+        cisla.append(hodnota)
+      elif typ_vstupu == "prum":
+        soucet = sum(teploty)
+        hotnota = soucet/7
+        cisla.append(hodnota)
+      else:
+        print("Neplatný typ výstupu")
+    return cisla
+
+typ_vstupu = input("Jak chcete spočítat teploty: ")
+print(analyza_pocasi([22,23,21,26,23,24,22],typ_vstupu))
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kopriva_Jan">
+            <![CDATA[def prevod_teplot(20,30,40)]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Krebsova_Karolina"><![CDATA[def prevodnik_kurzu_men(castky, cilova_mena):
+   kurz_usd = 23.254
+   kurz_eur = 25.228
+   kurz_gbp = 29.500
+
+   if cilova_mena == "USD":
+       prevodni_kurz = kurz_usd
+   elif cilova_mena == "EUR":
+       prevodni_kurz = kurz_eur
+   elif cilova_mena == "GBP":
+       prevodni_kurz = kurz_gbp
+   else:
+       return "hodnota neplati"
+
+   prevodene_castky = [castka / prevodni_kurz for castka in castky]
+   return prevodene_castky
+
+# Příklad použití funkce
+castky_koruny = [1000, 2000, 3000]
+cilova_mena = "USD"
+prevodnik_kurzu_men(castky_koruny, cilova_mena)]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Kubinec_Jan"><![CDATA[from typing import List
+USD=23.254
+EUR=25.228
+GBP=29.5
+def a(b:List[float]):
+  b=list(map(float,input("Zadejte seznam částek a oddělte je čárkou: ").split(",")))
+  return b
+def c(e:List[float],USD:float,EUR:float,GBP:float):
+  d=input("Vyberte si měnu [USD,EUR,GBP]: ")
+  if d=="USD":
+    for idx in range(len(e)):
+      e[idx]=(e[idx]*USD)
+    return print(e)
+  elif d=="EUR":
+    for idx in range(len(e)):
+      e[idx]=(e[idx]*EUR)
+    return print(e)
+  elif d=="GBP":
+    for idx in range(len(e)):
+      e[idx]=(e[idx]*GBP)
+    return print(e)
+  else:
+    return print("Neplatná hodnota.")
+def prevodnik_kurzu_men():
+  e=a(b=0)
+  c(e,USD,EUR,GBP)
+prevodnik_kurzu_men()]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Lhotska_Anna"><![CDATA[def prevodnik_kurzu_men(castky, cilova_mena):
+    kurz_usd = 23.254
+    kurz_eur = 25.228
+    kurz_gbp = 29.500
+
+    if cilova_mena == 'USD':
+        return [castka / kurz_usd for castka in castky]
+    elif cilova_mena == 'EUR':
+        return [castka / kurz_eur for castka in castky]
+    elif cilova_mena == 'GBP':
+        return [castka / kurz_gbp for castka in castky]
+    else:
+        return "neplatna hodnota"
+
+castky_koruny = [100,200,300]
+cilova_mena = 'USD'
+print(prevodnik_kurzu_men(castky_koruny, cilova_mena))
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Martin_Dominik"><![CDATA[penize = list(map(float,input("zadejte částku: ")))
+for x in range(23,46,69):
+ print("mate jeden dollar")
+
+for f in range(25,50,75):
+ print("mate jedno euro")
+
+for y in range(29,58,78):
+ print("mate jednu libru")
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Matvieieva_Liza"><![CDATA[def prevodnik_kurzu_men(cena, mena):
+    hodnota_po_prevodu = []
+    for hodnota in cena:
+        if mena == "USD":
+            hodnota /= 23.254
+            hodnota_po_prevodu.append(hodnota)
+        elif mena == "EUR":
+            hodnota /= 25.228
+            hodnota_po_prevodu.append(hodnota)
+        elif mena == "GBP":
+            hodnota /= 29.500
+            hodnota_po_prevodu.append(hodnota)
+        else:
+            print("Neplatna hodnota")
+    return hodnota_po_prevodu
+
+mena = input("Do jake meny chcete prevest: ")
+print(prevodnik_kurzu_men([120, 500, 20], mena))
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Munster_Ondrej">
+            <![CDATA[prevod_teplot([20, 30, 40])]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Prusova_Johana_Marie"><![CDATA[def prevodnik_kurzu_men(kolekce, hodnota):
+  for hodnota in kolekce:
+      if mena == "USD":
+        hodnota /= 23.254
+        cisla.append(hodnota)
+      elif mena == "EUR":
+        hodnota /= 25.228
+        cisla.append(hodnota)
+      elif mena == "GBP":
+        hodnota /= 29.500
+        cisla.append(hodnota)
+      else:
+        print("neplatna hodnota")
+  return cisla
+
+mena = "GBP"
+kolekce = [5.00, 16.00, 75.00]
+print(prevodnik_kurzu_men(kolekce, mena))]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Samkova_Denisa"><![CDATA[]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Stehlik_Ondrej"><![CDATA[def  analyza_pocasi(teploty, typ_vystupu):
+  if typ_vystupu == 'max' :
+    return
+elif
+    print("")
+elif
+    print("")
+else:
+    print("Neplatný typ výstupu")
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Titerova_Michaela"><![CDATA[def analyza_pocasi(teploty, typ_vystupu):
+  if typ_vystupu == 'max':
+    return max(teploty)
+  elif typ_vystupu == 'min':
+    return min(teploty)
+  elif typ_vystupu == 'prum':
+    prumer = sum(teploty)
+    return round(prumer, 2)
+  else:
+    return 'neplatny typ vystupu'
+
+  teploty = [22.5, 24.0, 19.5, 23.0, 25.5, 21.0, 20.5]
+  print(analyza_pocasi(teploty, 'max'))
+  print(analyza_pocasi(teploty, 'min'))
+  print(analyza_pocasi(teploty, 'prum'))
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Vajgl_Vojtech"><![CDATA[]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Valentova_Nikol"><![CDATA[def analyza_pocasi(teploty,typ_vystupu):
+  if typ_vystupu == "max":
+    return max (teploty)
+ elif typ_vystupu == "min" :
+      return min (teploty)
+ elif typ_vystupu == "prum"
+      prumer= sum(teploty)/len(teploty)
+      return round(prumer, 2)
+      else:
+        return "neplatny typ vystupu"
+analyza_pocasi([22.5, 24.0, 19.5, 23.0, 25.5, 21.0, 20.5], "max")
+analyza_pocasi([22.5, 24.0, 19.5, 23.0, 25.5, 21.0, 20.5], "min")
+analyza_pocasi([22.5, 24.0, 19.5, 23.0, 25.5, 21.0, 20.5], "prum")]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0" date="13-3-24" student="Cepkova_Martina"><![CDATA[ceny = [100, 200, 300 ]
+mena = input("Do jaké měny? ")
+
+if mena == "USD" :
+  for idx in range(len(ceny)):
+    ceny[idx] /= int(float(23.254))
+    print(ceny)
+
+elif mena == "EUR" :
+  for idx in range(len(ceny)):
+    ceny[idx] /= int(float(25.228))
+    print(ceny)
+
+elif mena == "GBP" :
+  for idx in range(len(ceny)):
+    ceny[idx] /= int(float(29.500))
+    print(ceny)
+
+else:
+  print("Neplatná hodnota.")
+
+
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Hrabakova_Simona"><![CDATA[teploty=([22, 30, 12, 16, 29.5, 2, 31])
+def analyza_pocasi(teploty):
+  if 'soucet' == sum(teploty):
+      'cisla' == len(teploty)
+      return 'soucet'/'cisla'
+  elif 'max' == max(teploty):
+       'min' == min(teploty)
+
+
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Kindlova_Elen"><![CDATA[analyza_pocasi =
+teploty = [22.8, 5.2 ,16.8, 13.8, 15.2, 22.0, ]
+typ_vystupu = ("zadej typ vystupu")
+if typ_vystupu == ]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Kosikova_Karolina"><![CDATA[def analyza_pocasi(teploty, typ_vystupu):
+  teploty = list(map(int, input("teploty ve stupnich celsium")))
+  typ_vystupu = input(max or min or prum)
+  analyza_pocasi = sum(tepoty)/7
+
+teploty = float(input("zadej 7 teplot z tohoto tydne"))
+typ_vystupu = input('max', 'min','prum')
+if typ_vystupu == 'max':
+  print(f"analyza_pocasí {teploty, 'max'}")
+
+elif typ_vystupu == 'min':
+  print(f"analyza_pocasi {teploty, 'min'}")
+
+elif typ_vystupu == 'prum':
+  print(f"analyza_pocasi {teploty, 'prum'}")
+
+print(analyza_pocasi)
+
+break
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Krupicka_Tadeas"><![CDATA[def analyza_pocasi(a, b):
+  c = 0
+  if b == "max":
+    c = max(a)
+  elif b == "min":
+    c = min(a)
+  elif b == "prum":
+    c = sum(a) / len(a)
+    c = round(c, 2)
+  elif b != "max" or "min" or "prum":
+    c = "neplatný výstup"
+  return c
+f = analyza_pocasi(a = [22.5, 24.0, 19.5, 23.0, 25.5, 21.0, 20.5],b = "prum")
+print(f)]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Kubjakova_Tereza"><![CDATA[def prevodnik(castka: Tuple[int], mena: int):
+  USD = 23,254
+  EUR = 25,228
+  GBP = 29,500
+  b=0
+  c=0
+  d=0
+  for idx in range(3):
+    if mena=='USD':
+      prevodUSD=castka[idx]/USD
+      b.append(prevodUSD)
+
+      return b
+    elif mena=='EUR':
+      prevodEUR=castka[idx]/EUR
+      c.append(prevodEUR)
+      return c
+    elif mena=='GBP':
+      prevodGBP=castka[idx]/GBP
+      d.append(prevodGBP)
+      return d
+    else:
+      return 'Neplatná hodnota'
+a=input('mena?(USD, EUR, GBP): ')
+print(prevodnik([123,456,789], a))]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Otcova_Valentyna"><![CDATA[def prevodnik_kurzu_men(270,580,350)
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Prosova_Lucie"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Salaiova_Karolina"><![CDATA[teploty = [15, 16, 10, 11, 17, 9, 12]
+nejvetsi = max(teploty)
+nejmensi = min(teploty)
+prumer = range(teploty) / len(teploty)
+print(nejvetsi)
+print(nejmensi)
+print(prumer)
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Souckova_Anezka"><![CDATA[def prevodnik_kurzu_men()
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Stejskal_Matej"><![CDATA[def prevodnik_kurzu_men():
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Surovska_Simona"><![CDATA[def analyza_pocasi(teploty,typ_vystupu):
+  if typ_vystupu == 'max':
+   return max(teploty)
+  elif typ_vystupu == 'min':
+    return min(teploty)
+  elif typ_vystupu == 'prum':
+    return round(sum(teploty)/len(teploty),2)
+  else:
+    return 'Neplatný typ výstupu'
+
+print (analyza_pocasi([22.5, 24.0, 19.5, 23.0, 25.5, 21.0, 20.5], 'max'))
+print (analyza_pocasi([22.5, 10.0, 19.5, 23.0, 25.5, 21.0, 20.5], 'min'))
+print (analyza_pocasi([22.5, 24.0, 19.5, 23.0, 25.5, 21.0, 20.5], 'prum'))
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Szilagyiová_Adela"><![CDATA[def analyza_pocasi(teploty, typ_vstupu):
+
+  teploty = [22.5, 24.0, 19.5, 23.0, 25.5, 21.0, 20.5]
+
+  if analyza_pocasi([22.5, 24.0, 19.5, 23.0, 25.5, 21.0, 20.5], min):
+    return
+  elif typ_vstupu == "max":
+    print(teploty.max)
+
+
+
+
+
+
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Tocina_Tobias"><![CDATA[def prevodnik_kurzu_men(cena, měna):
+  USD = 23,254
+  EUR = 25,228
+  GBP = 29,500
+  if měna == "USD":
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Vandrovec_Lukas"><![CDATA[kurzy = {"USD": 23.254, "EUR": 25.228, "GBP": 29.500}
+castka_kc = []
+
+def prevod_meny(castka_kc):
+  if isinstance(castka_kc, (int, float)):
+    castky = []
+    for mena, kurz in kurzy.items():
+      castka = castka_kc / kurz
+      castky.append(round(castka,2))
+    return castky
+  else:
+    return "Neplatná hodnota"
+
+castky_kc = float(input("Zadejte částku v KČ:"))
+meny = ["USD", "EUR", "GBP"]
+
+if castky_kc >= 0:
+  vysledky = prevod_meny(castka_kc)
+  for i in range(len(meny)):
+    print(f"{meny[i]}: {vysledky[i]}")
+else:
+  print("Zadaná částka musí být nezáporné číslo.")]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Voborilova_Viktorie_Vilemina"><![CDATA[teploty = [17, 20, 14, 13, 16, 10, 21]
+
+def analyza_pocasi(teploty, typ_vystupu):
+  mini = min(teploty)
+  maxi = max(teploty)
+  prum = len(teploty)/sum(teploty)
+  return maxi]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Wangle_Samuel_Clarence"><![CDATA[ total = int(input())
+if total > 100:
+      price_after_discount = total*0.95
+      print(f"{price_after_discount}")]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Wogurkova_Anna"><![CDATA[def prevodnik_kurzu_men(meny, kurzy):
+ kurzy = ("1 USD:" 23.254, "1 EUR:" 25.228, "1 GBP:" 29.500)
+int(input("zadejte cislo: "))
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Antal_Daniel"><![CDATA[def prevodnik_kurzu_men(a: int,b: int,c: int,mena: str):
+  if mena == 'USD':
+    a = a / 23.254
+    b = b / 23.254
+    c = c / 23.254
+  elif mena == 'EUR':
+    a = a / 25.228
+    b = b / 25.228
+    c = c / 25.228
+  elif mena == 'GBP':
+    a = a / 29.228
+    b = b / 29.228
+    c = c / 29.228
+  return a,b,c
+print(prevodnik_kurzu_men(25000, 22000, 20000, 'USD'))]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Bitrich_Adam_Jeremias"><![CDATA[def vypocet_celkove_ceny(price):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+
+    if len(prices) > 5:
+      price = total_price * 0.9
+    else: 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price = (total_price * discount)
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        elif coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Federovicova_Petra"><![CDATA[def prevod_teplot(a,b):
+  a= list(input(int("zadejte hodnoty ").split(".")))
+  b=list(input(int("zadejte jednotky").split(".")))
+
+
+  if :
+  elif ....:
+
+
+print(prevod_teplot)
+
+prevod_teplot(a,b)
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Frankova_Bara"><![CDATA[]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Galia_Sebastian_Vincent"><![CDATA[prevodnik_kurzu_men =
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="12-3-24" student="Horakova_Nela"><![CDATA[def prevodnik_kurzu_men([45, 20, 10,], [USD, EUR, GBP])
+
+for item in range
+
+  prevodnik_kurzu_men(20):
+    print(prevodnik_kurzu_men)]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="12-3-24" student="Jilek_Jakub"><![CDATA[def prevodnik_kurzu_men (castka, mena=None)
+  castka = (666, 88, 69)
+  if mena:
+    if mena == "usd":
+      USD_castka = castka * 23,254
+      print("zadané částky jsou {USD_castka} v dolarech")
+    elif mena == "eur":
+      eur_castka = castka * 25,228
+      print("zadané částky jsou {eur_castka} eur")
+    elif mena == "gbp":
+      gpb_castka = castka * 29,5
+      print("zadané částky jsou {gpb_castka} librách")
+    else
+      print("umím pouze převádět na gpb, eur a usd")
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Krejca_Jonas"><![CDATA[def prevodnik_kurzu_men():
+  USD = 23.254
+  EUR = 25.228
+  GBP = 29.500
+naco = input(str("zadej jestli chceš měnu převést na USD, EUR, nebo GBP"))
+kolik = float(input("zadej kolik peněz chceš převést"))
+if naco == "USD":
+  print(f"{kolik} amerických dolarů je {float(kolik)*23.254} českých peněz")
+elif naco == "EUR":
+  print(f"{kolik} eur je {float(kolik)*25.228} českých peněz")
+elif naco == "GBP":
+  print(f"{kolik} britských liber je {float(kolik)*29.500} českých peněz")
+else:
+  print("tuto hodnotu nepřevádíme")]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Kuhnova_Karolina"><![CDATA[prevod_teplot(tc, tf):
+for in range()
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Lacinova_Viktorie"><![CDATA[def prevod_teplot(stupneCelsius, cilovajednotka):
+    if cilovajednotka == "F":
+        Farenheit = stupneCelsius * 9/5 + 32.1
+        print(Farenheit)
+    elif cilovajednotka == "K":
+        Kelvin = stupneCelsius + 273.15
+        print(Kelvin)
+prevod_teplot(15, "K")]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Latislav_Vilem"><![CDATA[castka = float(input("Zadej tři částky které chceš převést a odděl je čárkou: ")).split(",")
+mena = input("Chceš převést částky do USD,EUR nebo GBP?: ")
+#nevim jak pouzit def funkci, zkusil jsem tedy fuknci if
+    if mena=USD :
+        prevod=float(castka/23.254)
+        print(prevod)
+            break
+    else: mena=EUR :
+        prevod=float(castka/25.228)
+        print(prevod)
+         break
+    else: mena=GBP :
+        prevod=float(castka/29.500)
+        print(prevod)
+         break
+    else:
+        print("Neplatná hodnota")]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Nemeckova_Johana"><![CDATA[a=list(map,int(input('zadejte tri teploty ve stupnich Celsia'))).split(",")
+for idx in range(len(a)):
+    a[idx] = a[idx]*(9/5)+32.1
+print(a)
+a=b
+for idx in range(len(b)):
+    b[idx] = b[idx]+273,15
+print(b)]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="19-3-24" student="Polakova_Eliska"><![CDATA[]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Sifalda_Josef"><![CDATA[celsius = [20, 30, 40]
+
+jednotka = input("Zadejte jednotku: ")
+
+def prevod_teplot(celsius, jednotka):
+    if jednotka == "k":
+        for i in celsius:
+            vysledekk = i + 273.15
+            print(vysledekk)
+
+    elif jednotka == "f":
+        for i in celsius:
+                vysledekf = i * 9/5 + 32
+                print(vysledekf)
+    else:
+        print("Nesprávná jednotka")
+
+prevod_teplot(celsius, jednotka)]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Svoboda_Vit">
+            <![CDATA[def prevod_teplot()]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="19-3-24" student="Trnkova_Rozalie"><![CDATA[]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Vokal_Jakub"><![CDATA[def prevod_teplot(seznam_teplot, jednotka):
+
+
+
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Zajicova_Lia"><![CDATA[from typing import List
+def prevodteplot(a:List[float]):
+    prevod=str(input("zadej F nebo K"))
+    if prevod=="F":
+       for idx in range (len(a)):
+           a[idx]=a[idx]*9/5+32
+       print(a)
+    elif prevod=="K":
+       for idx in range (len(a)):
+           a[idx]=a[idx]+273.15
+       print(a)
+    else:
+       print("neplatná hodnota")
+    return a]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Zamecnik_Petr"><![CDATA[]]></Solution>
+    </Task>
+    <Task id="Task3">
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Bolom_Benjamin_Oliver"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        elif coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="da_Palma_Anna_Sofia"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    doprava = 20 if sum(prices) <= 100 else 0
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+        elif promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Dvorak_Vitek"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else coupon_code:== "PERCENT10"  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Gabcanova_Anezka"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else : coupon_code == "PERCENT10"  # Představuje slevu 10 %
+        total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Helisova_Natalie"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    doprava = 20 if sum(prices) <= 100 else 0
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+        elif promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Kubiznakova_Nikola"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    doprava = 20 if sum(prices) <= 100 else 0
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+        elif promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Maresova_Zuzana"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    if sum(prices) > 100:
+      doprava == 0
+    else:
+      doprava == 20
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+        elif promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Matejka_Jaroslav"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        elif coupon_code == "PERCENT10" : # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Motejlova_Monika"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        elif coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Pernova_Aneta"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Riabchenko_Yekateryna"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    doprava = 20
+      if vypocet_ceny_s_dopravou >= 100:
+        print(doprava je zdarmo)
+
+        else:
+
+
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+        if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+        elif promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Svec_David"><![CDATA[]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Wünsch_Tadeas"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    if total_price <= 100:
+        doprava = 20
+    else:
+        doprava = 0
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code == "GIFT20":  # Zdarma doprava
+        total_price -= doprava
+    elif promo_code == "SAVE5":  # Sleva 5 jednotek
+        total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+print(vypocet_ceny_s_dopravou([150,50,20,40]))]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Zaderlik_Adam"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    doprava = 20 if sum(prices) <= 100 else 0
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+        elif promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Bartosek_Jan"><![CDATA[items_prices = [10,30,40,20]
+def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total-(total*0.05)
+
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total = total-20
+        elif promo_code == "5PERCENT":
+            total = total* 0.95
+
+
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Belor_Ondrej"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    discount = 0
+    if total >= 100:
+       discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Beskoski_Filip"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total < 100:
+       discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        else:
+          promo_code == "5PERCENT"
+          total *= 0.95
+
+    total += discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Celko_Filip"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        total *= 0.95
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    puvodni_cena = sum(items_prices)
+    puvodni_cena -= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Dobes_Simon"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       discount = total * 0.05
+    else:
+      discount = 0
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total += discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Doubeta_Michal"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+
+    total = sum(items_prices)
+    if total > 100:
+       total *= 0.95
+
+    # Aplikuje promo kód
+    if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+    elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    return total
+
+item_prices = [10,30,40,10]
+promo_code = "5PERCENT"
+
+celkova_cena = calculate_total_with_discount(item_prices, promo_code)
+print("Celková cena objednávky je po slevě a uplatnění promo kodu:" celkova_cena)]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Haborova_Sabina"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total - 0.05
+    else:
+      discount = 0
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total += discount  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Hortova_Eva"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    items_prices = [10,30,40,20]
+
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total - 0.05
+
+    # Aplikuje promo kód
+
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kacur_Dan"><![CDATA[# Moje reseni
+def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       discount = total * 0.05
+    else:
+      discount = 0
+
+
+    if promo_code:
+        if promo_code == "20OFF":
+            total -= 20
+        elif promo_code == "5PERCENT":
+          total *= 0.95
+
+
+    total -= discount
+    return total
+
+calculate_total_with_discount([10,30,40,10,10,10],)
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kanyzova_Kristyna"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total - 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code = "5PERCENT":
+            total *= 0.95
+
+    total -= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Knotte_Anezka"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total - 0.05
+        items_prices = discount
+
+    # Aplikuje promo kód
+        if promo_code:
+            if promo_code == "20OFF":  # Sleva 20 jednotek měny
+                total -= 20
+            elif promo_code == "5PERCENT":
+                total *= 0.05
+
+        total -= total  #
+    return total
+
+items_prices = input("Ceny vašich položek:")
+promo_code = input("Jaký máte promo kód: ")
+print(calculate_total_with_discount([10,30,40,20],promo_code))]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kopriva_Jan"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       discount = total * 0.95
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Krebsova_Karolina"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    discount = 0
+    if total <= 100:
+       discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Kubinec_Jan"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    discount=0
+    total = sum(items_prices)
+    if total > 100:
+        discount = total*0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+    total-=discount
+    return total
+
+calculate_total_with_discount([10,30,40,20], "5PERCENT")]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Lhotska_Anna"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    discount = 0
+    if total < 100:
+       discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total += discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Martin_Dominik"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total * 0.05
+
+    # Aplikuje promo kód
+
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.05
+
+    total -= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Matvieieva_Liza"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       discount = total * 0.05
+    else:
+       discount = 0
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total += discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Munster_Ondrej"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       discount = total * 0.05
+    elif total <= 100:
+       discount = 0
+
+    # Aplikuje promo kód
+    promo_code = input("vlozte promo kod: ")
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Prusova_Johana_Marie"><![CDATA[def calculate_total_with_discount(items_prices, promo_code = None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total < 100:
+       discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.05
+
+    total += discount
+    return total
+
+calculate_total_with_discount([10,30,40,10], "5PERCENT")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Samkova_Denisa"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    discount = 0
+    if total > 100:
+        discount = total - 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total += total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Stehlik_Ondrej"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total - 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code = "5PERCENT":
+            total *= 0.95
+
+    total -= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Titerova_Michaela"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount_total = - 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Vajgl_Vojtech"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+
+    total = sum(items_prices)
+    if total > 100:
+        discount = total = 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Valentova_Nikol"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total - 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0" date="13-3-24" student="Cepkova_Martina"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+
+  total = sum(items_prices)
+  if total > 100:
+       discount = total * 0.05
+
+  if promo_code == "20OFF":
+      discount = (total * 0.5)
+
+  elif promo_code == "5PERCENT":
+      discount = total * 0.5
+
+  return total -+ discount
+
+calculate_total_with_discount([10,30,40,200])]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Hrabakova_Simona"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= discount  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Kindlova_Elen"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total - 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total *= 0.20
+        elif promo_code == "5PERCENT":
+            total *= 0.05
+
+    total *= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Kosikova_Karolina"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total - 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Krupicka_Tadeas"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total * 0.95
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+    return total
+
+calculate_total_with_discount([10,30,40,21])]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Kubjakova_Tereza"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       total *= 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Otcova_Valentyna"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total < 100:
+       discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        else promo_code == "5PERCENT":
+            total *= 0.95
+
+    total += discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Prosova_Lucie"><![CDATA[
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Salaiova_Karolina"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            discount = total * 0.05
+
+    Total = total - discount  #
+    return Total
+
+calculate_total_with_discount([1,30,50,20])]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Souckova_Anezka"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total < 100:
+       discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total *= 0.80
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total += discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Stejskal_Matej"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       discount = total * 0.05
+    else:
+      discount = 0
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total * 0.95
+
+    total -= discount
+    return total
+
+calculate_total_with_discount([10,30,40,100])]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Surovska_Simona"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.05
+
+    total -= discount  #
+    return total
+
+calculate_total_with_discount([10,30,40,21], "20OFF")]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Szilagyiová_Adela"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total * 0.95
+    elif total <= 100:
+        discount = total
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total *= 0.8
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total = discount
+    return total
+
+calculate_total_with_discount([10,30,40,21])]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Tocina_Tobias"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+    elif promo_code == "5PERCENT":
+            total *= 0.05
+
+    total -= discount
+
+    return total
+
+calculate_total_with_discount([10,30,40,21])]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Vandrovec_Lukas"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+     total += discount
+    return total
+
+calculate_total_with_discount([10,30,40,10])]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Voborilova_Viktorie_Vilemina"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+        discount = total * 0.05
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total2 = total - discount
+    return total2
+
+calculate_total_with_discount([10,30,40,21])
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Wangle_Samuel_Clarence"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+      price_after_discount = total*0.95
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total= sum(items_prices)-20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total -= total  #
+    return total
+
+calculate_total_with_discount([10,30,40,20], "20OFF")]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Wogurkova_Anna"><![CDATA[def calculate_total_with_discount(items_prices, promo_code=None):
+    """
+    Spočítá celkovou cenu objednávky s možnou slevou a uplatněním promo kódu.
+    - items_prices: Seznam cen položek.
+    - promo_code: (Volitelný) Promo kód pro dodatečnou slevu. Může být procentní nebo pevná hodnota.
+    Sleva 5% se aplikuje, pokud je celková cena vyšší než 100. Promo kód se uplatňuje po této slevě.
+    """
+    total = sum(items_prices)
+    if total > 100:
+       discount = total * 0.05
+
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "20OFF":  # Sleva 20 jednotek měny
+            total -= 20
+        elif promo_code == "5PERCENT":
+            total *= 0.95
+
+    total = total - discount
+    return total
+
+calculate_total_with_discount([1,30,60,10])]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Antal_Daniel"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) > 3 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price -= total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        elif coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20], 'PERCENT10')]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Bitrich_Adam_Jeremias">
+            <![CDATA[]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Federovicova_Petra"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    doprava = 20 if sum(prices) <= 100 else 0
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+    if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+    elif promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Frankova_Bara"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Galia_Sebastian_Vincent"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="12-3-24" student="Horakova_Nela"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code="SAVE5"):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    if sum(prices) >= 100:
+      doprava = 0
+    else:
+      doprava = 20
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "GIFT20":  # Zdarma doprava
+            doprava = 0
+        elif promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="12-3-24" student="Jilek_Jakub"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    doprava = 20 if sum(prices) <= 100 else 0
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+        else promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Krejca_Jonas"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Kuhnova_Karolina"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+           total_price: -= 10
+        else: coupon_code == "PERCENT10"  # Představuje slevu 10 %:
+            total_price: -= total_price * 0.1
+
+
+    return(total_price)
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Lacinova_Viktorie"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        elif coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20,80],"")]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Latislav_Vilem"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Nemeckova_Johana"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    doprava = 20 if sum(prices) <= 100 else 0
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+        elif promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="19-3-24" student="Polakova_Eliska"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Sifalda_Josef"><![CDATA[prices = [120,20,10,30,20]
+#Úkol 2
+def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) > 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price -= total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else:
+            total_price -= total_price * 0.1
+
+    print(total_price)
+
+vypocet_celkove_ceny(prices)]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Svoboda_Vit"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code = None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price = total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price = 10
+        else coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price = total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="19-3-24" student="Trnkova_Rozalie"><![CDATA[def vypocet_ceny_s_dopravou(prices, promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    doprava = 20 if sum(prices) <= 100 else 0
+
+    total_price += doprava
+
+    # Aplikuje promo kód
+    if promo_code:
+        if promo_code == "GIFT20":  # Zdarma doprava
+            total_price -= doprava
+        else promo_code == "SAVE5":  # Sleva 5 jednotek
+            total_price -= 5  # Opravit chybné řádky
+
+    return total_price
+
+vypocet_ceny_s_dopravou([150,50,20,40])]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Vokal_Jakub"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) < 5 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price += total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        else coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Zajicova_Lia"><![CDATA[from typing import List
+def vypocet_ceny_s_dopravou(prices: List[int], promo_code=None):
+    """
+    Vypočítá celkovou cenu objednávky včetně dopravy a aplikuje promo kód.
+    - prices: Seznam cen položek.
+    - promo_code: (Optional) Kód promo akce pro další slevu nebo zdarma dopravu.
+    Doprava zdarma, pokud je celková cena vyšší než 100. Jinak se připočítá 20.
+    Promo kód se aplikuje po výpočtu dopravy.
+    """
+    total_price = sum(prices)
+    promo_code=None
+    doprava = 20
+    if total_price <= 100:
+       total_price +=doprava
+       if promo_code=="GIFT20":
+          total_price-=doprava
+       elif promo_code=="SAVES":
+          total_price-=5
+    else:
+       doprava=0
+       total_price += doprava
+       if promo_code=="GIFT20":
+          total_price-=doprava
+       elif promo_code=="SAVES":
+          total_price-=5
+    return total_price
+
+
+
+vypocet_ceny_s_dopravou([150,50,20,40])
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Zamecnik_Petr"><![CDATA[def vypocet_celkove_ceny(prices, coupon_code=None):
+    """
+    Vypočítá celkovou cenu nákupu s možnou slevou a aplikuje kupón.
+    - prices: Seznam cen položek.
+    - coupon_code: (Optional) Kód kupónu pro další slevu. Může být procentní nebo pevná hodnota.
+    Sleva 10% se aplikuje, pokud je počet položek větší než 5. Kupón se aplikuje po této slevě.
+    """
+    total_price = sum(prices)
+    discount = 0.1 if len(prices) > 4 else 0
+
+    # Aplikuje slevu za množství
+    if discount > 0:
+        total_price -= total_price * discount
+
+    # Aplikuje kupón
+    if coupon_code:
+        if coupon_code == "FIXED10":  # Představuje slevu ve výši 10 jednotek měny
+            total_price -= 10
+        elif coupon_code == "PERCENT10":  # Představuje slevu 10 %
+            total_price -= total_price * 0.1
+
+    return total_price
+
+vypocet_celkove_ceny([120,20,10,30,20])]]></Solution>
+    </Task>
+    <Task id="Task4">
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Bolom_Benjamin_Oliver"><![CDATA[def DPH():
+  seznam =["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+  ceny = [20, 120, 39, 22, 220]
+  seznam[0] = ceny[0]
+  seznam[1] = ceny[1]
+  seznam[2] = ceny[2]
+  seznam[3] = ceny[3]
+  seznam[4] = ceny[4]
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="da_Palma_Anna_Sofia"><![CDATA[
+seznam_knih= ['Harry Potter', 'Válka světů', '1984', 'Vesmírná odysea', 'Ztracený svět']
+seznam_cen= ['250', '180', '220', '200', '150']
+
+input("zadej jmeno knihy")
+
+return seznam_cen + 10
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Dvorak_Vitek"><![CDATA[]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Gabcanova_Anezka"><![CDATA[seznam = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+print(seznam)
+
+print("Co chcete?:")
+vec = input("")
+if vec == ("colu") :
+    print("Cena produktu cola je: 24.2 Kč vč. DPH")
+elif vec == ("hamburger") :
+    print("Cena produktu hamburger je: 145,2 Kč vč. DPH")
+elif vec == ("pivo") :
+    print("Cena produktu pivo je: 47,19 Kč vč. DPH")
+elif vec == ("kapesníky") :
+    print("Cena produktu kapesníky je: 26,62 Kč vč. DPH")
+elif vec == ("kniha") :
+    print("Cena produktu kniha je: 266,2 Kč vč. DPH")]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Helisova_Natalie"><![CDATA[seznam_knih = input("Zadejte knihu ze seznamu (Harry Potter, Válka světů, 1984, Vesmírná odysea, Ztracený svět)")
+if seznam_knih == "Harry Potter":
+  h_p = 250+(250/100*10)
+  print(f"Cena knihy Harry Potter je: {h_p}kč vč. DPH.")
+elif seznam_knih == "Válka světů":
+  v_s = 180+(180/100*10)
+  print(f"Cena knihy Válka světů je: {v_s}kč vč. DPH.")
+elif seznam_knih == "1984":
+  d_o_c = 220+(220/100*10)
+  print(f"Cena knihy 1984 je: {d_o_c}kč vč. DPH.")
+elif seznam_knih == "Vesmírná odysea":
+  v_o = 200+(200/100*10)
+  print(f"Cena knihy Vesmírná odysea je: {v_o}kč vč. DPH.")
+else:
+  z_s = 150+(150/100*10
+             )
+  print(f"Cena knihy Ztracený svět je: {z_s}kč vč. DPH.")
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Kubiznakova_Nikola"><![CDATA[def seznam_knih():
+seznam_knih["Harry Potter", "Válka světů", 1984, "Vesmírná odysea", "Ztracený svět"]
+seznam_cen[250, 180, 220, 200, 150]
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Maresova_Zuzana"><![CDATA[
+knihy = ["Harry Potter", "Válka světů", "1984", "Vesmírná odysea","Tracený svět"]
+ceny_knih_bez_DPH = [250,180, 220, 200, 150]
+
+def konecna_cena(knihy[idx], ceny_knih_bez_DPH[idx]):
+  result= knihy[idx] + 0.1* ceny_knih_bez_DPH[idx]
+  return result
+
+A=str(input("Jakou knihu si chceš koupit?"))
+konecna_cena_vysledek =konecna_cena(A + 1.1*ceny_knih_bez_DPH[idxA])
+print(f"Cena knihy{A} je{konecna_cena_vysledek}vč.DPH")
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Matejka_Jaroslav"><![CDATA[produkt = input("zadej produkt")
+dphh = 0
+
+if produkt == "coca-cola":
+    dphh = (0.2*21) + 20
+    print(f"Cena produktu cola je {dphh}Kč vč. DPH: ")
+
+elif produkt == "hamburger":
+    dphh = (1.2*21) + 120
+    print(f"Cena produktu hamburger je {dphh}Kč vč. DPH: ")
+
+elif produkt == "pivo":
+    dphh = (0.39*21) + 39
+    print(f"Cena produktu pivo je {dphh}Kč vč. DPH: ")
+
+elif produkt == "kniha":
+    dphh = (2.2*21) + 220
+    print(f"Cena produktu kniha je {dphh}Kč vč. DPH: ")
+
+elif produkt == "kapesníky":
+    dphh = (0.22*21)
+    print(f"Cena produktu kpesníky je {dphh}Kč vč. DPH: ")
+else:
+    print("nic")
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Motejlova_Monika"><![CDATA[seznam_produktu = ["coca-colla","hamburger","pivo","kapesníky","kniha"]
+seznam_cen = [20, 120, 39, 22, 220]
+polozka = (input("zadejte polozku:"))
+DPH = seznam_cen +]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Pernova_Aneta"><![CDATA[seznam_produktu (coca-cola, hamburger, pivo, kapesníky, kniha)
+seznam_cen_produktu(20, 120, 39, 22, 220):
+for idx in range(20, 120, 39, 22, 220)
+    print(idx)
+
+idx = 21%
+print(idx)
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Riabchenko_Yekateryna"><![CDATA[seznam_knih = ['Harry Potte',' Válka světů', 1984, 'Vesmírná odysea',' Ztracený svět']
+seznam_cen_knih_bez_DPH = [250, 180, 220, 200, 150]
+
+def dph()
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 1.0 " date="12-3-24" student="Svec_David"><![CDATA[]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Wünsch_Tadeas"><![CDATA[def price(book):
+    books = ["Harry Potter", "Válka světů", "1984", "Vesmírná oddysea", "Ztracený svět"]
+    prices = [250, 180, 220, 200, 150]
+
+    index = books.index(book)
+    price = prices[index] * 1.1
+
+    print(f"Cena knihy {book} je {price}")]]></Solution>
+        <Solution group="ChatGPT" version="B - 1.0 " date="12-3-24" student="Zaderlik_Adam"><![CDATA[Harrypotter == (250)
+print('HarryPotter')]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Bartosek_Jan"><![CDATA[coca_cola = 20
+hamburger = 120
+pivo = 39
+kapesníky = 22
+kniha = 220
+def dph(a):
+  s_dph = a+(a*0.21)
+  return s_dph
+
+cola_s_dph = dph(hamburger)
+print(cola_s_dph)
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Belor_Ondrej"><![CDATA[def kniha_cena(nazev_knih, seznam_knihy, cena):
+   index = seznam_knihy.index(nazev_knih)
+   cena_bez_dph = cena[index]
+   cena_s_dph = cena_bez_dph * 1.10
+   return f" Cena knihy{nazev_knih} je {cena_s_dph} vč. DPH"
+
+
+seznam_knihy = ["Harry Potter" , "Válka světů" , "1984" , "Vesmírná odysea" , "Ztracený svět"]
+cena = [250 , 180 , 220 , 200 , 150]
+
+print(kniha_cena("1984", seznam_knih, cena))
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Beskoski_Filip"><![CDATA[]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Celko_Filip"><![CDATA[def cena_s_dph(seznam_produktu,seznam_cen):
+  idx=0
+  if produkty[idx] in seznam_produktu:
+    ceny[idx] *= 1.21
+    idx=idx+1
+  return ceny
+
+produkty = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+ceny = [20, 120, 39, 22, 220]
+
+cena_s_dph(produkty,20)
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Dobes_Simon"><![CDATA[seznam_knih=["Harry Potter", "Válka světů", "1984", "Vesmírná odysea", "Ztracený svět"]
+cena_knih = [250, 180, 220, 200, 150]
+
+def cena_s_dph(produkt):
+    for idx in range(len(seznam_knih)):
+        if produkt ==seznam_knih[idx]:
+          DPH = cena_knih[idx] + (cena_knih[idx] * 0.1)
+          return DPH
+        else:
+            continue
+kniha = input("Jakou knihu chcete: ")
+print(cena_s_dph(kniha))]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Doubeta_Michal"><![CDATA[def cena_s_dph(nazev_knihy, seznam_knih, seznam_cen):
+  index = seznam_knih.index(nazev_knihy)
+
+  cena_bez_dph = seznam_cen[index]
+
+  cena_s_dph = cena_bez_dph*1.10
+
+  print(f"Cena produktu {nazev_knihy} je: {cena_s_dph: 1f} kč vč dph")
+
+  seznam_knih = ["Harry Potter", "Válka světů", "1984", "Vesmírná odysea", "Ztracený svět"]
+  seznam_cen =  [250, 180, 220, 200, 150]
+
+cena_s_dph("Harry Potter", seznam_knih, seznam_cen)
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Haborova_Sabina"><![CDATA[seznam_produktu = ["coca-cola", "hamburger", "pivo", "kapesniky", "kniha"]
+cena = [20, 120, 39, 22, 220]
+def cena_s_dph(produkt):
+  for idx in range(len(seznam_produktu)):
+    if seznam_produktu[idx] == produkt:
+      DPH = cena[idx] + (cena[idx] * 0.21)
+      return DPH
+    else:
+      continue
+
+produkt = input("Cenu ktereho produktu chcete znat:")
+print(cena_s_dph(produkt))]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Hortova_Eva"><![CDATA[seznam_produktu = ["coca-cola","hamburger","pivo","kapesniky","kniha"]
+cena = [20,120,39,22,220]
+
+def cena_s_dph(produkt):
+    for idx in range(len(seznam_produktu)):
+        if seznam_produktu [idx] ==produkt:
+            DPH = cena [idx] + (cena [idx] * 0.21)
+            return DPH
+        else:
+            continue
+produkt = input("Cenu kterého produktu chcete vědět?")
+print(cena_s_dph(produkt))]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kacur_Dan"><![CDATA[seznam = ['Harry Potter', 'Válka světů', '1984', 'Vesmírná odysea', 'Ztracený svět']
+ceny = [250, 180, 220, 200, 150]
+
+def dph(hledana_kniha):
+  for idx in range(len(seznam)):
+    if hledana_kniha == seznam[idx]:
+      cena_s_dph = ceny[idx] * 1.1
+  return cena_s_dph
+
+hledana_kniha = input("Vyber knihu ze seznamu: ")
+cena_s_dph = dph(hledana_kniha)
+print(f"Cena knihy {hledana_kniha} je: {cena_s_dph} Kč vč. DPH")
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kanyzova_Kristyna"><![CDATA[def cena_s_dph(produkt, seznam_produktu, seznam_cen):
+   index = seznam_produktu.index(produkt)
+   cena_bez_dph = seznam_cen[index]
+   cena_s_dph = cena_bez_dph * 1.21
+   return "Cena produktu " + produkt + " je: " + str(round(cena_s_dph, 1)) + " Kč vč. DPH"
+seznam_produktu = ['coca-cola', 'hamburger', 'pivo', 'kapesníky', 'kniha']
+seznam_cen = [20, 120, 39, 22, 220]
+print(cena_s_dph('coca-cola', seznam_produktu, seznam_cen))]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Knotte_Anezka"><![CDATA[seznam_produktu = ["coca-cola","hamburger","pivo","kapesníky","kniha"]
+cena = [20,120,39,22,220]
+
+def cena_s_dph(produkt):
+    for idx in range(len(seznam_produktu)):
+      if seznam_produktu[idx] == produkt:
+          DPH = cena[idx] + (cena[idx]*0.21)
+          return DPH
+      else:
+        continue
+
+produkt = input("Jakou cenu u jakého produktu chcete znát: ")
+print(cena_s_dph(produkt))]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Kopriva_Jan">
+            <![CDATA[ijtgjkigjkitgtzkv]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Krebsova_Karolina"><![CDATA[def cena_s_dph(nazev_knihy, seznam_knih, seznam_cen)
+  index = seznam_knih.index]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Kubinec_Jan"><![CDATA[from typing import List
+def a(b:List[str]):
+  return input("Zadejte produkty a oddělte je mezerou: ").split()
+def c(d:List[float]):
+  return list(map(float,input("Zadejte seznam cen bez DPH a oddělte je čárkou: ").split(",")))
+def e(f:List[str],h:List[float]):
+  g=input("Zadejte produkt, který chcete vědět: ")
+  for idx in range(len(f)):
+    if g==f[idx]:
+      i=(h[idx]+(h[idx]*0.21))
+      return i
+def main():
+  f=a(b="")
+  h=c(d=0)
+  e(f,h)
+  print(i)
+main()]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Lhotska_Anna"><![CDATA[
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Martin_Dominik"><![CDATA[cola = 20
+hamburger = 120
+pivo = 39
+kapesníky = 22
+kniha = 220
+DPH = 0,21
+cola_s_DPH = cola *0,21
+hamburger_s_DPH = hamburger *0,21
+pivo_s_DPH = pivo *0,21
+kapesníky_s_DPH = kapesníky *0,21
+kniha_s_DPH = kniha *0,21
+vysledek_cola = cola + cola_s_DPH
+vysledek_hamburger = hamburger + hamburger_s_DPH
+vysledek_pivo = pivo + pivo_s_DPH
+vysledek_kapesníky = kapesníky + kapesníky_s_DPH
+vysledek_kniha = kniha + kniha_s_DPH
+print(f"normální ceny jsou: {cola, hamburger, pivo, kapesníky, kniha}")
+print(f"ceny produktů včetně DPH jsou: {vysledek_cola, vysledek_hamburger, vysledek_pivo, vysledek_kapesníky, vysledek_kniha }")]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Matvieieva_Liza"><![CDATA[seznam_knih = ["Harry Potter", "Válka světů", "1984", "Vesmírná odysea", "Ztracený svět"]
+cena_knih = [250, 180, 220, 200, 150]
+
+def cena_s_dph(produkt):
+    for idx in range(len(seznam_knih)):
+        if produkt == seznam_knih[idx]:
+            DPH = cena_knih[idx] + (cena_knih[idx] * 0.1)
+            return DPH
+        else:
+           continue
+
+kniha = input("Jakou knihu zvolite: ")
+print(cena_s_dph(kniha))]]></Solution>
+        <Solution group="Did_Mat" version="B - 3.0 " date="15-3-24" student="Munster_Ondrej"><![CDATA[knihy = ["Harry Potter", "Válka světů", "1984", "Vesmírná odysea", "Ztracený svět"]
+ceny_bez_dph = [250, 180,220, 200, 150]
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Prusova_Johana_Marie"><![CDATA[seznam_knih = ["Harry Potter", "Válka světů", "1984", "Vesmírná odysea", "Ztracený svět"]
+cena = [250, 180, 220, 200, 150]
+
+def dph(kniha):
+  for idx in range(len(seznam_knih)):
+    if seznam_knih[idx] == kniha:
+      DPH = cena[idx] + (cena[idx]*0.1)
+      return DPH
+    else:
+      continue
+
+print("Zdravím vás. Jsem program, díky kterému můžete jednoduše zjistit cenu knihy.")
+kniha = input("Zadejte knihu, u které chcete znát cenu: ")
+dph(kniha)]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Samkova_Denisa"><![CDATA[from ast import Index
+def cena_s_dph(nazev_produktu, seznam_produktů, seznam_cen):
+  cena_s_dph = seznam_bez_dph * 1,21
+seznam_bez_dph = seznam_cen[index]
+nazev_produktu = input("zadej název produktu")
+seznam_produktů = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+seznam_cen = [20, 120, 39, 22, 220]
+cena = cena_s_dph(nazev_produktu, seznam_produktů, seznam_cen)
+print(f"cena produktu s dph je: {cena}")]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Stehlik_Ondrej"><![CDATA[def cena_s_dph (nazev_produktu, seznam_produktu, seznam_cen):
+   index = seznam_produktu.index(nazev_produktu)
+   cena_bez_dph = seznam_cen[index]
+   cena_s_dph = cena_bez_dph * 1.21
+   return f"cena produktu{nazev_produktu} je {cena_s_dph} vč. DPH"
+
+seznam_produktu = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+seznam_cen = [20, 120, 39, 22, 220]
+
+print(cena_s_dph("coca-cola", seznam_produktu, seznam_cen))]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Titerova_Michaela">
+            <![CDATA[def cena_s_dph]]></Solution>
+        <Solution group="Did_Mat" version="A - 3.0 " date="15-3-24" student="Vajgl_Vojtech"><![CDATA[
+def cena_s_dph(produkt, seznam_produktu, seznam_cen):
+
+   index = seznam_produktu.index(produkt)
+
+   cena_bez_dph = seznam_cen[index]
+
+   cena_s_dph = cena_bez_dph * 1.21
+
+   return "Cena produktu " + produkt + " je: " + str(round(cena_s_dph, 1)) + " Kč vč. DPH "
+seznam_produktu = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+
+seznam_cen = [20, 120, 39, 22, 220]
+
+print(cena_s_dph("coca-cola", seznam_produktu, seznam_cen))]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Valentova_Nikol"><![CDATA[from ast import Index
+def cena_s_dph(nazev_produktu, seznam_produktu, seznam_cen):
+  index = seznamproduktu.index(nazev_produktu)
+  cena_bez_dph = seznam_cen[Index]
+  cena_s_dph = cena_bez_dph * 1,21
+  return f"cena produktu {nezev_produktu} je {cena_s_dph} vč. DPH"
+seznam_produktu = cola, hamburger, pivo, kapesníky, kniha
+nazev_produktu= cola, hamburger, pivo, kapesníky, kniha
+cena_bez_dph: 20, 120, 39, 22, 220
+print(cena nazev_produktu)
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0" date="13-3-24" student="Cepkova_Martina"><![CDATA[knihy = ["Harry Potter, Válka světů, 1984, Vesmírná odysea, Ztracený svět"]
+ceny  = [250, 180, 220, 200, 150]
+
+kniha = input("Zadej jakou chceš knihu: ")
+
+def cena_knih
+  for idx in range len(ceny):
+    cena = kniha +
+
+  return cena_knih
+
+print("Cena knihy je:" cena)
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Hrabakova_Simona">
+            <![CDATA[seznam = ['coca-cola', 'hamburger', 'pivo', 'kapesníky', 'kniha']]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Kindlova_Elen"><![CDATA[DPH = 21%
+x = ["coca-cola", "hamburger","pivo", "kapesníky", "kniha"]
+y = [20, 120, 39, 22, 220]
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Kosikova_Karolina"><![CDATA[seznam_produktu = ['coca-cola','hamburger','pivo','kapesniky','kniha']
+seznam_cen = [20,120,39,22,220]
+coca_cola = 0.2*21+20
+hamburger = 1.2*21+120
+pivo = 0.39*21+39
+kapesniky = 0.22*21+22
+kniha = 2.2*21+220
+
+produkt = input("zadej produkt")
+if produkt == 'coca-cola':
+  print(f"Cena produktu coca-cola je {coca_cola}")
+if produkt == 'hamburger':
+  print(f"Cena produktu hamburger je {hamburger}")
+elif produkt == 'pivo':
+  print(f"Cena produktu pivo je {pivo}")
+elif produkt == 'kapesniky':
+  print(f"Cena produktu kapesniky je {kapesniky}")
+elif produkt == 'kniha':
+  print(f"Cena produktu kniha je {kniha}")
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 2.0 " date="13-3-24" student="Krupicka_Tadeas"><![CDATA[Seznam_produktů = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+Seznam_cen = [20, 120, 39, 22, 220]
+x = input("zadej produkt")
+y = True
+while y:
+  for idx in range(len(Seznam_produktů)):
+    if Seznam_produktů[idx] == x:
+      cena = Seznam_cen[idx]
+      cena = cena * 1.21
+      print(f"Cena produktu {Seznam_produktů[idx]} je {cena} Kč i s DPH")
+      y = False]]></Solution>
+        <Solution group="Did_Mat" version="B - 2.0 " date="13-3-24" student="Kubjakova_Tereza"><![CDATA[from typing import List, Tuple
+
+knihy=['Harry Potter', 'Válka světů', '1984', 'Vesmírná odysea', 'Ztracený svět']
+ceny=[250, 180, 220, 200, 150]
+vysledek=[]
+def kniha(knihy: List):
+
+  for idx in range(len(knihy)):
+    if co == knihy[idx]:
+      vysledek.append(knihy[idx], ceny[idx]+(ceny[idx]/10))
+  return vysledek
+
+co=input('zadej název knihy: ')
+print(kniha(co))
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Otcova_Valentyna"><![CDATA[def kniha = Harry Potter
+cena_bez_DPH = 250
+DPH = 10%
+
+if DPH = 10%
+   print("Cena knihy je 275 Kč vč. DPH")
+
+
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Prosova_Lucie"><![CDATA[seznam_produktů=["cocal-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+seznam_cen=([20,120,39,22,220])
+DPH="21%"
+
+
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Salaiova_Karolina"><![CDATA[produkty = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+cena bez dph = [20, 120, 39, 22, 220]
+ for něco in něco:
+  print něco]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Souckova_Anezka"><![CDATA[seznam_knih = [ "Harry Potter", "Válka světů", "1984", "Vesmírná odysea", "Ztracený svět"]
+cena_bezDPH = [250, 180, 220, 200, 150]
+if kniha:
+    if kniha = "Harry Potter":
+     cena_bezDPH == 250
+    elif kniha = "Válka světů":
+      cena_bezDPH == 180
+    elif kniha = "1984":
+      cena_bezDPH == 220
+    elif kniha = "Vesmírná odysea":
+      cena_bezDPH == 200
+    elif kniha = "Ztracený svět":
+      cena_bezDPH == 150
+
+for cena_bezDPH in seznam_knih :
+  cena = print(f"Cena s DPH je {cena_bezDPH * 1.1}")
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Stejskal_Matej"><![CDATA[seznamknih = ["Harry Potter", "Válka světů", "1984", "Vesmírná odysea"," Ztracený svět"]
+seznmacen = [250, 180, 220, 200, 150]
+def katalog():
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Surovska_Simona"><![CDATA[produkty = ['coca-cola', 'hamburger', 'pivo', 'kapesníky', 'kniha']
+cenybez = [20, 120, 39, 22, 220]
+
+def cenadph(nazevproduktu):
+  dph = 21
+if 'nazevproduktu' in produkty:
+  index=produkty.index
+  cenabez=cenybez.index
+  cenadph = cenybez *(1 + dph / 100)
+  print (f"cena {nazevproduktu} je : {cenadph} ")
+
+nazevproduktu = input
+cenadph(nazevproduktu)
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Szilagyiová_Adela"><![CDATA[]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Tocina_Tobias"><![CDATA[seznam_knih = ["Harry Potter", "Válka světů", "1984", "Vesmírná odysea", "Ztracený svět"]
+seznam_cen_Bez_DPH = [250, 180, 220, 200, 150]
+for cena in seznam_cen_Bez_DPH:
+  print(cena)
+
+
+
+
+
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Vandrovec_Lukas"><![CDATA[Knihy = ["Harry Potte" , "Válka světů", "1984", "Vesmírná odysea", "Ztracený svět"]
+Ceny_bez_DPH = [250, 180, 220, 200, 150]
+
+
+def Cena_bez_DPH(název_knihy):
+  index = Knihy.index(název_knihy)
+  Cena_bez_DPH = Ceny_bez_DPH[index]
+  Cena_s_DPH = Cena_bez_DPH * 0,1
+  return Cena_s_DPH
+
+název_knihy = input("Zadej název knihy:")
+print(f"Cena knihy{název_knihy}s DPH je: {Cena_s_DPH(název_knihy)}")
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Voborilova_Viktorie_Vilemina"><![CDATA[seznam_produkt = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+seznam_cen = [20, 120, 39, 22, 220]
+
+def dph(seznam_produkt):
+  for item in seznam_produkt:
+    print(item)
+    for items in seznam_cen:
+      cislo = items + (items * 0.21)
+      print(cislo)
+
+dph(seznam_produkt="pivo")]]></Solution>
+        <Solution group="ChatGPT" version="A - 2.0 " date="13-3-24" student="Wangle_Samuel_Clarence"><![CDATA[seznam=['strom', 'řeka', 'auto', 'kniha', 'počítač']
+seznam_append(baterka)]]></Solution>
+        <Solution group="ChatGPT" version="B - 2.0 " date="13-3-24" student="Wogurkova_Anna"><![CDATA[seznam_knih = ["Harry Potter", "Válka světů", "1984", "Vesmírná odysea", " Ztracený svět"]
+bez_dph = [250, 180, 220, 200, 150]
+ int(dph) == int(bez_dph) / (10)
+int(dph) == int(bez_dph) * 100
+
+cena = dph + bez_dph
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Antal_Daniel"><![CDATA[produkt = ['cola', 'hamburger', 'pivo', 'kapesníky', 'kniha']
+cena_bez = [20,120,39,22,220]
+def babiš(a: str):
+  for i in range(len(produkt)):
+    b = produkt[i]
+    if a == b:
+      break
+  return cena_bez[i] * 1.21
+print('cena produktu je', babiš('kapesníky'), 'vč. DPH')
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Bitrich_Adam_Jeremias"><![CDATA[produkty = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+ceny = [20, 120, 39, 22, 220]
+def calc(prd):
+
+  g = produkty.index(prd)
+
+  p= ceny[g]*1.21
+
+return p
+
+print(f"Cena je: {calc(input("Zadej název produktu: "))}")]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Federovicova_Petra"><![CDATA[
+seznam_knih =[ "Harry Potter", "Válka světů", 1984, "Vesmírná odysea", "Ztracený svět"]
+seznam_cen = [ 250, 180, 220, 200, 150]
+seznam=list(input(str("zadejte názvy knihy").split(".")))
+dph= sum(seznam_cen/10)+seznam_cen
+print(dph)
+
+
+
+int("5") = 5
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Frankova_Bara"><![CDATA[]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Galia_Sebastian_Vincent"><![CDATA[for idx in range()
+]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="12-3-24" student="Horakova_Nela"><![CDATA[seznam_knih = ["Harry Potter", "Válka světů", "1984", "Vesmírná odysea", "Ztracený svět"]
+ceny_knih = [250, 180, 220, 200, 150]
+
+for index in seznam_knih:
+  index in seznam_knih == index in ceny_knih]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="12-3-24" student="Jilek_Jakub"><![CDATA[seznam_knih = f(Harry_Potter, Válka_světů, 1984, Vesmírná_odysea, ztracený_svět)
+print(seznam_knih)]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Krejca_Jonas"><![CDATA[chces = input(str("napiš jakou cenu těchto produktů chceš vědět i s DPH: coca-cola, hamburger, pivo, kapesníky, nebo kniha"))
+if chces == "coca-cola":
+  print(f"cena coca-coli i s DPH je {20*121/100}")
+if chces == "hamburger":
+  print(f"cena hamburgeru i s DPH je {120*121/100}")
+if chces == "pivo":
+  print(f"cena piva i s DPH je {39*121/100}")
+if chces == "kapesníky":
+  print(f"cena kapesníků i s DPH je {22*121/100}")
+if chces == "kniha":
+  print(f"cena knihy i s DPH je {220*121/100}")]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Kuhnova_Karolina"><![CDATA[produkty=["colička", "hambáč", "pivson", "kapesníky", "kniha"]
+ceny=[20, 120, 39, 22, 220]
+def calc(produkt):
+  i=produkty.index(produkt)
+  p=(ceny[i]*1,21)
+  return p
+print("Cena je{calc("Zadej název produktu:")}")]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Lacinova_Viktorie"><![CDATA[produkty = ["coca-cola", "hamburger", "pivo", "kapesniky", "kniha"]
+ceny = [20, 120, 39, 22, 220]
+cena_coly = ceny[0] + ceny[0]/100 * 21
+print(f"cena produktu coca-cola je:{cena_coly} Kč vč. DPH")
+cena_hamburgeru = ceny[1] + ceny[1]/100 * 21
+print(f"cena produktu hamburger je:{cena_hamburgeru} Kč vč. DPH")
+cena_piva = ceny[2] + ceny[2]/100 * 21
+print(f"cena produktu pivo je:{cena_piva} Kč vč. DPH")
+cena_kapesniku = ceny[3] + ceny[3]/100 * 21
+print(f"cena produktu kapesniky je:{cena_kapesniku} Kč vč. DPH")
+cena_knihy = ceny[4] + ceny[4]/100 * 21
+print(f"cena produktu kniha je:{cena_knihy} Kč vč. DPH")
+
+]]></Solution>
+        <Solution group="Did_Mat" version="A - 1.0 " date="12-3-24" student="Latislav_Vilem"><![CDATA[#na zacatku se pouzije def ale nevim presne jak
+produkty = ["cocacola", "hamburger", "pivo", "kapesníky", "kniha"]
+ceny_bez_DPH = [20, 120, 39, 22, 220]
+idx=0
+cena=(len(ceny_bez_DPH[idx]) *1.21)
+print(cena)]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Nemeckova_Johana"><![CDATA[knihy = ['Harry Potter', 'Válka světů', '1984', 'Vesmírná odysea', 'Ztracený svět']
+cena=[250,180, 220, 200, 150]
+cena[idx]=(cena/10)*11
+a=input('zadejte nazev knihy')
+print(f'cena je {cena} vc dph')
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="19-3-24" student="Polakova_Eliska"><![CDATA[def cena_s_dph (nazev produktu, cena_bez_dph):
+dph_sazba = 0.21
+cena_s_dph = cena_bez_dph * (1 + dph_sazba)
+return cena_s_dph
+
+produkt = "coca-cola"
+cena_bez_dph = 20
+
+produkt = "hamburger"
+cena_bez_dph = 120
+
+produkt = "pivo"
+cena_bez_dph = 39
+
+produkt = "kapesníky"
+cena_bez_dph = 22
+
+produkt = "kniha"
+cena_bez_dph = 220
+
+cena_s_dph_produktu =
+print(f"Cena s DPH pro produkt [produkt] je [cena_s_dph_produktu] Kč")]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Sifalda_Josef"><![CDATA[produkty = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+ceny = [20, 120, 39, 22, 220]
+
+
+cocacola = 0
+def cena(cocacola):
+    cocacola = ceny[0] * 0.21 + ceny[0]
+
+    print(f"Cena produktu je {cocacola}")
+
+cena(cocacola)]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Svoboda_Vit"><![CDATA[produkty = ['coca-cola', 'hamburger', 'pivo', 'kapesníky', 'kniha']
+ceny = [20, 120, 39, 22, 220]
+
+def cena ():]]></Solution>
+        <Solution group="ChatGPT" version="B - 4.0 " date="19-3-24" student="Trnkova_Rozalie"><![CDATA[def cena_s_dph(nazev_produktu, cena_bez_dph):
+  dph_sazba = 0,1
+  cena_s_dph = cena_bez_dph * (1 + dph_sazba)
+  return cena_s_dph
+
+  produkt = 'Harry Potter'
+  cena_bez_dph = 250
+
+  cena_s_dph_produktu = cena_s_dph(produkt, cena_bez_dph)
+  print(f"Cena knihy [produkt] je: [cena_s_dph_produktu] Kč vč. dph")]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Vokal_Jakub"><![CDATA[produkty = ["coca-cola", "hamburger", "pivo", "kapesníky", "kniha"]
+ceny = [20, 120, 39, 22, 220]
+
+def list(argument):
+  for item in produkty:
+    item == (ceny[0] + ceny[0]*0,21)
+    print(item)
+
+list("coca-cola")
+
+
+
+
+
+
+]]></Solution>
+        <Solution group="Did_Mat" version="B - 1.0 " date="12-3-24" student="Zajicova_Lia"><![CDATA[from typing import List, Tuple
+def slofik(knihyceny:List[Tuple[str, int]]):
+
+    zk=str(input("zadej knihu"))
+    for k, c in knihyceny
+        if knihyceny[k]==zk:
+           dph=c+(c/10)
+           knihyceny[c]=dph
+           print(f"cena knihy {zk} je {knihyceny[c]}")
+
+]]></Solution>
+        <Solution group="ChatGPT" version="A - 4.0 " date="12-3-24" student="Zamecnik_Petr"><![CDATA[cocacola = 20
+hamburger = 120
+pivo = 39
+kapesníky = 22
+kniha = 22
+seznam = [cocacola, hamburger, pivo, kapesníky, kniha]
+vysledek1 = input("zadej produkt: ")
+vysledek2 = vysledek1 / 0.21
+print(vysledek2)]]></Solution>
+    </Task>
+</tasks>
