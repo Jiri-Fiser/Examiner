@@ -1,0 +1,4870 @@
+<tasks>
+<Task id="1projekt">
+  <solution group="chatgpt" student_name="Bolom_Benjamin_Oliver" class="2.A"><![CDATA[# Kalkulačka
+def scitani():
+  x = float(input("Zadejte náhodné číslo: "))
+  y = float(input("Zadejte další náhodné číslo: "))
+  seznam1 = []
+  seznam2 = []
+  seznam1.append(x)
+  seznam2.append(y)
+  if x == "":
+    vysledek = seznam1[-1] + y
+  elif y == "":
+    vysledek = seznam2[-1] + x
+  else:
+    vysledek = x + y
+  print(f"Výsledek je {vysledek}")
+
+def odcitani():
+  x = float(input("Zadejte náhodné číslo: "))
+  y = float(input("Zadejte další náhodné číslo: "))
+  seznam3 = []
+  seznam4 = []
+  seznam3.append(x)
+  seznam4.append(y)
+  if x == "":
+    vysledek = seznam3[-1] - y
+  elif y == "":
+    vysledek = seznam4[-1] - x
+  else:
+    vysledek = x - y
+  print(f"Výsledek je {vysledek}")
+
+def nasobeni():
+  x = float(input("Zadejte náhodné číslo: "))
+  y = float(input("Zadejte další náhodné číslo: "))
+  seznam5 = []
+  seznam6 = []
+  seznam5.append(x)
+  seznam6.append(y)
+  if x == "":
+    vysledek = seznam5[-1] * y
+  elif y == "":
+    vysledek = seznam6[-1] * x
+  else:
+    vysledek = x * y
+  print(f"Výsledek je {vysledek}")
+
+def deleni():
+  x = float(input("Zadejte náhodné číslo: "))
+  y = float(input("Zadejte další náhodné číslo: "))
+  seznam7 = []
+  seznam8 = []
+  seznam7.append(x)
+  seznam8.append(y)
+  if x == "":
+    vysledek = seznam7[-1] / y
+  elif y == "":
+    vysledek = seznam8[-1] / x
+  else:
+    vysledek = x / y
+  if vysledek == 0:
+    print("nedefinováno")
+  else:
+    print(f"Výsledek je {vysledek}")
+
+
+while True:
+  print("Vyberte si operaci: 'sčítání', 'odčítaní', 'násobení', 'dělení'")
+  výběr = input()
+  if výběr == 'sčítání':
+    scitani()
+  elif výběr == 'odčítaní':
+    odcitani()
+  elif výběr == 'násobení':
+    nasobeni()
+  elif výběr == 'dělení':
+    deleni()
+
+seznam_vysledku = []
+# Nestihl jsem
+# Hromadný součet, rozdíl, soucin, podil
+def soucet():
+  seznam = [5, 6, 9, 11, 39]
+  soucet = sum(seznam)
+  print(f"Hromadný součet seznamu je {soucet}")
+
+def rozdil():
+  seznam = [5, 6, 9, 11, 39]
+  rozdil = seznam[0] - seznam[1] - seznam[2] - seznam[3] - seznam[4]
+  print(f"Hromadný součet seznamu je {rozdil}")
+
+def soucin():
+  seznam = [5, 6, 9, 11, 39]
+  soucin = seznam[0] * seznam[1] * seznam[2] * seznam[3] * seznam[4]
+  print(f"Hromadný součet seznamu je {soucin}")
+
+def podil():
+  seznam = [5, 6, 9, 11, 39]
+  podil = seznam[0] / seznam[1] / seznam[2] / seznam[3] / seznam[4]
+  print(f"Hromadný součet seznamu je {podil}")
+
+soucet()
+rozdil()
+soucin()
+podil()]]></solution>
+  <solution group="chatgpt" student_name="Dvorak_Vitek" class="2.A"><![CDATA[# Jednoduchá kalkulačka v Pythonu
+
+# This function adds two numbers
+def add(x, y):
+    return x + y
+
+# This function subtracts two numbers
+def subtract(x, y):
+    return x - y
+
+# This function multiplies two numbers
+def multiply(x, y):
+    return x * y
+
+# This function divides two numbers
+def divide(x, y):
+    return x / y
+
+
+print("Select operation.")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+
+while True:
+    # take input from the user
+    choice = input("Enter choice(1/2/3/4): ")
+
+    # check if choice is one of the four options
+    if choice in ('1', '2', '3', '4'):
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+    if choice == '1':
+            print(num1, "+", num2, "=", add(num1, num2))
+
+    elif choice == '2':
+            print(num1, "-", num2, "=", subtract(num1, num2))
+
+    elif choice == '3':
+            print(num1, "*", num2, "=", multiply(num1, num2))
+
+    elif choice == '4':
+            print(num1, "/", num2, "=", divide(num1, num2))
+
+        # check if user wants another calculation
+        # break the while loop if answer is no
+            next_calculation = input("Let's do next calculation? (yes/no): ")
+            if next_calculation == "no":
+                 break
+    else:
+     print("wrong imput")
+if choice == '4':
+            num2 == '0'
+            print("nedefinováno")
+
+
+
+# Jednoduchá kalkulačka v Pythonu
+
+# This function adds two numbers
+def add(x, y):
+    return x + y
+
+# This function subtracts two numbers
+def subtract(x, y):
+    return x - y
+
+# This function multiplies two numbers
+def multiply(x, y):
+    return x * y
+
+# This function divides two numbers
+def divide(x, y):
+    return x / y
+
+
+print("Select operation.")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+
+while True:
+    # take input from the user
+    choice = input("Enter choice(1/2/3/4): ")
+
+    # check if choice is one of the four options
+    if choice in ('1', '2', '3', '4'):
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+
+        if choice == '1':
+            print(num1, "+", num2, "=", add(num1, num2))
+
+        elif choice == '2':
+            print(num1, "-", num2, "=", subtract(num1, num2))
+
+        elif choice == '3':
+            print(num1, "*", num2, "=", multiply(num1, num2))
+
+        elif choice == '4':
+            print(num1, "/", num2, "=", divide(num1, num2))
+            if choice == '4':
+            num2 == '0'
+            print("nedefinováno")
+            else continue
+        # check if user wants another calculation
+        # break the while loop if answer is no
+        next_calculation = input("Let's do next calculation? (yes/no): ")
+        if next_calculation == "no":
+          break
+
+    else:
+        print("Invalid Input")
+       ]]></solution>
+  <solution group="chatgpt" student_name="Futera_Michal" class="2.A"><![CDATA[def scitani(cislo1=None, cislo2=None):
+  if cislo1 == None and cislo2 == None:
+    cislo1 = int(input("Zadejte první číslo: "))
+    cislo2 = int(input("Zadejta druhé číslo: "))
+    vysledek = cislo1 + cislo2
+    print(vysledek)
+  elif cislo2 == None:
+    vysledek = cislo1
+    print(vysledek)
+  else:
+    vysledek = cislo1 + cislo2
+    print(vysledek)
+
+def odcitani(cislo1=None, cislo2=None):
+  if cislo1 == None and cislo2 == None:
+    cislo1 = int(input("Zadejte první číslo: "))
+    cislo2 = int(input("Zadejta druhé číslo: "))
+    vysledek = cislo1 - cislo2
+    print(vysledek)
+  elif cislo2 == None:
+    vysledek = cislo1
+    print(vysledek)
+  else:
+    vysledek = cislo1 + cislo2
+    print(vysledek)
+
+def nasobeni(cislo1=None, cislo2=None):
+  if cislo1 == None and cislo2 == None:
+    cislo1 = int(input("Zadejte první číslo: "))
+    cislo2 = int(input("Zadejta druhé číslo: "))
+    vysledek = cislo1 * cislo2
+    print(vysledek)
+  elif cislo2 == None:
+    vysledek = cislo1
+    print(vysledek)
+  else:
+    vysledek = cislo1 + cislo2
+    print(vysledek)
+
+def deleni(cislo1=None, cislo2=None):
+  if cislo1 == None and cislo2 == None:
+    cislo1 = int(input("Zadejte první číslo: "))
+    cislo2 = int(input("Zadejta druhé číslo: "))
+    vysledek = cislo1 / cislo2
+    print(vysledek)
+  elif cislo1 == 0 or cislo2 == 0:
+    print("nedefinováno")
+  elif cislo2 == None:
+    vysledek = cislo1
+    print(vysledek)
+  else:
+    vysledek = cislo1 / cislo2
+    print(vysledek)
+def hromadny_soucet(seznam_cisel):
+  print(sum(seznam_cisel))
+
+hromadny_soucet([2,3,5,4])]]></solution>
+  <solution group="chatgpt" student_name="Gabcanova_Anezka" class="2.A"><![CDATA[def kalkulacka():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  print(cislo1+cislo2)
+kalkulacka()
+def kalkulacka2():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  print(cislo1-cislo2)
+kalkulacka2()
+def kalkulacka3():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  print(cislo1*cislo2)
+kalkulacka3()
+def kalkulacka4():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  if cislo2 == 0:
+        print("nedefinováno")
+  else :
+     vysledek = cislo1 / cislo2
+
+  print(cislo1/cislo2)
+kalkulacka4()
+def seznam():
+  cisla = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  soucet = sum(cisla)
+  print(f"součet seznamu čísel je: {soucet}")
+seznam()
+def seznam2():
+  cisla = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  minus = cisla[0]-cisla[1]-cisla[2]-cisla[3]-cisla[4]-cisla[5]-cisla[6]-cisla[7]-cisla[8]-cisla[9]
+  print(f"rozdíl seznamu čísel je: {minus}")
+seznam2()
+def seznam3():
+  cisla = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  krat = cisla[0]*cisla[1]*cisla[2]*cisla[3]*cisla[4]*cisla[5]*cisla[6]*cisla[7]*cisla[8]*cisla[9]
+  print(f"násobek seznamu čísel je: {krat}")
+seznam3()
+def seznam4():
+  cisla = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  deleno = cisla[0]/cisla[1]/cisla[2]/cisla[3]/cisla[4]/cisla[5]/cisla[6]/cisla[7]/cisla[8]/cisla[9]
+  print(f"násobek seznamu čísel je: {deleno}")
+seznam4()
+def list():
+  seznam = []
+  seznam.append()
+  print(seznam)
+list()]]></solution>
+  <solution group="chatgpt" student_name="Karova_Tereza" class="2.A"><![CDATA[def scitani():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  print(cislo1+cislo2)
+scitani()
+
+def odcitani():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  print(cislo1-cislo2)
+odcitani()
+
+def nasobeni():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  print(cislo1*cislo2)
+nasobeni()
+
+def deleni():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  if cislo2 == 0:
+    print("nedefinováno")
+  else:
+    print(cislo1/cislo2)
+deleni()
+def scitani():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  print(cislo1+cislo2)
+scitani()
+
+def odcitani():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  print(cislo1-cislo2)
+odcitani()
+
+def nasobeni():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  print(cislo1*cislo2)
+nasobeni()
+
+def deleni():
+  cislo1 = float(input("Zadejte první číslo: "))
+  cislo2 = float(input("Zadejte druhé číslo: "))
+  if cislo2 == 0:
+    print("nedefinováno")
+  else:
+    print(cislo1/cislo2)
+deleni()
+
+def hromadny_soucet():
+  seznam = []
+  print(sum(seznam))
+hromadny_soucet()
+def hromadny_soucet():
+  seznam = [1, 5, 9, 7, 3]
+  print(sum(seznam))
+hromadny_soucet()]]></solution>
+  <solution group="chatgpt" student_name="Kral_David" class="2.A"><![CDATA[num1 = input("Vaše první číslo: ")
+if num1 != float:
+    print("")
+    print("Číslo zadáno.")
+    quit()
+num2 = input("Vaše druhé číslo: ")
+if num2 != float:
+    print("")
+    print("Číslo zadáno.")
+    quit()
+variable = input("Znaménko(+, -, *, /): ")
+if variable != "+" or "-" or "*" or "/":
+    print("")
+    print("Číslo zadáno.")
+    quit()
+
+add = float(num1) + float(num2)
+subtract = float(num1) - float(num2)
+multiply = float(num1) * float(num2)
+divide = float(num1) / float(num2)
+
+if variable == "+":
+    print(add)
+elif variable == "-":
+    print(subtract)
+elif variable == "*":
+    print(multiply)
+elif variable == "/":
+    print(divide)
+else:
+    print("Invalid Input")]]></solution>
+  <solution group="chatgpt" student_name="Kubiznakova_Nikola" class="2.A"><![CDATA[def kalkulacka():
+  def scitani():
+   cislo1 = float(input("Zadejte první číslo: "))
+   cislo2 = float(input("Zadejte druhý číslo: "))
+   print(cislo1+cislo2)
+  scitani()
+  def odcitani():
+   cislo1 = float(input("Zadejte první číslo: "))
+   cislo2 = float(input("Zadejte druhý číslo: "))
+   print(cislo1-cislo2)
+  odcitani()
+  def nasobeni():
+   cislo1 = float(input("Zadejte první číslo: "))
+   cislo2 = float(input("Zadejte druhý číslo: "))
+   print(cislo1*cislo2)
+  nasobeni()
+  def deleni2():
+   cislo1 = int(input("Zadejte první číslo: "))
+   cislo2 = int(input("Zadejte druhý číslo: "))
+   if cislo2 == 0:
+    print("neidentifikováno")
+   else:
+    print(cislo1/cislo2)
+  deleni2()
+  def hromadny_soucet():
+   seznam = [2,5,9,8,6,4,1,]
+   scitanicisel = sum(seznam)
+   print(scitanicisel)
+  hromadny_soucet()
+kalkulacka()
+]]></solution>
+  <solution group="chatgpt" student_name="Motejlova_Monika" class="2.A"><![CDATA[def secti(a, b):
+    return a + b
+def odecti(a, b):
+    return a - b
+def nasob(a, b):
+    return a * b
+def podil(a, b):
+  if b != 0:
+        return a / b
+  else:
+        return "nedefinováno"
+cislo1 = int(input("zadejte první číslo:"))
+cislo2 = int(input("zadejte druhé číslo:"))
+operace = input("zadejte operaci:")
+if operace == "sčítání":
+  vysledek = secti(cislo1, cislo2)
+  print(f"výsledek sčítání:{vysledek}")
+elif operace == "odečítání":
+  vysledek = odecti(cislo1, cislo2)
+  print(f"vysledek odečítání:{vysledek}")
+elif operace == "násobení":
+  vysledek = nasob(cislo1, cislo2)
+  print(f"vysledek násobení:{vysledek}")
+elif operace == "dělení":
+  vysledek = podil(cislo1, cislo2)
+  print(f"vysledej dělení:{vysledek}")
+else:
+  print("Error")
+seznam_cisel = input("zadej seznam čísel oddělených čárkou:")
+
+vysledek = sum(seznam_cisel)
+print(vysledek)]]></solution>
+  <solution group="chatgpt" student_name="Riabchenko_Yekateryna" class="2.A"><![CDATA[cislo_1 = int(input("napis cislo: "))
+cislo_2 = int(input("napis cislo: "))
+operace = input("co mame udelat: ")
+
+def secist_cisla(cislo_1, cislo_2):
+    secist = cislo_1 + cislo_2
+    print(secist)
+
+
+def odecist_cisla(cislo_1, cislo_2):
+    odecist = cislo_1 - cislo_2
+    print(odecist)
+
+def vynasobit_cisla(cislo_1, cislo_2):
+    vynasobit = cislo_1 * cislo_2
+    print(vynasobit)
+
+def vydelit_cisla(cislo_1, cislo_2):
+  if cislo_1 == 0 or cislo_2 == 0:
+    print("nedefinováno")
+  else:
+    vydelit = cislo_1 / cislo_2
+    print(vydelit)
+
+def hromadny_soucet(seznam_cisel):
+  seznam_cisel = []
+  while True:
+    cislo = input("napis cislo nebo stop: ")
+    if cislo.lower() == 'stop':
+        break
+    seznam_cisel.append(cislo)
+    return sum(seznam_cisel)
+
+def hromadne_odcitani(seznam_cisel):
+  seznam_cisel = []
+  while True:
+    cislo1 = input("napis cislo nebo stop: ")
+    if cislo1.lower() == 'stop':
+        break
+  result = seznam_cisel[0]
+  for cislo in seznam_cisel[1:]:
+      result = odecist_cisla(cislo_1, cislo_2)
+  return result
+
+def hromadne_vynasobeni(seznam_cisel):
+  seznam_cisel = []
+  while True:
+    cislo1 = input("napis cislo nebo stop: ")
+    if cislo1.lower() == 'stop':
+        break
+  result = seznam_cisel[0]
+  for cislo in seznam_cisel[1:]:
+      result = vynasobit_cisla(cislo_1, cislo_2)
+  return result
+
+def hromadne_deleni(seznam_cisel):
+  seznam_cisel = []
+  while True:
+    cislo1 = input("napis cislo nebo stop: ")
+    if cislo1.lower() == 'stop':
+        break
+  result = seznam_cisel[0]
+  for cislo in seznam_cisel[1:]:
+      result = vydelit_cisla(cislo_1, cislo_2)
+  return result
+
+scitani = secist_cisla(cislo_1, cislo_2)
+odecitani = odecist_cisla(cislo_1, cislo_2)
+vynasobeni = vynasobit_cisla(cislo_1, cislo_2)
+deleni = vydelit_cisla(cislo_1, cislo_2)
+hromadny_soucet = hromadny_soucet(seznam_cisel)
+hromadne_odcitani = hromadne_odcitani(seznam_cisel)
+hromadne_vynasobeni = hromadne_vynasobeni(seznam_cisel)
+hromadne_deleni = hromadne_deleni(seznam_cisel)
+]]></solution>
+  <solution group="chatgpt" student_name="Svec_David" class="2.A"><![CDATA[
+def scitani(a, b):
+  return a + b
+
+
+def odcitani(a, b):
+  return a - b
+
+def nasobeni(a, b):
+  return a * b
+
+def deleni(a, b):
+  if b != 0:
+    return a / b
+  else:
+    print("nedefinováno")
+
+seznam = []
+seznam.append(cislo2)
+
+
+seznam1 = []
+seznam1.append(vysledek)
+
+while True:
+  cislo1 = int(input("Zadejte první číslo:"))
+  cislo2 = int(input("Zadejte druhé číslo:"))
+  znak = input("Zadejte:[+] [-] [*] [/]")
+
+
+
+
+  if cislo2 == "":
+    cislo2 = seznam[-1]
+
+  if znak == "+":
+    vysledek = scitani(cislo1, cislo2)
+    print(vysledek)
+  elif znak == "-":
+    vysledek = odcitani(cislo1, cislo2)
+    print(vysledek)
+  elif znak == "*":
+    vysledek = nasobeni(cislo1, cislo2)
+    print(vysledek)
+  elif znak == "/":
+    vysledek = deleni(cislo1, cislo2)
+    print(vysledek)
+
+
+
+
+
+
+
+
+htomadny_soucet = seznam1[]]]></solution>
+  <solution group="chatgpt" student_name="Wünsch_Tadeas" class="2.A">def doMath(n1, n2, operation):
+    n1 = float(n1)
+    n2 = float(n2)
+
+    if operation == "+":
+        return n1 + n2
+    if operation == "-":
+        return n1 - n2
+    if operation == "*":
+        return n1 * n2
+    if operation == "/":
+        if n2 == 0:
+            return "nedefinováno"
+        return n1 / n2
+
+# seznam výsledků kalkulačky
+results = []
+
+# kalkulačka má parametr "result" označující, kolik výsledků kalkulačka vypočítala
+def calculator(result):
+    operation = input("Vyberte matematickou operaci (+, -, *, /): ")
+
+    # seznam čísel pro matematickou opreaci
+    numbers = []
+
+    # kalkulačka se zeptá uživatele na čísla, dokud uživatel nezadá alespoň jedno číslo
+    while len(numbers) &lt; 1:
+        _numbers = input("Zadejte čísla (oddělte čárkou): ")
+        if _numbers != "":
+            numbers = _numbers.split(",")
+
+    # výsledek matematické operace
+    number = 0
+
+    # kalkulačka si za výsledek dosadí výsledek z poslední matematické operace,
+    # který využije v případě, že uživatel zadal pouze jedno číslo
+    if len(results) &gt; 0:
+        number = results[result - 1]
+
+    # kalkulačka vypočítá rovnici s více čísly
+    if len(numbers) &gt; 1:
+        # kalkulačka si za výsledek dosadí první číslo z matematické operace
+        number = numbers[0]
+        # kalkulačka provede matematickou operaci se všemi zadanými čísly
+        for i in range(1, len(numbers)):
+            number = doMath(number, numbers[i], operation)
+    # kalkulačka vypočítá rovnici s jedním číslem
+    else:
+        # jako první číslo si dosadí výsledek z poslední matematické operace
+        number = doMath(number, numbers[0], operation)
+
+    print(f"Výsledek: {number}")
+
+    results.append(number)
+
+    calc = input("Chcete vypočítat další matematickou rovnici (Y/N)?")
+
+    if calc.capitalize() == "Y":
+        calculator(result + 1)
+    else:
+        print(results)
+
+calculator(0)</solution>
+  <solution group="chatgpt" student_name="Zaderlik_Adam" class="2.A"><![CDATA[def scitani(x,y):
+    return x + y
+def odcitani(x,y):
+    return x - y
+def nasobeni(x,y):
+    return x * y
+def deleni(x,y):
+    return x / y
+print("Select operation.")
+print("1.scitani")
+print("2.odcitani")
+print("3.nasobeni")
+print("4.deleni")
+while True:
+    choice = input("napiste svou volbu(1/2/3/4): ")
+    if choice in ('1', '2', '3', '4'):
+        cislo1 = float(input("napis prvni cislo: "))
+        cislo2 = float(input("napis druhy cislo: "))
+        if choice == '1':
+           print(cislo1, "+", cislo2, "=", scitani(cislo1, cislo2))
+        elif choice == '2':
+           print(cislo1, "-", cislo2, "=", odcitani(cislo1, cislo2))
+        elif choice == '3':
+           print(cislo1, "*", cislo2, "=", nasobeni(cislo1, cislo2))
+        elif choice == '4':
+           print(cislo1, "/", cislo2, "=", deleni(cislo1, cislo2))
+        break
+    else:
+         print("to nemuzeeees")
+if
+
+
+
+def scitani(a, b):
+    return a + b
+
+def odecitani(a, b):
+    return a - b
+
+def nasobeni(a, b):
+    return a * b
+
+def deleni(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Nedefinováno"
+
+cislo1 = float(input("Zadejte první číslo: "))
+cislo2 = float(input("Zadejte druhé číslo: "))
+
+# Zeptejte se uživatele na operaci
+operace = input("Zadejte operaci (sčítání, odečítání, násobení, dělení): ")
+
+# Vypočtěte a vypište výsledek
+if operace.lower() == "sčítání":
+    vysledek = scitani(cislo1, cislo2)
+elif operace.lower() == "odečítání":
+    vysledek = odecitani(cislo1, cislo2)
+elif operace.lower() == "násobení":
+    vysledek = nasobeni(cislo1, cislo2)
+elif operace.lower() == "dělení":
+    vysledek = deleni(cislo1, cislo2)
+elif operace == ():
+  print()
+else:
+    vysledek = "Neplatná operace."
+
+print(f"Výsledek: {vysledek}")
+
+
+numbers = [1,2,3,4,5,1,4,5]
+
+Sum = sum(numbers)
+print(Sum)
+
+Sum = sum(numbers, 10)
+print(Sum)
+
+
+
+]]></solution>
+  <solution group="normal" student_name="bouček" class="2.A"><![CDATA[pamet = None
+def secti(a, b):
+    soucet = a + b
+    return soucet
+
+def rozdel(a, b):
+    rozdil = a - b
+    return rozdil
+
+def vynasob(a, b):
+    soucin = a * b
+    return soucin
+
+def vydel(a, b):
+    if b != 0:
+        podil = a / b
+    else:
+        podil = "Nedefinováno."
+    return podil
+
+# Příklad použití funkce:
+cislo1 = float(input("Zadejte první číslo: "))
+cislo2 = float(input("Zadejte druhé číslo: "))
+operace = input("co potřebuješ za operaci? (součet,rozdíl,součin,podíl) ")
+
+secteno = secti(cislo1, cislo2)
+rozdeleno = rozdel(cislo1, cislo2)
+vynasobeno = vynasob(cislo1, cislo2)
+vydeleno = vydel(cislo1, cislo2)
+
+if operace == "součet":
+  print("Součet:", secteno)
+
+if operace == "rozdíl":
+  print("Rozdíl:", rozdeleno)
+
+if operace == "součin":
+  print("Součin:", vynasobeno)
+
+if operace == "podíl":
+  print("Podíl:", vydeleno)
+
+
+def podil(dělenec, dělitel = 1):
+    return dělenec / dělitel
+
+print(podil(5, 2))
+print(podil(5))]]></solution>
+  <solution group="normal" student_name="buk" class="2.A"><![CDATA[def secti(a, b):
+    soucet = a + b
+    return soucet
+
+def odecti(a, b):
+    rozdíl = a - b
+    return rozdíl
+
+def vynasob(a, b):
+    soucin = a * b
+    return soucin
+
+def vydel(a, b):
+    podil = a / b
+    return podil
+
+
+
+
+def deleni(x, y):
+    try:
+       solution = x / y
+    except ZeroDivisionError:
+        return "division by zero"
+    else:
+      return f"Answer is {solution}"
+
+x = 6
+y = 0
+
+vysledek = deleni(x, y)
+print(vysledek)
+
+
+]]></solution>
+  <solution group="normal" student_name="dapalma" class="2.A"><![CDATA[def scitani(cislo1= None, cislo2 = None):
+   if cislo1 == None and cislo2 ==None:
+      cislo1 = int(input("prosím zadejte libovolné číslo"))
+      cislo2 = int(input("prosim zadejte libovolné číslo"))
+      vysledek = cislo1 + cislo2
+      print(vysledek)
+   elif cislo1 == None:
+        vysledek = cislo2
+        print(vysledek)
+   else:
+        vysledek = cislo2 + cislo1
+        print(vysledek)
+scitani()
+def odecitani(cislo1= None, cislo2 = None):
+   if cislo1 == None and cislo2 ==None:
+      cislo1 = int(input("prosím zadejte libovolné číslo"))
+      cislo2 = int(input("prosim zadejte libovolné číslo"))
+      vysledek = cislo1 - cislo2
+      print(vysledek)
+   elif cislo2 == None:
+        vysledek = cislo1
+        print(vysledek)
+   else:
+        vysledek = cislo1 - cislo2
+        print(vysledek)
+odecitani()
+def násobení(cislo1= None, cislo2 = None):
+   if cislo1 == None and cislo2 ==None:
+      cislo1 = int(input("prosím zadejte libovolné číslo"))
+      cislo2 = int(input("prosim zadejte libovolné číslo"))
+      vysledek = cislo1 * cislo2
+      print(vysledek)
+   elif cislo1 == None:
+        vysledek = cislo2
+        print(vysledek)
+   else:
+        vysledek = cislo2 * cislo1
+        print(vysledek)
+násobení()
+def podíl(cislo1= None, cislo2 = None):
+   if cislo1 == None and cislo2 ==None:
+      cislo1 = int(input("prosím zadejte libovolné číslo"))
+      cislo2 = int(input("prosim zadejte libovolné číslo"))
+      vysledek = cislo1 / cislo2
+      print(vysledek)
+   elif cislo1 == 0 or cislo2 == 0:
+        print("nedefinováno")
+   elif cislo2 == None:
+        vysledek = cislo1
+        print(vysledek)
+   else:
+        vysledek = cislo1 / cislo2
+        print(vysledek)
+def hromadny_soucet(seznam_cisel):
+   print(sum(seznam_cisel))
+
+hromadny_soucet([7,2,6,4])
+def multiply(seznam_cisel):
+total = 1
+for i in seznam_cisel:
+     total *= i
+return total
+  print(multiply([7, 2, 6, 4]))]]></solution>
+  <solution group="normal" student_name="helisová" class="2.A"><![CDATA[pamet = None
+a = int(input("Zadejte celé číslo: "))
+b = int(input("Zadejte celé číslo: "))
+def secti(a, b):
+  soucet = a+b
+  return soucet
+
+vysledek_souctu = secti(a, b)
+print(vysledek_souctu)
+
+def odecti(a, b):
+  rozdil = a-b
+  return rozdil
+
+vysledek_rozdilu = odecti(a, b)
+print(vysledek_rozdilu)
+
+def vynasob(a, b):
+  soucin = a*b
+  return soucin
+
+vysledek_soucinu = vynasob(a, b)
+print(vysledek_soucinu)
+
+def vydel(a, b):
+  if a == 0 or b == 0:
+    print("nedefinováno")
+  else:
+    podil = a/b
+    return podil
+
+vysledek_podilu = vydel(a, b)
+print(vysledek_podilu)
+
+seznam_cisel = [2, 5, 4, 3, 1]
+
+suma1 = 0
+for i in range(len(seznam_cisel)):
+  suma1 += seznam_cisel[i]
+print(suma1)
+
+suma2 = 0
+for i in range(len(seznam_cisel)):
+  suma2 -= seznam_cisel[i]
+print(suma2)
+
+suma3 = 1
+for i in range(len(seznam_cisel)):
+  suma3 *= seznam_cisel[i]
+print(suma3)
+
+suma4 = 1
+for i in range(len(seznam_cisel)):
+  suma4 /= seznam_cisel[i]
+print(suma4)
+
+
+]]></solution>
+  <solution group="normal" student_name="kozel" class="2.A"><![CDATA[
+
+
+def secti(a, b):
+    soucet = a + b
+    return soucet
+
+vysledek_souctu = secti(5,5)
+print(vysledek_souctu)
+
+
+
+def odecti(a,b):
+  odecitani = a-b
+  return odecitani
+
+vysledek_odecitani = odecti(10,5)
+print(vysledek_odecitani)
+
+
+
+def soucti(a,b,):
+  soucin = a*b
+  return soucin
+vysledek_soucinu = soucti(5,5)
+print(vysledek_soucinu)
+
+
+
+def vydel(a,b):
+  if 0 == b:
+      print("nedefinováno")
+  else:
+     print("je  definovana")
+  deleni = a/b
+vysledek_deleni = vydel(25,5)
+print(vysledek_deleni)
+
+
+
+
+
+if a == None and b == None:
+ print("nezadali jste žádné čísla prosim o doplnění čísel")
+ a= input(float("vložte libovolné číslo za písmeno a"))
+ b= input(float("vložte libovolné číslo za písmeno b"))
+
+
+if a == None or b == None
+ print("nezadali jste jedno číslo poprosil bych vás o doplnění")
+
+
+
+
+
+
+
+if a == None and b == None:
+ print("nezadali jste žádné čísla prosim o doplnění čísel")
+ a= input(float("vložte libovolné číslo za písmeno a"))
+ b= input(float("vložte libovolné číslo za písmeno b"))]]></solution>
+  <solution group="normal" student_name="marešová" class="2.A"><![CDATA[cislo_a = input("Zadej první číslo:")
+cislo_b = input("Zadej další číslo:")
+
+def secti(a,b):
+  soucet = a + b
+  return soucet
+vysledek_soucet = secti(a=cislo_a, b=cislo_b)
+print(vysledek_soucet)
+
+
+def odecti(a,b):
+  rozdil = a - b
+  return rozdil
+vysledek_rozdil = odecti(a=cislo_a, b=cislo_b)
+print(vysledek_rozdil)
+
+def nasob(a,b):
+  soucin = a*b
+  return soucin
+vysledek_soucin = nasob(a=cislo_a, b=cislo_b)
+print(vysledek_soucin)
+
+def vydel(a,b):
+  podil = a/b
+  return podil
+vysledek_podil = vydel(a=cislo_a, b=cislo_b)
+if podil == 0:
+  print("nedefinováno")
+else:
+  print(vysledek_podil)
+
+
+
+from typing import List
+
+seznam_cisla= map(list(input("Zadejte čísla oddělená mezerou").split(" ")))
+for pocitani in seznam_cisla:
+  def secti_cisla(seznam_cisla: List):
+    return sum(seznam_cisla)
+
+  def odecti_cisla(seznam_cisla: List):
+    return rozdil(seznam_cisla)
+
+  def nasob_cisla(seznam_cisla: List):
+    return soucin(seznam_cisla)
+
+  def vydel_cisla(seznam_cisla: List):
+    return podil(seznam_cisla)
+
+seznam_vysledku[ ]
+
+
+
+]]></solution>
+  <solution group="normal" student_name="matějka" class="2.A"><![CDATA[from typing import List
+
+def secti(a , b ):
+    součet = a+b
+    return součet
+
+def odecti(a , b ):
+    rozdíl  = a-b
+    return rozdíl
+
+def vynasob(a , b ):
+    součin = a*b
+    return součin
+
+def vydel(a = 0, b = 0):
+    if  b != 0 :
+      dělení = a/b
+    else:
+      dělení = "neidifikováno"
+    return dělení
+
+def suma(seznam: List[int]):
+  hromadna= sum(seznam)
+  return hromadna
+
+číslo3 = list(map(int,input("zadejte seznam čísel v1 : ") .split(",")))
+číslo2 = int(input("zadejte proměnou b: "))
+číslo1 = int(input("zadejte proměnou a: "))
+
+vysledek = suma(seznam = číslo3)
+vysledek = vydel(a=číslo1, b=číslo2)
+vysledek = vynasob(a=číslo1, b=číslo2)
+vysledek = odecti(a=číslo1, b=číslo2)
+vysledek = secti(a=číslo1, b=číslo2)
+print(vysledek)
+
+def secti(a , b ):
+    součet = a+b
+    if not a /1 == a :
+      a = 2
+      součet = a+b
+    elif not b /1 == b:
+        b = 2
+        součet = a+b
+    return součet
+číslo2 = int(input("zadejte proměnou b: "))
+číslo1 = int(input("zadejte proměnou a: "))
+vysledek = secti(a=číslo1, b=číslo2)
+print(vysledek)]]></solution>
+  <solution group="normal" student_name="mudrová" class="2.A"><![CDATA[pamet = None
+
+a = int(input("Zadejte libovolné číslo"))
+b = int(input("Zadejte druhé libovolné číslo"))
+
+def secti(a, b):
+    soucet = a + b
+    return soucet
+
+def odecti(a, b):
+    rozdil = a - b
+    return rozdil
+
+def vynasob(a, b):
+    soucin = a*b
+    return soucin
+
+def vydel(a, b):
+    if b == 0:
+     print(f"nedefinováno")
+    else :
+      podil = a/b
+      return podil
+
+
+
+vysledek_souctu = secti(a, b)
+print(vysledek_souctu)
+
+vysledek_rozdilu = odecti(a, b)
+print(vysledek_rozdilu)
+
+vysledek_soucinu = vynasob(a, b)
+print(vysledek_soucinu)
+
+vysledek_podilu = vydel(a, b)
+print(vysledek_podilu)
+
+
+
+seznam_cisel = (1, 2, 3, 4, 5)
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+def secti(a,b,c,d,e) :
+    soucet = (a+b+c+d+e)
+    return soucet
+hromadny_soucet = secti(a,b,c,d,e)
+print(hromadny_soucet)
+
+
+
+seznam_cisel = (1, 2, 3, 4, 5)
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+def odecti(a,b,c,d,e) :
+    rozdil = (a-b-c-d-e)
+    return rozdil
+hromadny_rozdil = odecti(a,b,c,d,e)
+print(hromadny_rozdil)
+
+
+seznam_cisel = (1, 2, 3, 4, 5)
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+def vynasob(a,b,c,d,e) :
+    soucin = (a*b*c*d*e)
+    return soucin
+hromadny_soucin = vynasob(a,b,c,d,e)
+print(hromadny_soucin)
+
+seznam_cisel = (1, 2, 3, 4, 5)
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+def vydel(a,b,c,d,e) :
+    podil = (a/b/c/d/e)
+    return podil
+hromadny_podil = vydel(a,b,c,d,e)
+print(hromadny_podil)
+
+]]></solution>
+  <solution group="normal" student_name="pernová" class="2.A"><![CDATA[def secti(a, b):
+    soucet = a + b
+    return soucet
+
+cislo1 = float(input("Zadejte číslo"))
+cislo2 = float(input("Zadejte druhé číslo"))
+vysledek = secti(cislo1, cislo2)
+
+print(vysledek)
+def odecti(a, b):
+    rozdil = a - b
+    return rozdil
+
+cislo1 = float(input("Zadejte číslo"))
+cislo2 = float(input("Zadejte další číslo"))
+vysledek = odecti(cislo1, cislo2)
+
+print(vysledek)
+def vynasob(a, b):
+    soucin = a * b
+    return soucin
+
+cislo1 = float(input("Zadej číslo"))
+cislo2 = float(input("Zadej číslo"))
+vysledek = vynasob(cislo1, cislo2)
+
+print(vysledek)
+def vydel(a, b):
+    podil = a / b
+    return podil
+
+cislo1 = float(input("Zadejte číslo"))
+cislo2 = float(input("Zadejte další číslo"))
+vysledek = vydel(cislo1, cislo2)
+
+print(vysledek)
+
+def deleni(a, b):
+    if b ==0:
+       return "nedefinovano"
+    else:
+       podil = a / b
+       return podil
+
+cislo1 = float(input("Zadejte cislo"))
+cislo2 = float(input("Zadejte dalsi cislo"))
+
+vysledek = deleni(cislo1, cislo2)
+print(vysledek)
+
+def deleni(a, b):
+    if b ==0:
+       return "nedefinovano"
+    else:
+       podil = a / b
+       return podil
+
+cislo1 = float(input("Zadejte cislo"))
+cislo2 = float(input("Zadejte dalsi cislo"))
+
+vysledek = deleni(cislo1, cislo2)
+print(vysledek)
+
+def hromadny_soucet(seznam_cisel):
+      print (sum(seznam_cisel))
+hromadny_soucet([56,88,455,11,33])]]></solution>
+  <solution group="normal" student_name="černý" class="2.A"><![CDATA[from typing import List
+
+a = 2
+b = 0
+
+if a == None or b == None
+    print("chybí jedno číslo")
+if a == None and b == None
+    a = int(input("zadej číslo a")) int(input("zadej číslo b"))
+    b = int(input("zadej číslo b"))
+
+def secti(a,b):
+  soucet = a + b
+  return a + b
+
+def odecti(a,b):
+  return a - b
+
+def vynasob(a,b):
+  return a * b
+
+def deleni(a,b):
+  return a / b
+
+
+
+def secti_cisla(seznam_cisel: List[int]) -> int:
+    return sum(seznam_cisel)
+
+def rozdil_cisla(seznam_cisel: List[int]) -> int:
+    return sum(seznam_cisel)
+
+def soucet_cisla(seznam_cisel: List[int]) -> int:
+    return sum(seznam_cisel)
+
+def podil_cisla(seznam_cisel: List[int]) -> int:
+    return sum(seznam_cisel)]]></solution>
+  <solution group="normal" student_name="ženkl" class="2.A"><![CDATA[pamet = None
+a = int(input("zadejte první číslo "))
+b = int(input("zadejte druhé číslo "))
+def scitani(a, b):
+  soucet = a+b
+  return soucet
+
+soucet2 = scitani(a, b)
+print(soucet2)
+
+def odcitani(a, b):
+  rozdil = a-b
+  return rozdil
+
+rozdil2 = odcitani(a, b)
+print(rozdil2)
+
+def nasobeni(a, b):
+  soucin = a*b
+  return soucin
+
+soucin2 = nasobeni(a, b)
+print(soucin2)
+
+def deleni(a, b):
+  if a == 0 or b == 0:
+    print("nedefinovano")
+  else:
+    podil = a/b
+    return podil
+
+podil2 = deleni(a, b)
+print(podil2)
+
+def hromadny_soucet(seznam_cisel):
+  print(sum(seznam_cisel))
+
+hromadny_soucet([2, 5, 6, 9, 7])
+
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Otcova_Valentyna" class="2.C"><![CDATA[cislo = float(input("Zadejte první číslo"))
+cislo = float(input("Zadejte druhé číslo"))
+operace = input("Zadejte operaci (+,-,*,/):")
+
+if operace == '+':
+  vysledek = cislo1 + cislo2
+  print(f"Výsledek: {vysledek}")
+
+elif operace == '-':
+  vysledek = cislo1 - cislo2
+  print(f"Výsledek: {vysledek}")
+
+elif operace == '*':
+  vysledek = cislo1 * cislo2
+  print(f"Výsledek: {vysledek}")
+
+elif operace == '/':
+    if cislo2 != 0:
+     vysledek = cislo1 / cislo2
+     print(f"Výsledek: {vysledek}")
+
+else:
+    print("Nedefinováno.")
+else:
+    print("Nedefinováno.")
+
+if operace == '+':
+  vysledek = 0
+  input(f"Výsledek: {cislo1 + cislo2}")
+
+seznam_cisel = [1,2,3,4],[5,6,7,8]
+if operace == '+':
+   vysledek = [1,2,3,4] + [5,6,7,8]
+     print(f"Výsledek: {vysledek}")
+
+seznam_cisel = [5,6,7,8],[1,2,3,4]
+elif operace == '-':
+  vysledek = [5,6,7,8],[1,2,3,4]
+     print(f"Výsledek: {vysledek}")
+
+elif operace == '*':
+  vysledek = [1,2,3,4],[5,6,7,8]
+   print(f"Výsledek: {vysledek}")
+
+elif operace == '/':
+  vysledek = [4,5,6,9],[1,2,3,4]
+   print(f"Výsledek: {vysledek}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Prosova_Lucie" class="2.C"><![CDATA[cislo1 = float(input("Zadej první číslo: "))
+cislo2 = float(input("Zadej druhé číslo: "))
+operace = input("Zadej operaci (+, -, *, /): ")
+
+if operace == '+':
+    vysledek = cislo1 + cislo2
+    print(f"Výsledek: {vysledek}")
+elif operace == '-':
+    vysledek = cislo1 - cislo2
+    print(f"Výsledek: {vysledek}")
+elif operace == '*':
+    vysledek = cislo1 * cislo2
+    print(f"Výsledek: {vysledek}")
+elif operace == '/':
+    if cislo2 != 0:
+        vysledek = cislo1 / cislo2
+        print(f"Výsledek: {vysledek}")
+    else:
+        print("Nedefinováno.")
+else:
+    print("Nedefinováno.")
+
+
+cisla = [1, 2, 3, 4, 5, 6, 7, 8]
+suma = sum(cisla) print(suma)
+
+
+def hromadne_sticani(a, b):
+  seznam_cisel1 = a
+  seznam_cisel2 = b
+  x = 0
+  y = 0
+  for idx in range(len(a)):
+    x += seznam_cisel1[idx]
+  for idy in range(len(b)):
+    y += seznam_cisel2[idy]
+  c = x + y
+  return c
+
+def hromadne_deleni(a, b)
+  seznam_cisel1 = a
+  seznam_cisel2 = b
+  x = 0
+  y = 0
+  for idx in range(len(a)):
+    x /= seznam_cisel1[idx]
+  for idy in range(len(b)):
+    y /= seznam_cisel2[idy]
+  c = x / y
+  return c
+
+def hromadne_odcitani
+  seznam_cisel1 = a
+  seznam_cisel2= b
+  x = 0
+  y = 0
+  for idx in range(len(a)):
+    x -= seznam_cisel1[idx]
+  for idy in range(len(b)):
+    y -= seznam_cisel2[idy]
+  c = x - y
+  return c
+
+def hromadne_nasobeni
+  seznam_cisel1 = a
+  seznam_cisel2 = b
+  x = 0
+  y = 0
+  for idx in range(len(a)):
+    x *= seznam_cisel1cisla[idx]
+  for idy in range(len(b)):
+    y *= seznam_cisel2[idy]
+  c = x * y
+  return c
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Salaiova_Karolina" class="2.C"><![CDATA[def kalkulacka():
+  vysledek_predtim = 0
+  while true:
+    if vysledek_predtim == 0:
+      neco
+    else:
+      neco vysledek_predtim
+
+
+
+  def scitani(A,B):
+    return A + B
+  def odcitani(A,B):
+    return A - B
+  def nasobeni(A,B):
+    return A * B
+  def deleni(A,B):
+    if B == 0:
+      return "nedefinováno"
+    return A / B
+  def hromada(a,b):
+    a = [1, 2, 3, 1]
+    b = [1 ,1 ,0 ,1]
+    soucet = sum(a) + sum(b)
+
+    operace = {
+    "+": scitani,
+    "-": odcitani,
+    "*": nasobeni,
+    "/": deleni
+}
+
+A = float(input("zadejte číslíčko "))
+B = float(input("ještě jedno "))
+
+
+symbol = input("co s tím cheš dělat? Vyber z (*,/,+,-): ")
+
+ukol = operace[symbol]
+vysledek =ukol(A, B)
+
+print(vysledek)
+
+seznam = []
+seznam.append(vysledek)
+print(seznam)
+
+
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Souckova_Anezka" class="2.C"><![CDATA[def scitani(x, y):
+  return x + y
+def odcitani(x, y):
+  return x - y
+def nasobeni(x, y):
+  return x * y
+def deleni(x, y):
+  return x / y
+
+print("Vyberte operaci:")
+print("a scitani")
+print("b odcitani")
+print("c nasobeni")
+print("d deleni")
+
+choice = input("Vyberte operaci (a/ b/ c/ d): ")
+
+num_1 = int (input ("Zadejte první číslo: "))
+num_2 = int (input ("Zadejte druhý číslo: "))
+
+if choice == 'a':
+   print (num_1, " + ", num_2, " = ", scitani(num_1, num_2))
+
+elif choice == 'b':
+   print (num_1, " - ", num_2, " = ", odcitani(num_1, num_2))
+
+elif choice == 'c':
+   print (num1, " * ", num2, " = ", nasobeni(num1, num2))
+
+elif choice == 'd':
+   print (num_1, " / ", num_2, " = ", deleni(num_1, num_2))
+
+
+if num_1 == 0 or num_2 == 0:
+  print("nedefinovano")
+
+elif not num_1 or num_2:
+
+
+elif not num_1 and not num_2:
+  print(int (input ("Zadejte první číslo: ")) )
+  print(int (input ("Zadejte druhé číslo: ")) )
+
+cisla1 = [25, 46, 2, 46]
+soucet1 = sum(cisla1)
+print(f"Součet všech čísel v seznamu je: {soucet1}")
+cisla2 = [156, 1256, 12, 5]
+soucet2 = sum(cisla2)
+print(f"Součet všech čísel v seznamu je: {soucet2}")
+print(soucet1 + soucet2)
+
+cisla1 = [25, 46, 2, 46]
+odecet1 = reduce(cisla1)
+print(f"Odečet všech čísel v seznamu je: {odecet1}")
+cisla2 = [156, 1256, 12, 5]
+odecet2 = reduce(cisla2)
+print(f"Odecet všech čísel v seznamu je: {odecet2}")
+print(odecet1 - odecet2)
+
+def bonus()]]></solution>
+  <solution group="chatgpt" student_name="Stejskal_Matej" class="2.C"><![CDATA[def menu():
+  print("Výtejte v kalkulačce")
+  print("Zvolte si operaci :")
+  print("1 = sčítání\n""2 = odčítání \n""3 = násobení\n""4 = dělení\n""5 = hromadné sčítání\n""6 = hromadné odčítání\n""7 = hromadné násobení\n""8 = hromadné dělení")
+  operace = int(input())
+  print("první číslo :")
+  x = float(input())
+  print("druhé číslo :")
+  y = float(input())
+
+  if operace == 1:
+    scitani()
+
+  elif operace == 2:
+    odcitani()
+
+  elif operace == 3:
+    nasobeni()
+
+  elif operace == 4:
+    deleni()
+
+  elif operace == 5:
+    hromadnescitani()
+
+  elif operace == 6:
+    hromadneodcitani()
+
+  elif operace == 7:
+    hromadnenasobeni()
+
+  elif operace == 8:
+    hromadnedeleni()
+
+def scitani(x,y):
+  return x + y
+
+def odcitani(x,y):
+  return x - y
+
+def nasobeni(x,y):
+  return x * y
+
+def deleni(x,y):
+  if y != 0:
+    return x / y
+  else:
+    print("nedefinováno")
+
+seznam1 = [9, 5, 7 ,6 ,3]
+seznam2 = [5, 35, 9, 6, 8]
+
+def hromadnescitani(seznam1,seznam2):
+  return sum(seznam1) + sum(seznam2)
+
+def hromadneodcitani(seznam1,seznam2):
+  return sum(seznam1) - sum(seznam2)
+
+def hromadnenasobeni(seznam1, seznam2):
+  return sum(seznam1) * sum(seznam2)
+
+def hromadnedeleni(seznam1,seznam2):
+  if sum(seznam2) != 0:
+    return sum(seznam1) / sum(seznam2)
+  else:
+    print("nedefinováno")
+
+menu()]]></solution>
+  <solution group="chatgpt" student_name="Surovska_Simona" class="2.C"><![CDATA[vlaky = ['R606 - Krušnohor', 'R23', 'EC117 - Silesia', 'RJ70 - Vindobona']
+stanice = ['Praha - Hlavní nádraží', 'Litoměřice', 'Berlin', 'Vídeň']
+odjezdy = ['8:30', '9:12', '10:01', '10:55']
+
+def cestujici ():
+    jmeno = input ("zadejte své jméno:")
+    return jmeno
+
+def cil (stanice, jmeno):
+  print(f"Dobrý den {jmeno}, kam byste si přál jet?")
+  print("Zde je seznam možných cílových stanic:" , ",".join(stanice))
+  while True:
+    vyber = input ("Zadejte název destinace:")
+    if vyber in stanice:
+      return vyber
+    else:
+      print ("Tam nejedeme, sorry🤷‍♀️")
+
+def vlak (stanice, vlaky, seznam_destinaci):
+  index = stanice.index(stanice)
+  return vlaky[index]
+
+def nadrazi (jmeno, vlak, cil, odjezdy, seznam_destinaci):
+  index = seznam_destinaci.index(stanice)
+  cas = odjezdy.index
+  print(f"Vítáme Vás {jmeno} ve vlaku {vlak} jedoucí do {stanice} , pravidelny odjezd v {cas}")
+
+def sedadla ():
+  print("Vyberte typ sedadla")
+  print("1: okno")
+  print("2: ulička")
+  print("3: tichý vůz")
+  print("4: 1.třída")
+  print("5: jídelní vůz ")
+  while True:
+   typ = input("Zadejte číslo volby")
+   if typ in [1,2,3,4,5]:
+     return "okno" if typ == '1' else "ulička" if typ == '2' else "tichý vůz" if typ == '3' else "1.třída" if typ == '4' else "jídelní vůz"
+   else:
+    print("To tu nevedeme 🙃")
+
+def main():
+  jmeno = cestujici ()
+  destinace = cil(stanice, jmeno)
+  vybranyvlak = vlak(vlaky, stanice, cil)
+  nadrazi(jmeno, vybranyvlak, cil, odjezdy, seznam_destinaci)
+  sedadlo = sedadla()
+  print(f" Vaše sedadlo: {sedadlo}")
+
+  if  __name__ == "__main__":
+    main()]]></solution>
+  <solution group="chatgpt" student_name="Szilagyiová_Adela" class="2.C"><![CDATA[def scitani(x,y):
+  return x + y
+def odcitani(x,y):
+  return x - y
+def nasobeni(x,y):
+  return x * y
+def deleni(x,y):
+  if y == 0:
+    return "nedefinováno"
+  return x / y
+def hromadny_soucet(x,y):
+  x = [1,2,3,60]
+
+  y = [6,5,4,20]
+
+  soucet = sum(x) + sum(y)
+  print(soucet)
+hromadny_soucet(x,y)
+
+def hromadny_rozdil(x):
+  x = [4,47,51]
+  for i in x:
+    index = x()
+    rozdil = x(0)
+
+
+def chybi(x,y)
+if x or y == None:
+  return]]></solution>
+  <solution group="chatgpt" student_name="Tocina_Tobias" class="2.C"><![CDATA[from os import replace
+#čísla
+a = 1
+b = 3
+#sčítání
+def sčítání(a, b):
+  return a + b
+
+#odčítaní
+def odčítaní(a, b):
+  return a - b
+
+#dělení
+def dělení(a, b):
+  return a / b
+
+#násobení
+def násobení(a, b):
+  return a * b
+
+#operace
+print("vyberte operaci")
+print("1.sčítání")
+print("2.odčítání")
+print("3.dělení")
+print("4.násobení")
+
+while True:
+  operace = input("zadejte operaci (1, 2, 3, 4): ")
+  num1 = float(input("zadej první číslo: "))
+  num2 = float(input("zadej druhé čislo: "))
+
+  if operace == "1":
+   print(sčítání(num1, num2))
+  elif operace == "2":
+   print(odčítaní(num1, num2))
+  elif operace == "3":
+   if num2 == 0:
+      print("nedefinováno")
+   else:
+        print(dělení(num1, num2))
+  elif operace == "4":
+    print(násobení(num1, num2))
+  else:
+    print("špatnej input")
+
+]]></solution>
+  <solution group="chatgpt" student_name="Vandrovec_Lukas" class="2.C"><![CDATA[def scitani(cislo_1, cislo_2):
+  return cislo_1 + cislo_2
+def odcitani(cislo_1, cislo_2):
+  return cislo_1 - cislo_2
+def nasobeni(cislo_1, cislo_2):
+  return cislo_1 ** cislo_2
+def deleni(cislo_1, cislo_2):
+  if cislo_2 == 0:
+    print("S touto číselnou hodnotou nelze počítat")
+  else:
+    return cislo_1 / cislo_2
+
+
+
+print("Vyber operaci.")
+print("1.Sčítání")
+print("2.Odčítání")
+print("3.Násobení")
+print("4.Dělení")
+
+while True:
+    vyber = input("Zadejte možnost(1/2/3/4): ")
+
+
+    if vyber in ('1', '2', '3', '4'):
+        try:
+            cislo_1 = float(input("Zadejte první číslo: "))
+            cislo_2 = float(input("Zadejte druhé číslo: "))
+        except ValueError:
+            print("Nesprávná hodnota.")
+            continue
+
+        if vyber == '1':
+            print(cislo_1, "+", cislo_2, "=", scitani(cislo_1, cislo_2))
+
+        elif vyber == '2':
+            print(cislo_1, "-", cislo_2, "=", odcitani(cislo_1, cislo_2))
+
+        elif vyber == '3':
+            print(cislo_1, "*", cislo_2, "=", nasobeni(cislo_1, cislo_2))
+
+        elif vyber == '4':
+            print(cislo_1, "/", cislo_2, "=", deleni(cislo_1, cislo_2))
+
+
+
+
+
+
+
+
+scitani_2([1,2,3,4], [5,4,3,1])]]></solution>
+  <solution group="chatgpt" student_name="Voborilova_Viktorie_Vilemina" class="2.C"><![CDATA[listx = []
+listy = []
+listvysledky = []
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    return x / y
+
+print("Vyberte z operací:")
+print("a = Sčítání")
+print("b = odečítání")
+print("c = násobení")
+print("d = dělení")
+while True:
+  x = float(input("Zadejte první  CELÉ číslo: "))
+  y = float(input("Zadejte druhé CELÉ číslo: "))
+  operace = input("Zadejte operaci, kterou chcete provést(a/b/c/d): ").lower()
+
+  if operace == "a":
+   print(x, "+", y, "=",
+                    add(x, y))
+   listvysledky.append(add(x, y))
+
+  elif operace == "b":
+    print(x, "-", y, "=",
+                    subtract(x, y))
+    listvysledky.append(subtract(x, y))
+  elif operace == "c":
+    print(x, "*", y, "=",
+                    multiply(x, y))
+    listvysledky.append(multiply(x, y))
+  elif operace == "d":
+    if y == 0:
+      print("nedefinováno")
+    else:
+      print(x, "/", y, "=",
+                    divide(x, y))
+      listvysledky.append(divide(x, y))
+  else:
+    print("špatná hodnota")
+print(listvysledky)]]></solution>
+  <solution group="chatgpt" student_name="Wangle_Samuel_Clarence" class="2.C"><![CDATA[cislo1=float(input("Zadej první číslo:"))
+operace=str(input("Jakou chceš použít operaci: +,-,*,/"))
+cislo2=float(input("Zadej druhé číslo:"))
+if operace=="+":
+  výsledek= cislo1+cislo2
+  print(f"{výsledek}")
+
+
+
+def scitani(cislo1, cislo2):
+  return cislo1+cislo2
+def odcitani(cislo1, cislo2):
+  return cislo1-cislo2
+  def nasobeni(cislo1, cislo2):
+    return cislo1+cislo2
+def deleni(cislo1, cislo2):
+  if cislo2==0:
+    print("nedefinovano")
+  else:
+    return cislo1/cislo2
+
+seznam1=[1,5,2,8]
+seznam2=[3,6,7,9]
+def sezscitani(seznam1,seznam2):
+    return sum(seznam1)+sum(seznam2)
+
+
+
+
+
+
+
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Wogurkova_Anna" class="2.C"><![CDATA[ def kalkulacka():
+   cislo1 = float(input("Zadejte prvni cislo: "))
+   operator = input("Zadejte znamenko(+, -, *, /): ")
+   cislo2 = float(input("Zadejte druhe cislo: "))
+
+   if operator == '+':
+    vysledek = cislo1 + cislo2
+   elif operator == '-':
+    vysledek = cislo1 - cislo2
+   elif operator == '*':
+    vysledek = cislo1 * cislo2
+   elif operator == '/':
+      if cislo2 != 0:
+       vysledek = cislo1 / cislo2
+
+      else:
+       return "neplatny operator"
+   else:
+      return "nelze delit nulou"
+
+return f"vysledek:" {cislo1} {operator} {cislo2} = {vysledek}
+print(kalkulacka())
+
+
+def scitani(x, y):
+    return x + y
+
+def odcitani(x, y):
+    return x - y
+
+def nasobeni(x, y):
+    return x * y
+
+def deleni(x, y):
+  if y != 0:
+   return("nedefinovano")
+  return x / y
+
+
+print("vyberte operaci")
+print("1.scitani")
+print("2.odcitani")
+print("3.nasobeni")
+print("4.deleni")
+
+while True:
+    choice = input("vyberte(1/2/3/4): ")
+
+    if choice in ('1', '2', '3', '4'):
+        try:
+            num1 = float(input("zadejte prvni cislo: "))
+            num2 = float(input("zadejte druhe cislo: "))
+        except ValueError:
+            print("neplatne. zadejte cislo")
+            continue
+
+        if choice == '1':
+            print(num1, "+", num2, "=", add(num1, num2))
+
+        elif choice == '2':
+            print(num1, "-", num2, "=", subtract(num1, num2))
+
+        elif choice == '3':
+            print(num1, "*", num2, "=", multiply(num1, num2))
+
+        elif choice == '4':
+            print(num1, "/", num2, "=", divide(num1, num2))
+            if num2 == 0:
+              print("nedefinovano")
+
+next_calculation = input("Let's do next calculation? (yes/no): ")
+if next_calculation == "no":
+          break
+
+else:
+        print("Invalid Input")
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Bitrich_Adam_Jeremias" class="6.S"><![CDATA[def scitani():
+  c = a + b
+  print("scitani")
+  print(c)
+
+def odcitani():
+  c = a - b
+  print("odcitani")
+  print(c)
+
+def deleni():
+  if b == 0 :
+    print("nedefinováno")
+  else:
+    c = a / b
+    print("deleni")
+    print(c)
+
+def nasobeni():
+  c = a * b
+  print("nasobeni")
+  print(c)
+
+while True:
+
+  a = str(input("zadej cislo "))
+  b = str(input("zadej cislo (pro ukonceni zadej 000)"))
+  if a == 000:
+    break
+  if b == 000:
+    break
+  if a != float:
+    print("to není číslo")
+    continue5
+  if b != float:
+    print("to není číslo")
+    continue
+
+
+  scitani()
+  nasobeni()
+  odcitani()
+  deleni()]]></solution>
+  <solution group="chatgpt" student_name="Horakova_Nela" class="6.S"><![CDATA[x = float(input("Zadejte první číslo: "))
+y = float(input("Zadejte druhé číslo: "))
+
+def scitani(x,y):
+  vysledek1 = x + y
+  print(vysledek1)
+
+def odcitani(x,y):
+  vysledek2 = x - y
+  print(vysledek2)
+
+def nasobeni(x,y):
+  vysledek3 = x * y
+  print(vysledek3)
+
+def deleni(x,y):
+  vysledek4 = x / y
+  if y == 0:
+    print("Nedefinováno.")
+  else:
+    print(vysledek4)
+
+def hromadny_soucet(seznam):
+  seznam = [5, 7, 30, 15, 16, 8, 22]
+  vysledek6 = sum.seznam
+  print(vysledek6)
+
+print("Vyberte operaci:")
+print("1. sčítání")
+print("2. odčítání")
+print("3. násobení")
+print("4. dělení")
+print("5. skončit")
+print("6. součet vícero čísel")
+
+while True:
+  vyber = input("Vyberte 1/2/3/4/5/6:")
+
+  if vyber in ("1", "2", "3", "4", "5", "6") and vyber == 1:
+    def scitani(x,y):
+     vysledek1 = x + y
+    print(vysledek1)
+    continue
+
+  elif vyber in ("1", "2", "3", "4" "5", "6"):
+    def odcitani(x,y):
+      vysledek2 = x - y
+    print(vysledek2)
+    continue
+
+  elif vyber in ("1", "2", "3", "4" "5", "6"):
+    def scitani(x,y):
+     vysledek3 = x * y
+     print(vysledek3)
+    continue
+
+  elif vyber in ("1", "2", "3", "4" "5", "6"):
+     def scitani(x,y):
+      vysledek4 = x / y
+      print(vysledek4)
+     continue
+
+  elif vyber in ("1", "2", "3", "4" "5", "6"):
+    if vyber == 5:
+      break
+
+  elif vyber in ("1", "2", "3", "4" "5", "6"):
+      print(hromadny_soucet)
+
+  else:
+    print("Nesprávně zadaná hodnota.")]]></solution>
+  <solution group="chatgpt" student_name="Jilek_Jakub" class="6.S"><![CDATA[vysledky = []
+
+def plus(a,b):
+  return(a+b)
+
+def minus(a,b):
+  return(a-b)
+
+def krat(a,b):
+  return(a*b)
+
+def deleno(a,b):
+  return(a/b)
+
+while(True):
+  cislo1 = eval(input("zadejte první číslo:"))
+  cislo2 = eval(input("zadejte druhé číslo:"))
+
+  print("")
+  print("zvolte si pomocí čísla operaci")
+  print("")
+  print("1. sčítání")
+  print("2. odčítání")
+  print("3. násobení")
+  print("4. dělení")
+  print("6. turbo sčítání")
+  print("7. turbo odčítání")
+  print("8. turbo násobení")
+  print("9. turbo dělení")
+  print("10. ukončení a případné vypsání výsledků")
+
+  while(True):
+    volba = int(input("napište číslo operace:"))
+    if volba in (1,2,3,4,5,6,7,8,9,10):
+
+      if volba == 1:
+        print("výsledek: ",cislo1, "+" ,cislo2, "=" ,plus(cislo1, cislo2))
+        vysledek = cislo1 + cislo2
+        vysledky.append(vysledek)
+
+      if volba == 2:
+        print("výsledek" ,cislo1, "-" ,cislo2, "=" ,minus(cislo1, cislo2))
+        vysledek = cislo1 + cislo2
+        vysledky.append(vysledek)
+
+      if volba == 3:
+        print("výsledek" ,cislo1, "x" ,cislo2, "=" ,krat(cislo1, cislo2))
+        vysledek = cislo1 + cislo2
+        vysledky.append(vysledek)
+
+      if volba == 4:
+        if cislo2 == 0:
+          print("nedefinováno, nelze dělit nulou")
+        else:
+          print("výsledek" ,cislo1, "/" ,cislo2, "=" ,deleno(cislo1, cislo2))
+          vysledek = cislo1 + cislo2
+          vysledky.append(vysledek)
+
+    if volba == 10:
+      print("rozumím, ukončuji")
+      print(vysledky)
+      break
+
+]]></solution>
+  <solution group="chatgpt" student_name="Kuhnova_Karolina" class="6.S"><![CDATA[a=float(input("Zadej číslo: "))
+b=float(input("Zadej další číslo: "))
+def funkce(a, b):
+  return a + b
+funkce(a, b)
+a=float(input("Zadej číslo: "))
+b=float(input("Zadej další číslo: "))
+def funkce(a, b):
+  return a - b
+funkce(a, b)
+a=float(input("Zadej číslo: "))
+b=float(input("Zadej další číslo: "))
+def funkce(a, b):
+  return a * b
+funkce(a, b)
+a=float(input("Zadej číslo: "))
+b=float(input("Zadej další číslo: "))
+def funkce(a, b):
+  return a / b
+funkce(a, b)
+
+a=float(input("Zadej číslo: "))
+b=float(input("Zadej další číslo: "))
+def funkce(a, b):
+  if b==0:
+   print("jste tupci, to jste zadávat neměli")
+  else:
+   return a / b
+funkce(a, b)]]></solution>
+  <solution group="chatgpt" student_name="Lacinova_Viktorie" class="6.S">def scitani():
+    cislo1 = int(input("zadejte libovolne cislo"))
+    cislo2 = int(input("zadejte libovolne cislo"))
+    vysledeks = cislo1 + cislo2
+    print (f"vysledek scitani je {vysledeks}")
+def odcitani():
+    cislo1 = int(input("zadejte libovolne cislo"))
+    cislo2 = int(input("zadejte libovolne cislo"))
+    vysledeko = cislo1 - cislo2
+    print(f"vysledek odcitani je {vysledeko}")
+def nasobeni():
+    cislo1 = int(input("zadejte libovolne cislo"))
+    cislo2 = int(input("zadejte libovolne cislo"))
+    vysledekn = cislo1 * cislo2
+    print(f"vysledek nasobeni je {vysledekn}")
+def deleni():
+    cislo1 = int(input("zadejte libovolne cislo"))
+    cislo2 = int(input("zadejte libovolne cislo"))
+    if cislo2 == 0:
+        print ("nedefinovano")
+    else:
+        vysledekd = cislo1 / cislo2
+        print(f"vysledek deleni je {vysledekd}")
+def hromadnysoucet():
+   for i in range(1, 100):
+    seznamcisel = []
+    seznamcisel.append(int(input("zadejte cislo do seznamu")))
+    return sum(seznamcisel)
+hromadnysoucet()
+
+
+
+
+
+
+
+
+
+
+</solution>
+  <solution group="chatgpt" student_name="Polakova_Eliska" class="6.S"><![CDATA[x = float(input("zadejte prvni cislo"))
+y = float(input("zadejte druhe cislo"))
+
+
+def scitani(x, y):
+    vysledek = x + y
+    print(vysledek)
+def odcitani(x, y):
+    vysledek = x - y
+    print(vysledek)
+def nasobeni(x, y):
+  vysledek = x / y
+  print("vysledek")
+def deleni(x, y):
+  vysledek = x * y
+  if y == 0:
+    print("neni definovano")
+  else:
+    print("vysledek")
+
+print("vybrat operaci")
+print("1.scitani")
+print("2.odcitani")
+print("3.nasobeni")
+print("4.deleni")
+
+while True:
+
+    vyber = input("vlozit vyber(1/2/3/4): ")
+
+
+    if vyber in ('1', '2', '3', '4'):
+        try:
+            num1 = float(input("vlozit prvni cislo: "))
+            num2 = float(input("vlozit druhe cislo: "))
+        except ValueError:
+            print("nevalidni vlozeni. vyberte cislo.")
+            continue
+
+        if vyber == '1':
+            print(num1, "+", num2, "=", secti(num1, num2))
+
+        elif vyber == '2':
+            print(num1, "-", num2, "=", odecti(num1, num2))
+        elif vyber == '3':
+            print(num1, "*", num2, "=", vynasob(num1, num2))
+
+        elif vyber == '4':
+            print(num1, "/", num2, "=", vydel(num1, num2))
+
+
+        dale_pocitat = input("chcete dale pocitat? (ano/ne): ")
+        if dale_pocitat == "ne":
+          break
+    else:
+        print("nevalidni vlozeni")]]></solution>
+  <solution group="chatgpt" student_name="Sifalda_Josef" class="6.S">vysledek = 0
+prvni = 0
+kolekce_vysledek = []
+def soucet(a, b):
+    """
+    Funkce přijme dvě čísla a následně provede jejich součet
+    a (float): první číslo
+    b (float): druhé číslo
+    Vypíše hodnotu součtu
+    """
+    global vysledek
+
+    while a == "" and b == "":
+        a = input("Zadejte číslo a: ")
+        b = input("Zadejte číslo b: ")
+    if b == "":
+        b = vysledek
+    elif a == "":
+        a = vysledek
+
+
+    vysledek = float(a) + float(b)
+    print(vysledek)
+    kolekce_vysledek.append(vysledek)
+
+def rozdil(a, b):
+    """
+    Funkce přijme dvě čísla a následně provede jejich rozdíl
+    a (float): první zadané číslo
+    b (float): druhé zadané číslo
+    Funkce vypíše jejich rozdíl
+    """
+    global vysledek
+    while a == "" and b == "":
+        a = input("Zadejte číslo a: ")
+        b = input("Zadejte číslo b: ")
+    if b == "":
+        b = vysledek
+    elif a == "":
+        a = vysledek
+
+
+    vysledek = float(a) - float(b)
+
+    print(vysledek)
+    kolekce_vysledek.append(vysledek)
+
+def soucin(a, b):
+    """
+    Funkce přijme 2 čísla a následně vypočítá jejich součin
+    a (float): první zadané číslo
+    b (float): druhé zadané číslo
+    Funkce vypíše hodnotu jejich součinu
+    """
+    global vysledek
+    while a == "" and b == "":
+        a = input("Zadejte číslo a: ")
+        b = input("Zadejte číslo b: ")
+    if b == "":
+        b = vysledek
+    elif a == "":
+        a = vysledek
+
+    vysledek = float(a) * float(b)
+
+    print(vysledek)
+    kolekce_vysledek.append(vysledek)
+
+def podil(a, b):
+    """
+    Funkce přijme 2 čísla a následně vypočítá jejich podíl
+    a (float): první zadané číslo
+    b (float): druhé zadané číslo
+    Funkce vypíše hodnotu jejich podílu
+    """
+    global vysledek
+    while a == "" and b == "":
+        a = input("Zadejte číslo a: ")
+        b = input("Zadejte číslo b: ")
+    if b == "":
+        b = vysledek
+    elif a == "":
+        a = vysledek
+
+
+
+    if b == 0:
+        print("Nedefinováno")
+
+
+    else:
+        vysledek = float(a) / float(b)
+        print(vysledek)
+        kolekce_vysledek.append(vysledek)
+
+def hromadny_soucet(seznam):
+    """
+    Funkce přijme kolekci a následně provede součet všech prvků kolekce
+    kolekce (float): zadaná kolekce čísel oddělených ,
+    Funkce vypíše hodnotu součtu všech hodnot
+    """
+    global vysledek
+    vysledek = 0
+    vysledek = sum(kolekce)
+    print(vysledek)
+    kolekce_vysledek.append(vysledek)
+
+def hromadny_podil(seznam):
+    """
+    Funkce přijme seznam čísel a provede jejich podíl
+    kolekce (float):  zadaná kolekce čísel oddělených ,
+    Funkce vypíše jejich podíl
+    """
+    global vysledek
+    prvni = kolekce[0]
+    vysledek = prvni / kolekce[1]
+    for i in range(len(kolekce)):
+        if i &gt; 1:
+            vysledek /= kolekce[i]
+    print(vysledek)
+    kolekce_vysledek.append(vysledek)
+
+def hromadny_soucin(seznam):
+    """
+    Funkce přijme seznam čísel a následně provede jejich součin
+    kolekce (float): zadaná kolekce čísel oddělených ,
+    Funkce vypíše jejich součin
+    """
+    global vysledek
+    vysledek = 1
+    for i in range(len(kolekce)):
+        vysledek *= kolekce[i]
+    print(vysledek)
+    kolekce_vysledek.append(vysledek)
+
+def hromadny_rozdil(seznam):
+    """
+    Funkce přijme seznam čísel a následně provede jejich rozdíl
+    kolekce (float):  zadaná kolekce čísel oddělených ,
+    Funkce vypíše rozdíl všech prvků kolekce
+    """
+    global vysledek
+    prvni = kolekce[0]
+    vysledek = prvni - kolekce[1]
+
+    for i in range(len(kolekce)):
+        if i &gt; 1:
+            vysledek -= kolekce[i]
+
+    print(vysledek)
+    kolekce_vysledek.append(vysledek)
+
+while True:
+    otazka = input("Co chcete počítat? ")
+    if otazka == "konec":
+        print(kolekce_vysledek)
+        break
+
+    if otazka == "hromadný součet":
+        kolekce = list(map(float, input("Zadejte čísla: ").split(", ")))
+        hromadny_soucet(kolekce)
+
+    elif otazka == "hromadný rozdíl":
+        kolekce = list(map(float, input("Zadejte čísla: ").split(", ")))
+        hromadny_rozdil(kolekce)
+
+    elif otazka == "hromadný součin":
+        kolekce = list(map(float, input("Zadejte čísla: ").split(", ")))
+        hromadny_soucin(kolekce)
+
+    elif otazka == "hromadný podíl":
+        kolekce = list(map(float, input("Zadejte čísla: ").split(", ")))
+        hromadny_podil(kolekce)
+    else:
+        a = input("Zadejte číslo a: ")
+        b = input("Zadejte číslo b: ")
+
+
+    if otazka == "součet":
+        soucet(a, b)
+    elif otazka == "součin":
+        soucin(a, b)
+    elif otazka == "rozdíl":
+        rozdil(a, b)
+    elif otazka == "podíl":
+        podil(a, b)
+
+
+
+    </solution>
+  <solution group="chatgpt" student_name="Stojanov_Stepan" class="6.S"><![CDATA[def soucet():
+  a = float(input("zadej první číslo:"))
+  b = float(input("zadej první číslo:"))
+  c = a + b
+  print(f"vysledek sčítání je: {c}" )
+def odcitani():
+  a = float(input("zadej první číslo:"))
+  b = float(input("co od něj chceš odečíst?:"))
+  c = a - b
+  print(f"výsledek odčítání je: {c}")
+def nasobeni():
+  a = float(input("zadej první číslo:"))
+  b = float(input("zadej druhé číslo:"))
+  c = a * b
+  print(f"výsledek násobení je: {c}")
+def deleni():
+  a = float(input("zadej čitatele:"))
+  b = float(input("zadej jmenovatele:"))
+  if b == 0:
+    print("jsi kokot, dělení nulou nejde kryple")
+  else: c = a / b
+  print(f"vysledek dělení je:{c}")
+while True:
+  operace = input("zadej matematickou operaci, kterou chceš použít(součet, odčítání, násobení, dělení), nebo napiš off a ukonči kalkulačku: ")
+  if operace == "součet":
+    soucet()
+  elif operace == "odčítání":
+    odcitani()
+  elif operace == "násobení":
+    nasobeni()
+  elif operace == "dělení":
+    deleni()
+  elif operace == "off":
+    break
+
+]]></solution>
+  <solution group="chatgpt" student_name="Trnkova_Rozalie" class="6.S"><![CDATA[x = float(input("zadejte prvni cislo"))
+y = float(input("zadejte druhe cislo"))
+
+
+def scitani(x, y):
+  vysledek = x + y
+  print(vysledek)
+def odcitani(x, y):
+  vysledek = x - y
+  print(vysledek)
+def nasobeni(x, y):
+  vysledek = x * y
+  print(vysledek)
+def deleni(x, y):
+  vysledek = x / y
+  if y == 0:
+    print("neni definovano")
+  else:
+    print(vysledek)
+
+print("vyber operaci")
+print("1.scitani")
+print("2.odcitani")
+print("3.nasobeni")
+print("4.deleni")
+
+while True:
+    choice = input("vyber (1/2/3/4):"),
+
+    if choice in ('1', '2', '3', '4'):
+        try:
+            num1 = float(input("zadej prvni cislo: "))
+            num2 = float(input("zadej druhe cislo: "))
+        except ValueError:
+            print("nevalidni vlozeni, vlozte cislo")
+            continue
+
+        if choice == '1':
+            print(num1, "+", num2, "=", add(num1, num2))
+
+        elif choice == '2':
+            print(num1, "-", num2, "=", subtract(num1, num2))
+
+        elif choice == '3':
+            print(num1, "*", num2, "=", multiply(num1, num2))
+
+        elif choice == '4':
+            print(num1, "/", num2, "=", divide(num1, num2))
+
+        next_calculation = input("chcete dale pocitat? (ano/ne): ")
+        if next_calculation == "ne":
+          break
+    else:
+        print("nevalidni vlozeni")]]></solution>
+  <solution group="chatgpt" student_name="Vokal_Jakub" class="6.S"><![CDATA[def scitani():
+  print("Sčítání")
+  a = float(input("Zadej číslo a: "))
+  b = float(input("Zadej číslo b: "))
+  c = a + b
+  print(f"Výsledek sčítání a + b je:{c}")
+
+
+def odecitani():
+  print("Odečítání")
+  a = float(input("Zadej číslo a: "))
+  b = float(input("Zadej číslo b: "))
+  c = a - b
+  print(f"Výsledek odečítání a - b je:{c}")
+
+
+def nasobeni():
+  print("Násobení")
+  a = float(input("Zadej číslo a: "))
+  b = float(input("Zadej číslo b: "))
+  c = a * b
+  print(f"Výsledek násobení a * b je:{c}")
+
+
+def deleni():
+  print("Dělení")
+  a = float(input("Zadej číslo a: "))
+  b = float(input("Zadej číslo b: "))
+  if b == 0:
+    print("Nedefinováno")
+  else:
+    c = a / b
+    print(f"Výsledek dělení a / b je:{c}")
+
+
+def h_soucet():
+  seznam = [10, 25, 8, 13, 34]
+  c = sum(seznam)
+  print(f"Hromadný součet je: {c}")
+
+def h_odecitani():
+  pass
+
+def h_nasobeni():
+  pass
+
+def h_deleni():
+  pass
+
+
+while 1:
+  funkce = input("Zadej funkci(scitani, odcitani, nasobeni, deleni, h_soucet nebo off): ")
+
+  if funkce == "scitani":
+    scitani()
+  elif funkce == "odecitani":
+    odecitani()
+  elif funkce == "nasobeni":
+    nasobeni()
+  elif funkce == "deleni":
+    deleni()
+  elif funkce == "h_soucet":
+    h_soucet()
+  elif funkce == "off":
+    break
+  else:
+    print("Zadal jsi špatnou funkci!")
+
+]]></solution>
+  <solution group="chatgpt" student_name="Zamecnik_Petr" class="6.S"><![CDATA[def kalkulacka():
+  operace = input("zadej znaménko operace které chceš provádět: ")
+  if operace == "+" :
+    scitani()
+  elif operace == "-" :
+    odcitani()
+  elif operace == "*" :
+    nasobeni()
+  elif operace == "/" :
+    deleni()
+  elif operace == "sum" :
+    hromadnysoucet()
+  else:
+    print("nedefinováno")
+
+def scitani():
+  cislo1 = float(input("zadej první číslo: "))
+  cislo2 = float(input("zadej druhý číslo: "))
+  vysledek1 = cislo1 + cislo2
+  print(vysledek1)
+
+def odcitani():
+  cislo10 = float(input("zadej první číslo: "))
+  cislo20 = float(input("zadej druhý číslo: "))
+  vysledek10 = cislo10 - cislo20
+  print(vysledek10)
+
+def nasobeni():
+  cislo11 = float(input("zadej první číslo: "))
+  cislo21 = float(input("zadej druhý číslo: "))
+  vysledek11 = cislo11 * cislo21
+  print(vysledek11)
+
+def deleni():
+  cislo12 = float(input("zadej první číslo: "))
+  cislo22 = float(input("zadej druhý číslo: "))
+  if cislo12 == 0 or cislo22 == 0:
+    print("nedefinováno")
+  else:
+    vysledek12 = cislo12 / cislo22
+    print(vysledek12)
+
+def hromadnysoucet():
+  seznam = [10, 20, 30, 40, 50]
+  vysledek = sum(seznam)
+  print(vysledek)
+
+kalkulacka()]]></solution>
+  <solution group="normal" student_name="bernadin" class="6.S">def secti(a=None, b=None):
+    if a is None:
+        a = previous_result
+    if b is None:
+        b = float(input("Zadejte druhé číslo: "))
+    result = a + b
+    results.append(result)
+    return result
+
+def odecti(a=None, b=None):
+    if a is None:
+        a = previous_result
+    if b is None:
+        b = float(input("Zadejte druhé číslo: "))
+    result = a - b
+    results.append(result)
+    return result
+
+def vynasob(a=None, b=None):
+    if a is None:
+        a = previous_result
+    if b is None:
+        b = float(input("Zadejte druhé číslo:"))
+    result = a * b
+    results.append(result)
+    return result
+
+def vydel(a=None, b=None):
+    if a is None:
+        a = previous_result
+    if b is None:
+        b = float(input("Zadejte druhé číslo: "))
+    if b == 0:
+        return "nedefinováno"
+    result = a / b
+    results.append(result)
+    return result
+
+def hromady_soucet(numbers):
+    result = sum(numbers)
+    results.append(result)
+    return result
+
+def hromadne_nasobeni(numbers):
+    result = 1
+    for num in numbers:
+        result *= num
+    results.append(result)
+    return result
+
+def hromadny_odecitani(numbers):
+    result =
+
+
+
+
+
+
+
+
+
+
+</solution>
+  <solution group="normal" student_name="latislav" class="6.S"><![CDATA[from typing import AnyStr
+def soucet(a, b):
+    return a + b
+
+def rozdil(a,b):
+    return a - b
+
+def soucin(a, b):
+    return a * b
+
+def podil(a, b): if b!=0:
+    return a / b
+    if b==0:
+        print("nedefinováno")
+
+
+print(soucet(a=5, b=3))
+print(rozdil(a=5, b=3))
+print(soucin(a=5, b=3))
+print(podil(a=5, b=3))
+
+#6):
+if a ==none:
+    a=ans
+    ans=predchozi_vysledek
+elif b ==none:
+    b=ans
+    ans=predchozi_vysledek
+
+#7):
+if a and b==none:
+    input("Zadej obě čísla a nedělej mi problémy s kodováním, nefunguje mi to dik<3: ")
+
+#8):
+hromadny_soucet=[soucet+rozdil+soucin+podil]
+print(hromadny_soucet)
+
+#9):
+hromadny_soucet1=[soucet-rozdil-soucin-podil]
+print(hromadny_soucet)
+
+hromadny_soucet2=[soucet*rozdil*soucin*podil]
+print(hromadny_soucet)
+
+hromadny_soucet3=[soucet/rozdil/soucin/podil]
+print(hromadny_soucet)
+
+
+#10):
+seznam_hromadnych_vysledku=[hromadny_soucet+hromadny_soucet1+hromadny_soucet2+hromadny_soucet3]
+print(seznam_hromadnych_vysledku)
+
+
+
+
+
+
+
+
+
+
+
+bonus_lol_idk:
+def calc(a, b):
+ä=input("Chces sčítat, odčítat, násobit, dělit?: ")
+if a==sčítat:
+    b= input("Napiš sem první číslo: ")
+    c= input("Napiš sem druhé číslo: ")
+    b+c
+    elif a==odčítat:
+    b= input("Napiš sem první číslo: ")
+    c= input("Napiš sem druhé číslo: ")
+    b-c
+    elif a==násobit:
+    b= input("Napiš sem první číslo: ")
+    c= input("Napiš sem druhé číslo: ")
+    b*c
+    elif a==dělit:
+    b= input("Napiš sem první číslo: ")
+    c= input("Napiš sem druhé číslo: ")
+    b/c
+    else:
+        print("Máš na výběr ze čtyř možností, proč jsi napsal hloupost????????????")
+
+
+def soucet(a, b): return a + b
+
+def ro
+
+print(soucet(a=5, b=3))]]></solution>
+</Task>
+    <Task id="2projekt">
+  <solution group="chatgpt" student_name="Bolom_Benjamin_Oliver" class="2.A"><![CDATA[import random
+
+vlaky = ["R606 - Krušnohor","R23","EC117 - Silesia","RJ70 - Vindobona"]
+cilove_stanice = ["Praha - Hlavní nádraží","Litoměřice","Berlin","Vídeň"]
+
+def jmeno():
+  jmeno_cestujiciho = input("Vaše jméno: ")
+  return jmeno_cestujiciho
+
+def vyber_cilove_stanice(cilove_stanice, jmeno_cestujiciho, vlaky):
+  print(f"Dobrý den {jmeno_cestujiciho}, kam byste si přál jet?")
+  print(f"Zde je seznam možných cílových stanic:")
+  print(cilove_stanice)
+  destinace = input("vyberte ze seznamu cílovou stanici: ")
+  return cilove_stanice
+
+def vlak(vlaky, index):
+  vlaky = vlaky[index]
+
+def privitani(cilove_stanice, jmeno_cestujiciho, vlaky, destinace):
+  if destinace in cilove_stanice:
+    index = cilove_stanice.index(destinace)
+  else:
+    print("Cílová stanice neexistuje.")
+
+]]></solution>
+  <solution group="chatgpt" student_name="Dvorak_Vitek" class="2.A"><![CDATA[seznam_vlaku = ["motoráček","rychlík","lokálka","pendolíno"]
+seznam_cilovych_stanic = ["Most!","luník9","praha-Smíchoff","Sokolov"]
+
+
+
+def cestujici():
+    jmeno = input("zadejte prosím Vaše jméno:")
+    return jmeno
+jmeno = cestujici()
+
+def cilova_stanice(jmeno,seznam_cilovych_stanic):
+    print("dobrý den", jmeno ,"kam byste si přál jet?")
+    print("zde je výběr cílových stanic:", seznam_cilovych_stanic )
+    cil = input("vyberte jednu ze stanic:")
+    if cil in seznam_cilovych_stanic:
+        return cil
+    else:
+        print("error!!!")
+
+cil = cilova_stanice(jmeno, seznam_cilovych_stanic)
+def vlak(seznam_cilovych_stanic, seznam_vlaku,cil):
+    index = seznam_cilovych_stanic.index(cil)
+            if   index == 0:
+            print("jedete motoráčkem")
+        elif index == 1:
+            print("jedete rychlíkem")
+        elif index == 2:
+            print("jedete lokálkou")
+        elif index == 3:
+            print("jedete pendolínem")
+        else:
+            break
+    return
+vlak(seznam_cilovych_stanic,seznam_vlaku,cil)
+]]></solution>
+  <solution group="chatgpt" student_name="Futera_Michal" class="2.A"><![CDATA[import random
+vlaky = ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+stanice = ["Praha-Hlavnínádraží", "Litoměřice", "Berlin", "Vídeň"]
+casy = ["5,30", "15,30","11,45", "7,30"]
+def cestujici():
+  jmeno = input("zadejte vačše jméno:")
+  return jmeno
+def cilova_stanice(stanice,jmeno):
+  print(f"Dobrý den {jmeno}, kam byste si přál jet?")
+  print("zde je seznam cílových stanic:")
+  print(stanice)
+  cilova_stanice = input("zadejte cílovou stanici:")
+  if cilova_stanice == None:
+    print("stanice neexistuje")
+  elif 0<= cilova_stanice <= stanice(len(stanice)+1):
+    konecna = stanice[cilova_stanice - 1]
+  else:
+    print("vlaky sem nejezdí")
+    return cilova_stanice, konecna
+def vlak(vlaky,idx):
+  nazev_vlaku = vlaky[idx - 1]
+  return nazev_vlaku
+def nadrazi(jmeno, nazev_vlaku, cilova):
+  for idx in range(len(casy)):
+    print("čas odjezdu:{vlaky[idx]}s cilovou stanici{stanice}")
+def main():
+  jmeno = cestujici()
+  nazev_vlaku = vlak(vlaky, idx)
+  nadrazi
+main()
+]]></solution>
+  <solution group="chatgpt" student_name="Gabcanova_Anezka" class="2.A"><![CDATA[def seznam():
+  vlaky = [R606, R23, EC117, RJ70]
+  stanice = [Praha, LTM, Ústí, Brno]
+  seznam()
+stanice = ["Praha, LTM, Ústí, Brno"]
+
+jmeno = input("Zadejte prosím své jméno: ")
+print("Jméno cestujícího je:", jmeno)
+pozdrav = f"Dobrý den, {jmeno}! Kam pojedeme dneska?"
+print(pozdrav)
+
+cil = input("Prosím, vyberte cílovou stanici: ")
+if cil == "Praha":
+  print(f"Vítáme Vás ve vlaku R606. Cílová destinace je Praha")
+elif cil == "LTM":
+  print(f"Vítáme Vás ve vlaku R23. Cílová destinace je LTM")
+elif cil == "Ústí":
+  print(f"Vítáme Vás ve vlaku EC117. Cílová destinace je Ústí")
+elif cil == "Brno":
+  print(f"Vítáme Vás ve vlaku RJ70. Cílová destinace je Brno")
+else :
+  print(f"Do této destinace momentálně žádný vlak nejede.")
+stanice = ["Praha", "LTM", "Ústí", "Brno"]
+jmeno = input("Zadejte prosím své jméno: ")
+print("Jméno cestujícího je:", jmeno)
+pozdrav = f"Dobrý den, {jmeno}! Kam pojedeme dneska?"
+print(pozdrav)
+print(stanice)
+
+cil = input("Prosím, vyberte cílovou stanici: ")
+if cil == stanice[0]:
+  print(f"Vítáme Vás ve vlaku R606. Cílová destinace je Praha")
+elif cil == stanice[1]:
+  print(f"Vítáme Vás ve vlaku R23. Cílová destinace je LTM")
+elif cil == stanice[2]:
+  print(f"Vítáme Vás ve vlaku EC117. Cílová destinace je Ústí")
+elif cil == stanice[3]:
+  print(f"Vítáme Vás ve vlaku RJ70. Cílová destinace je Brno")
+else :
+  print(f"Do této destinace momentálně žádný vlak nejede.")
+stanice = ["Praha", "LTM", "Ústí", "Brno"]
+jmeno = input("Zadejte prosím své jméno: ")
+print("Jméno cestujícího je:", jmeno)
+pozdrav = f"Dobrý den, {jmeno}! Kam pojedeme dneska?"
+print(pozdrav)
+print(stanice)
+
+cil = input("Prosím, vyberte cílovou stanici: ")
+for stanice in cil:
+  if cil == stanice:
+    index = stanice.index(stanice)
+  stanice[index]]]></solution>
+  <solution group="chatgpt" student_name="Karova_Tereza" class="2.A"><![CDATA[vlaky = ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+cilove_stanice = ["Praha-Hlavní nádraží", "Litoměřice", "Berlin", "Vídeň"]
+casy_odjezdu = ["8:00", "10:30", "12:05", "14:40"]
+
+def cestujici():
+  jmeno = input("Zadejte jméno:")
+  return jmeno
+cestujici()
+
+def cilova_destinace(cilove_stanice, cestujici):
+  print(f"""Dobrý den {cestujici}, zde je seznam cílových stanic, {cilove_stanice}""")
+  cil = input("Kam by jste si přál jet?")
+cilova_destinace(cilove_stanice, cestujici)
+
+
+
+def cestujici():
+  jmeno = input("Zadejte jméno:")
+  return jmeno
+cestujici()
+
+def cilova_destinace(cilove_stanice, cestujici):
+  cilove_stanice = ["Praha-Hlavní nádraží", "Litoměřice", "Berlin", "Vídeň"]
+  print(cilove_stanice)
+  input(f"Dobrý den {jmeno}, kam by jste si přál jet?")
+cilova_destinace(cilove_stanice, cestujici)
+
+def cestujici():
+  jmeno = input("Zadejte jméno:")
+  print()
+cestujici()
+
+cilove_stanice = ["Praha-Hlavní nádraží", "Litoměřice", "Berlin", "Vídeň"]
+def cilova_destinace():
+  print(cilove_stanice)
+def cestujici():
+  jmeno = input("Zadejte jméno:")
+  print()
+cestujici()
+input(f"Dobrý den {jmeno}, kam by jste si přál jet?")
+cilova_destinace()]]></solution>
+  <solution group="chatgpt" student_name="Kubiznakova_Nikola" class="2.A"><![CDATA[nazvy_vlaku = ["Krušnohor", "Krakonoš","Silesia", "Vindobona"]
+nazvy_stanic = ["Lovosice", "Jaroměř", "Berlín", "Vídeň"]
+
+def jmen():
+  jmeno_cestujiciho = input("zadejte jméno: ")
+  return jmeno_cestujiciho
+promena = jmen()
+
+def cestujici(jmeno, nazvy_stanic):
+  print(f"""Dobrý den {jmeno}, kam by jste si přál jet?
+        zde je seznam cílových stanic: {nazvy_stanic}""")
+  cil = input("zadejte cilovou stanici: ")
+cestujici("Nikola","Lovosice, Jaroměř, Berlín, Vídeň" )
+
+odjezd_casy = ["8:30", "9:00", "15:26", "4:10"]
+def casy(odjezd_casy):
+ print(f"aktuální časy: {odjezd_casy}")
+casy(odjezd_casy)
+def přivítání()
+  print(f"""Dobrý den {jmeno}, kam by jste si přál jet?
+        zde je seznam cílových stanic: {nazvy_stanic}""")
+  cil = input("zadejte cilovou stanici: ")
+cestujici("Nikola","Lovosice, Jaroměř, Berlín, Vídeň" )
+def vlak(cilova_stanice, nazvy_stanic, nazvy_vlaku):
+  if cil == "Lovosice":
+   print("Krušnohor")]]></solution>
+  <solution group="chatgpt" student_name="Riabchenko_Yekateryna" class="2.A"><![CDATA[vlak_sez = ['R606-Krušnohor', 'R23', 'EC117-Silesia', 'RJ70-Vindobona']
+stanice_sez = ['Praha-Hlavnínádraží', 'Litoměřice', 'Berlin', 'Vídeň']
+casy = ["4:45", "6:52", "7:34", "8:25"]
+
+def jmeno_cest():
+  jmeno = input("napiš jmeno: ")
+  return jmeno
+
+def cil_stan():
+  print(f"Dobrý den {jmeno},kam byste si přál jet?")
+  print("Zde je seznam možných cílových stanic: ")
+  print(stanice)
+
+stanice = int(input("vybete čislo cilove stanice "))
+
+if stanice == None:
+  print("vlak neexistuje")
+elif 0 <= stanice <= (len(stanice_sez) + 1):
+  cilova_stanice = stanice_sez[stanice - 1]
+else:
+  print("zadali jste stanice do ktere vlaky z tohoto nadraži nejezdi")
+
+def vlak(vlaky, idndex):
+  vlaky = vlak_sez[idndex - 1]
+  return vlak_sez
+
+def doprava():
+  print(f"Vítáme Vás {jmeno} ve vlaku {vlaky} .Cílová stanice vlaku je: {stanice}.")
+
+
+jmeno_cest()
+cil_stan()
+doprava()
+]]></solution>
+  <solution group="chatgpt" student_name="Svec_David" class="2.A"><![CDATA[seznam_vlaku= ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+cilove_stanice = ["Praha-Hlavnínádraží", "Litoměřice", "Berlin", "Vídeň"]
+cas_odjezdu = ["12:30", "11:00", "14:15", "15:45"]
+
+
+
+def vlak():
+  if vyber_cesty == cilove_stanice[0]:
+    print(f"Musíte jet vlakem: {seznam_vlaku[0]}")
+  elif vyber_cesty == cilove_stanice[1]:
+    print(f"Musíte jet vlakem: {seznam_vlaku[1]}")
+  elif vyber_cesty == cilove_stanice[2]:
+    print(f"Musíte jet vlakem: {seznam_vlaku[2]}")
+  elif vyber_cesty == cilove_stanice[3]:
+    print(f"Musíte jet vlakem: {seznam_vlaku[3]}")
+  else:
+    print("Stanice neexistuje!")
+
+def vitani_cestujici():
+  if vyber_cesty == cilove_stanice[0]:
+    print(f"Vítáme Vás {cestujici} ve vlaku {seznam_vlaku[0]}")
+    print(f"Cílová stanice vlaku je: {vyber_cesty}")
+  elif vyber_cesty == cilove_stanice[1]:
+    print(f"Vítáme Vás {cestujici} ve vlaku {seznam_vlaku[1]}")
+    print(f"Cílová stanice vlaku je: {vyber_cesty}")
+  elif vyber_cesty == cilove_stanice[2]:
+    print(f"Vítáme Vás {cestujici} ve vlaku {seznam_vlaku[2]}")
+    print(f"Cílová stanice vlaku je: {vyber_cesty}")
+  elif vyber_cesty == cilove_stanice[3]:
+    print(f"Vítáme Vás {cestujici} ve vlaku {seznam_vlaku[3]}")
+    print(f"Cílová stanice vlaku je: {vyber_cesty}")
+
+
+
+def casy():
+  if vyber_cesty == cilove_stanice[0]:
+    print(f"Vlak odjíždí v {cas_odjezdu[0]}")
+  elif vyber_cesty == cilove_stanice[1]:
+    print(f"Vlak odjíždí v {cas_odjezdu[1]}")
+  elif vyber_cesty == cilove_stanice[2]:
+    print(f"Vlak odjíždí v {cas_odjezdu[2]}")
+  elif vyber_cesty == cilove_stanice[3]:
+    print(f"Vlak odjíždí v {cas_odjezdu[3]}")
+
+
+
+
+
+
+while True:
+  cestujici = input("Vítejte! Zadejte svoje jméno:")
+  vyber_cesty = input(f"Vyberte si prosím jednu z našich tras:{cilove_stanice}")
+  vlak()
+  vitani_cestujici()
+  casy()
+
+
+
+
+seznam_vlaku= ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+cilove_stanice = ["Praha-Hlavnínádraží", "Litoměřice", "Berlin", "Vídeň"]
+
+
+
+def vlak():
+  if vyber_cesty == cilove_stanice[0]:
+    print(f"Musíte jet vlakem: {seznam_vlaku[0]}")
+  elif vyber_cesty == cilove_stanice[1]:
+    print(f"Musíte jet vlakem: {seznam_vlaku[1]}")
+  elif vyber_cesty == cilove_stanice[2]:
+    print(f"Musíte jet vlakem: {seznam_vlaku[2]}")
+  elif vyber_cesty == cilove_stanice[3]:
+    print(f"Musíte jet vlakem: {seznam_vlaku[3]}")
+  else:
+    print("Stanice neexistuje!")
+
+
+
+
+cestujici = input("Vítejte! Zadejte svoje jméno:")
+vyber_cesty = input(f"Vyberte si prosím jednu z našich tras:{cilove_stanice}")
+vlak()
+]]></solution>
+  <solution group="chatgpt" student_name="Wünsch_Tadeas" class="2.A">trains = ["Tiger", "Spitfire", "Maus", "Gustav"]
+stations = ["Praha (CZ)", "Kokotów (PL)", "Kyjev (UA)", "Kunda (EE)"]
+times = ["19:40", "19:41", "19:43", "19:45"]
+
+def vlaky():
+    name = enter_username();
+    station = select_station(stations, name)
+    train = get_train(station, trains, stations)
+
+    train_welcome(name, station, train)
+    departure(trains, train, times)
+    seat()
+
+def enter_username():
+    return input("Zadejte své jméno: ")
+
+def select_station(stations, name):
+    text = \
+        f"Dobrý den {name}, kam byste si přál jet?\n" \
+        f"Zde je seznam možných cílových stanic:\n"
+
+    for i in range(0, 4):
+        text += f"{i + 1}. {stations[i]}\n"
+
+    station = input(text)
+
+    while station != "1" and station != "2" and station != "3" and station != "4":
+        station = input(text)
+
+    return stations[int(station) - 1]
+
+def get_train(station, trains, stations):
+    i = stations.index(station)
+    return trains[i]
+
+def train_welcome(name, station, train):
+    print(f"Vítáme Vás {name} ve vlaku {train}. Cílová stanice vlaku je: {station}.")
+
+def departure(trains, train, times):
+    i = trains.index(train);
+    print(f"Váš vlak odjíždí v {times[i]}.")
+
+def seat():
+    text = "Vyberte si sedadlo:\n" \
+        "1. Okno\n" \
+        "2. Ulička\n" \
+        "3. Tichý vůz\n"
+
+    seat = input(text)
+
+    while seat != "1" and seat != "2" and seat != "3":
+        seat = input(text)
+
+    return seat
+
+while True:
+    vlaky()</solution>
+  <solution group="normal" student_name="dapalma" class="2.A"><![CDATA[from typing import List
+seznam_vlaku = ["rychlík", "osobák", "privát", "slon"]
+seznam_stanic = ["Praha", "Trnovany", "Paříž", "Kralupy"]
+seznam_odjezdu = ['9:45', '10:13', '5:30', '17:30']
+
+def jmeno():
+   jmeno = input("zadej své jméno")
+   return jmeno
+
+def destinace():
+   while (destinace != 'Praha') and (destinace != 'Trnovany') and (destinace != 'Paríž') and (destinace != 'Kralupy'):
+     if (destinace != 'Praha') and (destinace != 'Trnovany') and (destinace != 'Paríž') and (destinace != 'Kralupy'):
+       print("Omlouváme se, ale tam naše vlaky jestě nejezdí. Pracujeme na tom.")
+     destinace = input(f'Dobrý den {jmeno}, kam dneska chcete jet? Vyberete, prosím, stanici, kterou máme na seznamu:\1 - Praha\2 - Trnovany\3 - Paříž\4 - Kralupy')
+   return destinace
+
+def hledej(destinace: str, seznam_vlaku: List, seznam_stanic: List, seznam_odjezdu: List):
+  for i in range(len(seznam_stanic)):
+    if seznam_stanic[i] --destinace:
+      nazev_vlaku = seznam_vlaku(i)
+      cas_odjezdu = seznam_odjezdu[i]
+  return nazev_vlaku, cas_odjezdu
+
+def privitani(jmeno: str, nazev_vlaku: str, destinace: str):
+  print( f'Znovu dobrý den{jmeno}, ale tentokrát už ve vlaku{nazev_vlaku}. Dojedeme do {destinace} v {cas_odjezdu} ')
+  return
+
+def main():
+  stop = "konec"
+  while stop != 'ne':
+    print("jeste jednou")
+
+jmeno()
+
+destinace()
+
+hledej()
+
+privitani()
+
+main()
+]]></solution>
+  <solution group="normal" student_name="marešová" class="2.A"><![CDATA[vlaky = ["R606-Krušnohor", "R23", "EC117-SILESIA", "RJ70-VINDOBONA"]
+cil = ["Praha-  Hlavní nádraží", "Litoměřice", "Berlín", "Vídeň"]
+odjezdy_cas = ["5:00", "12:00", "21:00", "6:00"]
+
+def cestujici():
+  result =  input("Jak se jmenujete?")
+  return result
+
+cesujici_result = cestujici()
+print(cestujici_result)
+
+def vyber(cil,cestujici_result):
+  result = input(f"Dobrý den {cestujici_result} kam byste si přál jet? Zde je seznam možných cílových stanic{cil}")
+  return result
+
+vyber_result = vyber(cil,cestujici_result)
+print(vyber_result)
+
+def vlak(vlaky, vyber, cil):
+  vlaky [idx] == cil[idx]
+  result = vlaky[idx]
+  return result
+
+vlak_result = vlak(vlaky, vyber, cil)
+print(vlak_result)
+
+def privitani()
+  result = input(f"Vítáme vás {cestujici_result} ve vlaku {vlaky[idx]} cílová stanice je {cil[idx]}")
+  return result
+
+privitani_result= privitani()
+print(privitani_result)
+
+for mesto in range(0, len(vyber), 1):
+  if mesto in vyber:
+    print("Špatně zadaná stanice, zkuste to znova")
+
+]]></solution>
+  <solution group="normal" student_name="mudrová" class="2.A"><![CDATA[vlaky = ['R606', 'R23', 'EC117', 'RJ70']
+stanice = ['praha', 'ústí', 'litoměřice', 'křešice']
+
+
+def vyber_stanice(jmeno):
+  print(f"Dobrý den {jmeno}, kam si přejete jet? Tady je seznam stanic : {stanice}")
+  vyber = input("Vyberte si prosím stanici ")
+  print(f"Vaše stanice je {vyber}")
+
+for cil in stanice:
+  if (vyber_stanice) == stanice:
+      index = stanice.index(vyber_stanice)
+
+def vlak(index):
+  print(f"")
+
+
+def pasažér():
+  cestující = input("Zadejte jméno cestujícího")
+  return cestující
+  #print("Váš vlak je" + (pasažér))
+
+jmeno = pasažér()
+vyber_stanice(jmeno)
+
+
+
+
+
+]]></solution>
+  <solution group="normal" student_name="pernová" class="2.A"><![CDATA[seznam_vlaku = ["vojtuv", "any", "jirky", "ondry" ]
+
+print(seznam_vlaku)
+seznam_stanic = ["resslovka", "gympl", "štětska", "zakladka"]
+
+print(seznam_stanic)
+def zadej_jmeno():
+  jmeno = input("Zadejte jméno")
+  return jmeno
+  uzivatelske_jmeno = vlozte_jmeno()
+  print(uzivatelske_jmeno)
+
+zadej_jmeno()
+seznam_stanic = ["resslovka", "gympl", "štětska", "zakladka"]
+
+print(seznam_stanic)
+
+def vyber_cilovou_stanici():
+    seznam_stanic = ["resslovka", "gympl", "štětska", "zakladka"]
+    vyber = input("Vyberte která stanice bude cílová")
+    print(f"Vybrali jste cílovou stanici {vyber}")
+    return vyber
+
+vyber_cilovou_stanici()
+seznam_stanic = ["resslovka", "gympl", "štětska", "zakladka"]
+
+print(seznam_stanic)
+
+def vyber_cilovou_stanici():
+    seznam_stanic = ["resslovka", "gympl", "štětska", "zakladka"]
+    vyber = input("Vyberte která stanice bude cílová")
+    print(f"Vybrali jste cílovou stanici {vyber}")
+    return vyber
+
+vyber_cilovou_stanici()
+
+seznam_stanic = ["resslovka", "gympl", "štětska", "zakladka"]
+if vyber == "resslovka":
+  print("vojtuv vlak je pro vas")
+else:
+  vyber == "gympl"
+  print("any vlak je pro vás")
+else:
+  vyber == "štětska"
+  print("jirky vlak je pro vás")
+elif:
+  vyber == "zakladka"
+  print("ondry vlak je pro vás")]]></solution>
+  <solution group="normal" student_name="ženkl" class="2.A"><![CDATA[vlaky = ("palma", "aneta", "tadeas", "nikola")
+for idx in range(0, len(vlaky), 1):
+  print(f"{idx}. vlak je {vlaky[idx]}")
+
+cilove_stanice = ("Polipsy", "Mrchojedy", "Onen svět", "Vajglov")
+for idx in range(len(cilove_stanice)):
+  print(idx,cilove_stanice[idx])
+def cestujici():
+  jmena = input("Zadejte jméno cestujícího:")
+  return jmena
+jmeno_cestujiciho = cestujici()
+print(f"jmeno cestujícího je {jmeno_cestujiciho}")
+def stanice(seznam_stanic, jmeno):
+  print(f"Zdravím, {jmeno},  kam byste si přál jet?")
+  print(f"Tady je seznam cílových stanic:")
+  print(stanice)
+  destinace = int(input("Vyberte číslo cílové destinace"))
+  if destinace == None:
+    print("vlak neexistuje")
+  elif 0 <= destinace <= (len(stanice) +1):
+    stanice = stanice[destinace - 1]
+  else:
+    print("Zadali jste nesprávnou stanici")
+  return stanice, destinace
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Hrabakova_Simona" class="2.C"><![CDATA[seznam_vlaku = ['R606 - Krušnohor', 'R23', 'EC117 - Silesia', 'RJ70 - Vindobona']
+seznam_destinaci = ['Praha - Hlavní nádraží', 'Litoměřice', 'Berlin', 'Vídeň']
+
+def cestujici(jmeno):
+  jmeno = input("Zadejte jmeno:")
+  return jmeno
+
+def cilova_destinace(seznam_destinaci, cestujici):
+  cestujici = print(f"Dobrý den {cestujici}, kam byste si přál jet?")
+  print("Zde je seznam možných cilových stanic:")
+  for items in seznam_destinaci:
+    print(items)
+
+def vlak(cilova_stanice, seznam_vlaku, seznam_destinaci):
+  index = seznam_destinaci.index(cilova_stanice)
+  vlak = seznam_vlaku[index]
+
+
+
+def nadrazi(jmeno, vlak, cilova_destinace):
+  if vlak:
+    print(f"Vítáme Vás {jmeno} ve vlaku {vlak} jedoucí do {cilova_destinace}"):
+  else:
+    print("Neplatné")
+
+
+
+
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Otcova_Valentyna" class="2.C"><![CDATA[seznam_vlaku = ["R606 - Krušnohor', 'R23', 'EC117 - Silesia', 'RJ70 - Vindobona"]
+seznam_stanic = ["Praha - Hlavní nádraží', 'Litoměřice', 'Berlin', 'Vídeň"]
+
+def cestujici():
+  jmeno = input("Zadejte své jméno:")
+  return jmeno
+
+def cilova_destinace (stanice, jmeno):
+  print(f"Dobrý den{jmeno}, kam si přejete jet?")
+  print(f"Zde je seznam možných cílových stanic:", ",")
+
+def vlak (cilova_stanice, seznam_vlaku, seznam_cilovych_destinaci):
+ index = stanice.index(cilova_stanice)
+ return vlaky[index]
+
+odjezdove_casy = ["12:00', 15:00', 17:00', 19:00', 21:00"]
+
+def nadrazi(jmeno, jmeno_vlaku, jmeno_destinace):
+  print(f"Dobrý den{jmeno}, vítáme vás ve vlaku {jmeno_vlaku} jedoucí do {jmeno_destinace}")
+
+if stanice = neexistuje
+ print("Vlaky z tohoto nádraží do zadané destinace nejezdí")
+
+def sedadla ():
+  print(f"Dobrý den{jmeno}, vyberte si typ sedadla")
+  print("1: okno")
+  print("2: ulička")
+  print("3:tichý vůz")
+  print("4: 1. patro")
+  print("5: 2. patro")
+while True:
+  typ_sedadla = input("Zadejte zvolené číslo")
+if typ in [1,2,3,4,5]:
+
+
+
+
+
+
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Prosova_Lucie" class="2.C"><![CDATA[seznam_vlaku = ("R606 - Krušnohor" , "R23" , "EC117 - Silesia" , "RJ70 - Vindobona")
+sseznam_cilovych_destinaci = ("Praha - Hlavní nádraží" , "Litoměřice" , "Berlin" , "Vídeň")
+
+cestujici = input("Zadejte jméno cestující:")
+
+def cilova_destinace(seznam_cilovych_destinaci, cestujicí):
+  print(f"Dobrý den {cestujicí}, zde je seznam cílových stanic {seznam_cilovych_destinaci}")
+  x = 0
+  a = "Tento spoj bohužel neexistuje"
+  y = input("Jakou destinaci si vyberete?")
+  for idx in range(len(seznam_cilovych_destinaci)):
+    if y != seznam_cilovych_destinaci[idx]:
+      x += 1
+    else:
+      continue
+  if x == 4:
+    return a
+  else:
+    return y
+
+def vlak(seznam_cilovych_destinaci, seznam_názvů_vlaků, cilova_destinace):
+  while cilova_destinace != seznam_cilovych_destinaci[idx]:
+    for idx in range(len(seznam_cilovych_destinaci)):
+     if idx == 4:
+      print("Kvůli velkému zájmu o naše vlaky nám spadli servery.")
+      print("Prosíme, zkuste to znovu později, Děkujeme za pochopení")
+  a = seznam_názvů_vlaků[idx]
+  return a
+
+def nadrazi (jmeno, vlak, cil, odjezdy, seznam_destinaci):
+  index = seznam_destinaci.index(stanice)
+  cas = odjezdy.index
+  print(f"Vítáme Vás {jmeno} ve vlaku {vlak} jedoucí do {stanice} , pravidelny odjezd v {cas}")
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Salaiova_Karolina" class="2.C"><![CDATA[]]></solution>
+  <solution group="chatgpt" student_name="Salaiova_Karolina" class="2.C"><![CDATA[vlaky = ["Libuška", "Sabinka", "Mahulena", "Matylda", "Kryšpína", "Kazi", "Teta", "Libuše"]
+stanice = ["Ústí", "Most", "Štětí", "Brno"]
+odjezdové_časy = ["5:30", "7.00", "11:00", nestíhám dopsat zbytek časů]
+def cestujici(jmeno):
+  jmeno = input("zadejte své jméno:")
+  return jmeno
+
+def cilova_destinace(stanice_seznam, cestujici):
+  #cestujici = input(f"Ola {jmeno} vyberte stanici kam chcete jet?")
+  #return cestujici
+  for item in stanice_seznam:
+    print(item)
+  print(f"Ola {cestujici} vyberte stanici kam chcete jet?")
+  stanice = input("")
+  if stanice in stanice_seznam:
+    return stanice
+  else:
+    print("neplatná stanice")
+
+jmeno = cestujici()
+
+def vlak(vlaky, stanice, cilova_destinace):
+  pass
+def nadrazi():
+  """
+
+  """
+  print(f"ola {jmeno}, ve vlaku {vlaky} jedoucí do {cilova_destinace}")
+
+]]></solution>
+  <solution group="chatgpt" student_name="Souckova_Anezka" class="2.C"><![CDATA[seznam_vlaku = ["R606 - Krušnohor", "R23", "EC117 - Silesia", "RJ70 - Vindobona"]
+seznam_stanic = ["Praha - Hlavní nádraží", "Litoměřice", "Berlin", "Vídeň"]
+
+def cestujici()
+  jmeno_cestujici = input("Zadejte vaše jméno: ")
+  return jmeno_cestujici
+
+def cilova_destinace(jmeno):
+  kam_to_bude = input("Kam to bude?")
+  if kam_to_bude in seznam_stanic:
+    print("Tvoje volba je platná.")
+  else:
+    print("Tvoje volba neexistuje.")
+  return kam_to_bude
+
+def vlak(cil):
+  index = seznam_stanic.index(cil)
+  vlak1 = seznam_vlaku[index]
+  return vlak1
+
+jmeno = cestujici()
+cil = cilova_destinace(jmeno)
+vlak_jedu = vlak(cil)
+
+
+if cestujici == "Praha - Hlavní nádraží", "Litoměřice", "Berlin", "Vídeň"
+  print("Tvoje volba je platná.")
+else:
+  print("Tvoje volba neexistuje.")
+
+
+cilova_destinace = input(f"Dobrý den {cestujici}. Vyberte z možností {sezna_stanic} cílovou destinaci:")
+
+vlak()
+seznam_casy = [2:30, 15:00, 4:02, 18:20]
+sedadlo = int("Vyberte si typ sedadla (okno, ulička, tichý vůz): ")
+]]></solution>
+  <solution group="chatgpt" student_name="Stejskal_Matej" class="2.C"><![CDATA[vlaky = ['R606 - Krušnohor', 'R23', 'EC117 - Silesia', 'RJ70 - Vindobona']
+cile = ['Praha - Hlavní nádraží', 'Litoměřice', 'Berlin', 'Vídeň']
+
+def cestujici():
+  jmeno = input("Zadejte své jméno: ")
+  return jmeno
+
+def cilova_destinace(jmeno):
+  print(f"Dobrý den{jmeno}Kam byste jsi přál jet?")
+  print("Zde je seznam destinací:")
+  print(cile)
+  destinace = input("Tak kam to bude?")
+  return destinace
+
+def vlak(destinace,vlaky,cile):
+  index = (cile.index(destinace))
+  return vlaky[index]
+
+def nadrazi():
+  jmeno = cestujici()
+  destinace = cilova_destinace(jmeno)
+  vlak_1 = vlak(destinace,vlaky,cile)
+  print(f"Vítáme vás{jmeno} ve vlak {vlak_1} do destinace {destinace}")
+nadrazi()
+]]></solution>
+  <solution group="chatgpt" student_name="Surovska_Simona" class="2.C"><![CDATA[vlaky = ['R606 - Krušnohor', 'R23', 'EC117 - Silesia', 'RJ70 - Vindobona']
+stanice = ['Praha - Hlavní nádraží', 'Litoměřice', 'Berlin', 'Vídeň']
+odjezdy = ['8:30', '9:12', '10:01', '10:55']
+
+def cestujici ():
+    jmeno = input ("zadejte své jméno:")
+    return jmeno
+
+def cil (stanice, jmeno):
+  print(f"Dobrý den {jmeno}, kam byste si přál jet?")
+  print("Zde je seznam možných cílových stanic:" , ",".join(stanice))
+  while True:
+    vyber = input ("Zadejte název destinace:")
+    if vyber in stanice:
+      return vyber
+    else:
+      print ("Tam nejedeme, sorry🤷‍♀️")
+
+def vlak (stanice, vlaky, seznam_destinaci):
+  index = stanice.index(stanice)
+  return vlaky[index]
+
+def nadrazi (jmeno, vlak, cil, odjezdy, seznam_destinaci):
+  index = seznam_destinaci.index(stanice)
+  cas = odjezdy.index
+  print(f"Vítáme Vás {jmeno} ve vlaku {vlak} jedoucí do {stanice} , pravidelny odjezd v {cas}")
+
+def sedadla ():
+  print("Vyberte typ sedadla")
+  print("1: okno")
+  print("2: ulička")
+  print("3: tichý vůz")
+  print("4: 1.třída")
+  print("5: jídelní vůz ")
+  while True:
+   typ = input("Zadejte číslo volby")
+   if typ in [1,2,3,4,5]:
+     return "okno" if typ == '1' else "ulička" if typ == '2' else "tichý vůz" if typ == '3' else "1.třída" if typ == '4' else "jídelní vůz"
+   else:
+    print("To tu nevedeme 🙃")
+
+def main():
+  jmeno = cestujici ()
+  destinace = cil(stanice, jmeno)
+  vybranyvlak = vlak(vlaky, stanice, cil)
+  nadrazi(jmeno, vybranyvlak, cil, odjezdy, seznam_destinaci)
+  sedadlo = sedadla()
+  print(f" Vaše sedadlo: {sedadlo}")
+
+  if  __name__ == "__main__":
+    main()]]></solution>
+  <solution group="chatgpt" student_name="Szilagyiová_Adela" class="2.C"><![CDATA[vlaky = ['R606 - Krušnohor', 'R23', 'EC117 - Silesia', 'RJ70 - Vindobona']
+stanice = ['Praha - Hlavní nádraží', 'Litoměřice', 'Berlin', 'Vídeň']
+
+def cestujici(jmeno):
+  jméno = input("Zadejte vaše jméno: ")
+  return jméno
+
+def cilova_destinace(seznam_destinaci, cestujici):
+  for item in stanice:
+    print(item)
+  cestujici = input("Dobrý den, kam chcete jet? ")
+  return cestujici
+
+
+cestujici(jméno)
+cilova_destinace(stanice, cestujici)
+
+
+def vlak(cilova_stanice, seznam_vlaku, seznam_cilovych_destinaci):
+
+def nadrazi()]]></solution>
+  <solution group="chatgpt" student_name="Tocina_Tobias" class="2.C"><![CDATA[seznam_vlaky = ['R606 - Krušnohor', 'R23', 'EC117 - Silesia', 'RJ70 - Vindobona']
+seznam_stanic = ['Praha - Hlavní nádraží', 'Litoměřice', 'Berlin', 'Vídeň']
+
+def cestujici():
+  jmeno = input("zadejte své jméno: ")
+  return jmeno
+
+jmeno = cestujici()
+
+
+def cilova_destinace(jmeno):
+  input(f"Dobrý den {jmeno}, kam by jste si přál jet? Zde je seznam možných cilových stanic: {seznam_stanic}").lower
+  return
+cilova_destinace(jmeno)
+
+
+def vlak()
+]]></solution>
+  <solution group="chatgpt" student_name="Vandrovec_Lukas" class="2.C"><![CDATA[seznam_vlaku = ['R606 - Krušnohor', 'R23', 'EC117 - Silesia', 'RJ70 - Vindobona']
+seznam_stanice = ['Praha - Hlavní nádraží', 'Litoměřice', 'Berlin', 'Vídeň']
+
+def cestujici():
+  jmeno = str(input("Zadejte své jméno"))
+  return jmeno
+
+def cilova_destinace(stanice, cestujici,):
+  print(f"Dobrý den {jmeno}, kam byste si přál jet?")
+  print(f"Zde je seznam možných cílových stanic: {stanice}")
+  cíl = str(input("Zadejte cílovou destinaci"))
+
+def vlak(cilova_stanice, seznam_vlaku, seznam_cilovych_destinaci):
+
+
+
+def nadrazi():
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  pass
+
+jmeno = cestujici()
+cilova_destinace(seznam_stanice, jmeno)
+
+]]></solution>
+  <solution group="chatgpt" student_name="Voborilova_Viktorie_Vilemina" class="2.C"><![CDATA[
+def cestujici():
+    jmeno = input("Zadej své jméno, cestovateli: ")
+    return jmeno
+
+def cilova_destinace(jmeno, seznam_destinaci):
+    print("Zde je seznam všech stanic:")
+    for item in seznam_destinaci:
+        print(item)
+    cilovastanice = input(f"Dobrý den {jmeno}, kam si přejete cestovat: ")
+    return cilovastanice
+
+def vlak(cilovastanice, seznam_vlaku, seznam_destinaci, seznam_odjezdu):
+    if cilovastanice in seznam_destinaci:
+        index_destinace = seznam_destinaci.index(cilovastanice)
+        vlak = seznam_vlaku[index_destinace]
+        odjezd = seznam_odjezdu[index_destinace]
+        print(f"Vlak {vlak} vás dovezeme do {cilovastanice}. Odjíždí v {odjezd}.")
+    else:
+        print("Neplatná destinace.")
+
+def vyber_mista():
+    sedadlo = input("Vyberte si, kde chcete sedět (ulička, okno): ").lower()
+    if sedadlo == "ulička":
+        print(f"Dobrý den {jmeno}, děkujeme za výběr uličního sedadla.")
+    elif sedadlo == "okno":
+        print(f"Dobrý den {jmeno}, děkujeme za výběr sedadla u okna.")
+    else:
+        print("Neplatná volba.")
+
+def nadrazi():
+    seznam_vlaku = ["R606 - Krušnohor", "R23", "EC117 - Silesia", "RJ70 - Vindobona"]
+    seznam_destinaci = ["Praha - Hlavní nádraží", "Litoměřice", "Berlin", "Vídeň"]
+    seznam_odjezdu = ["16:45", "16:58", "17:16", "18:01"]
+
+    jmeno = cestujici()
+    cilovastanice = cilova_destinace(jmeno, seznam_destinaci)
+    vlak(cilovastanice, seznam_vlaku, seznam_destinaci, seznam_odjezdu)
+    vyber_mista()
+
+nadrazi()]]></solution>
+  <solution group="chatgpt" student_name="Wangle_Samuel_Clarence" class="2.C"><![CDATA[trains=[  'R23', 'EC117' , 'Silesia', 'RJ70']
+stations=['Praha', 'Litoměřice', 'Berlin', 'Vídeň']
+def cestujici():
+  name=str(input("jak se jmenuješ?"))
+  return name
+def cilova_destinace(stations, cestujici,):
+  print(f"Dobrý den {name}, kam byste si přál jet?")
+  print(f"Zde je seznam možných cílových stanic: {stations}")
+  cíl = str(input("Zadejte cílovou destinaci"))
+def vlak(cilova_destinace,trains,stations):
+  index=stations.index
+  print(f"{trains}")
+def nadrazi():
+  destinace=str(input())
+  if  destinace=="Praha":
+    print("Výtejte ve vlaku R23, který vede do Prahy.")
+  elif destinace=="Litoměřice":
+    print("Výtejte ve vlaku EC117, který vede do Litoměřic.")
+  elif destinace=="Berlin":
+    print("Výtejte ve vlaku Silesia, který vede do Berlína.")
+  elif destinace=='Vídeň':
+    print("Výtejte ve vlaku RJ70, který vede do Vídně.")
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Wogurkova_Anna" class="2.C"><![CDATA[nazvy_vlaku = ['R606 - Krušnohor', 'R23', 'EC117 - Silesia', 'RJ70 - Vindobona']
+cilova_stanice = ['Praha - Hlavní nádraží', 'Litoměřice', 'Berlin', 'Vídeň']
+
+def cestujici():
+  cestujici = input("zadejte jmeno: ")
+  return cestujici
+  #print(f"Dobrý den {cestujici}, kam by jste si přál jet?" )
+
+def cilova_destinace(jmeno):
+  print(f"Dobrý den {jmeno}, kam by jste si přál jet?" )
+  print(f"{cilova_stanice}")
+  cil = input()
+  if cil in cilova_stanice:
+    return cil
+  else:
+    print("Zadali jste neplatnou hodnotu")
+
+def vlaky(cil) :
+  index = cilova_stanice.index(cil)
+  vlak = nazvy_vlaku[index]
+  return vlak
+
+def nadrazi():
+  pasazer = cestujici()
+  cilova_stanice = cilova_destinace(pasazer)
+  cilovy_vlak = vlaky(cilova_stanice)
+  print(f"Dobrý den {pasazer}, jedete do stanice {cilova_stanice} vlakem {cilovy_vlak}" )
+
+nadrazi()
+]]></solution>
+  <solution group="chatgpt" student_name="Bitrich_Adam_Jeremias" class="6.S"><![CDATA[vlaky = ["1", "R606", "R23", "EC117", "RJ70"]
+destinace = ["1","Praha-Hlavní nádraží", "Litoměřice", "Berlin", "Vídeň"]
+
+def cestujici():
+  jmeno = input("Jak se jmenujete? ")
+
+cestujici = cestujici()
+
+def vlak():
+
+  cislo = int(input(f"Dobrý den {cestujici} kam byste si přál jet? Zde je seznam možných cílových stanic(pro zadání stanice zadejte její číslo): 1 Praha-Hlavnínádraží,2 Litoměřice,3 Berlin,4 Vídeň"))
+
+  print(vlaky[cislo])
+  print(destinace[cislo])
+
+if cislo > 10:
+  pass
+
+vlak = vlak()
+]]></solution>
+  <solution group="chatgpt" student_name="Horakova_Nela" class="6.S"><![CDATA[# 1. a 2. cvičení
+list_vlaky = ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+list_stanice = ["Litoměřice", "Libochovice", "Kralupy", "Praha"]
+# 3. cvičení
+jmeno = input("Jaké je vaše jméno? ")
+
+def jmeno_cestujiciho():
+    print(jmeno)
+# 4. cvičení
+jmeno = input("Jaké je vaše jméno? ")
+def cilove_stanice(jmeno, stanice1, stanice2, stanice3, stanice4):
+    print(f"Dobrý den, {jmeno}, kam byste si přáli jet?\n {stanice1}\n {stanice2}\n {stanice3}\n {stanice4}")
+
+cilove_stanice(jmeno, "Litoměřice", "Libochovice", "Kralupy", "Praha")
+# 5. cvičení
+jmeno = input("Jaké je vaše jméno? ")
+
+list_vlaky = ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+list_stanice = ["Litoměřice", "Libochovice", "Kralupy", "Praha"]
+
+def vlak(vyber):
+    print(vyber)
+
+vyber == input("Vyberte si destinaci:\nLitoměřice\nLibochovice\nKralupy\nPraha\n")
+if vyber == "Litoměřice":
+    print("Musíte jet vlakem číslo R606-Krušnohor.")
+
+elif vyber == "Libochovice":
+    print("Musíte jet vlakem číslo R23.")
+
+elif vyber == "Kralupy":
+    print("Musíte jet vlakem číslo EC117-Silesia.")
+
+elif vyber == "Praha":
+    print("Musíte jet vlakem číslo RJ70-Vindobona.")
+# 6. cvičení
+jmeno = input("Jaké je vaše jméno? ")
+
+import random
+
+def umisteni(vlak, stanice):
+  if vlak == "R606-Krušnohor":
+    return stanice == "Litoměřice"
+  elif vlak == "R23":
+    return stanice == "Libochovice"
+  elif vlak == "EC117-Silesia":
+    return stanice == "Kralupy"
+  elif vlak == "RJ70-Vindobona":
+    return stanice == "Praha"
+
+def vlaky():
+    misto = random.choice(['R606-Krušnohor', 'R23', 'EC117-Silesia', 'RJ70-Vindobona'])
+
+def privitani(jmeno, vlak, stanice):
+    print(f"DObrý den,", {jmeno}, "vítáme vás ve vlaku", {vlak}, "Cílová stanic je", {stanice})
+
+vlaky()
+# 7. cvičení
+def vlak(vyber):
+    print(vyber)
+
+vyber == input("Vyberte si destinaci:\nLitoměřice\nLibochovice\nKralupy\nPraha\n")
+if vyber == "Litoměřice":
+    print("Musíte jet vlakem číslo R606-Krušnohor.")
+
+elif vyber == "Libochovice":
+    print("Musíte jet vlakem číslo R23.")
+
+elif vyber == "Kralupy":
+    print("Musíte jet vlakem číslo EC117-Silesia.")
+
+elif vyber == "Praha":
+    print("Musíte jet vlakem číslo RJ70-Vindobona.")
+
+else:
+  stanice_znovu = input("Máte chybu v zadání. Zadejte stanici znovu: ")
+  print(stanice_znovu)
+# 8. cvičení
+odjezdy = ["14:50", "8:20", "12:00", "22:14"]
+vlaky = ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+
+def odjezdy_vlaku(vlaky, odjezdy):
+  for vlak in vlaky:
+
+    if vlak == [0]:
+     print("Vlak", vlaky[0], "odjíždí v", odjezdy[0]):
+
+    elif vlak == [1]:
+      print("Vlak", vlaky[1], "odjíždí v", odjezdy[1]):
+
+    elif vlak == [2]:
+      print("Vlak", vlaky[2], "odjíždí v", odjezdy[2]):
+
+    elif vlak == [3]:
+       print("Vlak", vlaky[2], "odjíždí v", odjezdy[2]):
+# 9. cvičení
+
+vlaky.append(rozsireni)
+
+print(list)
+# 10. cvičení]]></solution>
+  <solution group="chatgpt" student_name="Jilek_Jakub" class="6.S"><![CDATA[vlaky = ["A1", "B2", "C3", "E4"]
+
+stanice = ["Aš", "Brno (co to je???)", "Cumratice", "Elhřimov" ]
+
+def cestujici():
+  jmeno = input("zadejte vaše jméno:" )
+  return jmeno
+
+
+def velka_funkce():
+  print("Dobrý den " ,jmeno, "zde je seznam stanic s pořadovým číslem.")
+  print("Zvolte si ze seznamu cílovou destinaci: ")
+  print("1.",  stanice[0])
+  print("2.", stanice[1])
+  print("3.", stanice[2])
+  print("4.", stanice[3])
+
+def vlak():
+  while(True):
+    cilstanice = int(input("napište číslici pořadí Vaší cílové destinace: "))
+    if cilstanice in (1, 2, 3, 4):
+
+      if cilstanice == 1:
+        print("Váš vlak se jmenuje", vlaky[0])
+
+      if cilstanice == 2:
+        print("Váš vlak se jmenuje", vlaky[1])
+
+      if cilstanice == 3:
+        print("Váš vlak se jmenuje", vlaky[2])
+
+      if cilstanice == 4:
+        print("Váš vlak se jmenuje", vlaky[3])
+
+
+vysledek1 = cestujici()
+print(cestujici)
+
+vysledek2 = velka_funkce()
+print(velka_funkce)
+
+vysledek3 = vlak()
+print(vlak)
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Kuhnova_Karolina" class="6.S"><![CDATA[vlaky=["vlak1", "vlak2", "vlak3", "vlak4"]
+cilovky=["ab", "cd", "ef", "gh"]
+def jmeno():
+ x=input("Zadejte své jméno:")
+ return x
+
+cestujici=jmeno()
+
+def cilsta(jmeno):
+ y=input(f"Dobrý den , jakou chcete cílovou stanici? Vaše možnosti jsou: ab, cd, ef, gh. ")
+ index=cilovky.index(y)
+def calc(vlaky):
+  i=vlaky.index(cilovky)
+
+
+
+
+cilsta(cestujici)
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Lacinova_Viktorie" class="6.S">vlaky = ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+destinace = ["Praha - Hlavní nádraží", "litoměřice", "Vídeň", "Berlin"]
+casy_odjezdu = [ "10h", "11h", "12h", "13h"]
+def cestujici():
+    jmeno = input("zadejte své jméno")
+    return jmeno
+
+def vyber_destinace(destinace, jmeno):
+    print (f"Dobrý den{jmeno}, kam byste si přál/a dneska jet?")
+    print("zde je seznam cílových stanic:")
+    print("Praha-Hlavní nádraží odjezd 10h")
+    print("Litoměřice odjezd 11h")
+    print("Vídeň odjezd 12h")
+    print("Berlin odjezd 13h")
+    cíl = input("Zadejte vaší destinaci ze seznamu cílových stanic")
+    if cíl in destinace:
+       cilova_stanice = destinace.index(cíl)
+       return cilova_stanice
+def vyber_vlaku(cilova_stanice, vlaky):
+    vlak = vlaky[cilova_stanice]
+    return vlak
+def privitani(jmeno, vlak, cíl):
+    print(f"Vítáme Vás {jmeno} ve vlaku {vlak} na ceste do {cíl}")
+
+jmeno = cestujici()
+vyber_destinace(destinace, jmeno)
+cilova_stanice = vyber_destinace()
+vyber_vlaku(cilova_stanice, vlaky)
+vlak = vyber_vlaku()
+privitani(jmeno, vlak, cíl)</solution>
+  <solution group="chatgpt" student_name="Polakova_Eliska" class="6.S"># -*- coding: utf-8 -*-
+"""Untitled4.ipynb
+
+Automatically generated by Colab.
+
+Original file is located at
+    https://colab.research.google.com/drive/14h1_5_kv0UiRqcd7jGsAilvKbVDkdKV5
+"""
+
+seznam_vlaku = ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+seznam_stanic = ["Praha-Hlavnínádraží", "Litoměřice", "Berlín", "Vídeň"]
+def cestujici():
+   cestujici = input("zadej svoje jmeno")
+   return cestujici
+
+def vyber_stanice(pasazer):
+  print(f"Dobry den {pasazer}, kam chcete jet? Zde je výběr cílových stanic: {seznam_stanic}")
+  stanice = input("vyber si stanici")
+  return stanice
+
+def vlak():
+  if
+
+jmeno = cestujici()
+vyber_stanice(jmeno)</solution>
+  <solution group="chatgpt" student_name="Sifalda_Josef" class="6.S">vlaky = ["R606 - Krušnohor", "R23", "EC117 - Silesia", "RJ70 - Vindobona"]
+cily = ["Praha - Hlavní nádraží", "Litoměřice", "Berlín", "Vídeň"]
+casy = ["11:45", "7:58", "6:39", "15:15"]
+sedadla = ["Tichý vůz", "Okno", "Ulička"]
+cil_input = ""
+def cestujici():
+    jmeno_input = input("Zadejte jméno: ")
+    return jmeno_input
+
+def cilova_stanice(cily, jmeno):
+    global cil_input
+    print(f"Dobrý den {jmeno}, kam byste si přál jet? \nZde je seznam možných cílových stanic: ")
+    for i in range(len(cily)):
+        print(f"{i}. {cily[i]}")
+
+    cil_input = input("Vyberte cíl (0 - 3): ")
+    while cil_input == "" or int(cil_input) &gt; 3:
+        cil_input = input("Vyberte cíl (0 - 3): ")
+
+
+def vlak(cil_input, vlaky, cily):
+    global vlak_, cil, cas
+    for i in range(len(vlaky)):
+        if i == int(cil_input):
+            vlak_ = vlaky[i]
+            cil = cily[i]
+            cas = casy[i]
+
+def vyber_sedadla():
+    global sedadlo
+    print("Zde je seznam sedadel: ")
+    for i in range(len(sedadla)):
+        print(f"{i}. {sedadla[i]}")
+    sedadlo_input = input("Vyberte sedadlo (0 - 2): ")
+
+    while sedadlo_input == "" or int(sedadlo_input) &gt; 2:
+        sedadlo_input = input("Vyberte sedadlo (0 - 2): ")
+    for i in range(len(sedadla)):
+        if int(sedadlo_input) == i:
+            sedadlo = sedadla[i]
+
+def privitani():
+    print(f"Vítáme Vás {jmeno} ve vlaku {vlak_}. Cílová stanice vlaku je: {cil}. Váš vlak jede v {cas}. Vaše sedadlo je {sedadlo}.")
+
+while True:
+    jmeno = cestujici()
+    cilova_stanice(cily, jmeno)
+    vlak(cil_input, vlaky, cily)
+    vyber_sedadla()
+    privitani()
+
+    otazka = input("Chcete vyhledat další vlak? (ano/ne)? ")
+    if otazka == "ne":
+        break
+    else:
+        pass
+</solution>
+  <solution group="chatgpt" student_name="Stojanov_Stepan" class="6.S"><![CDATA[
+vlaky = ["henry", "tomáš","edward","gordon" ]
+destinace = ["Terezín","Praha","Lool","Jasan"]
+def jmeno():
+  vase_jmeno = input("Zadejte sem své jméno: ")
+  return vase_jmeno
+cestujici = jmeno()
+def osloveni(h):
+  print(f"Dobrý den,{h} kam zas jedeš?. Máš na výběr čtyři destinace: {destinace} ")
+osloveni(cestujici)
+vase_destinace = input("Zadej sem svou destinaci")
+def vlak()
+]]></solution>
+  <solution group="chatgpt" student_name="Svoboda_Vit" class="6.S">vláčky = ["švestková dráha", "hrušková dráha", "jablečná dráha", "medová dráha"]
+stanice = ["švestkovice", "hruškovice", "jablkovice", "medovina"]
+sedadla = ["vlevo", "vpravo", "uprostřed", "pro invalidy"]
+časy = ["7:00", "9:00", "11:00", "13:00"]
+def cestující():
+    global jméno
+    jméno = input ("Jak se jmenuješ?")
+cestující()
+def výběr(jméno, stanice, sedadla):
+    global výběr_stanice
+    print(f"Dobrý den {jméno}, kampak pojedeme?")
+    for i in range(len(stanice)):
+        print(f"{i} - {stanice[i]}")
+    výběr_stanice = int(input("Vyber stanici (0 - 3): "))
+    #while výběr_stanice &gt; 3:
+    print("Zadej číslo 0 - 3")
+    výběr_stanice = int(input("Vyber stanici (0 - 3): "))
+
+def výběr_sedadla():
+    global sedadla
+    for i in range(len(sedadla)):
+        print(f"{i} - {sedadla[i]}")
+    sedadla = int(input("Vyber si sedadlo (0 - 3): "))
+    #while výběr_sedadla &gt; 3:
+    print("Zadej číslo 0 - 3")
+    sedadla = int(input("Vyber si sedadlo (0 - 3): "))
+    for i in range(len(sedadla)):
+        if sedadla == i:
+            sedadla = sedadla[i]
+
+výběr(stanice, jméno, sedadla)
+
+
+
+def výběr_vláčku(výběr_stanice, vláčky, stanice, sedadla):
+    for i in range(len(vláčky)):
+        if výběr_stanice == i:
+            print(f"Sveze vás {vláčky[i]} v {časy[i]}")
+
+výběr_vláčku(výběr_stanice, vláčky, stanice, sedadla)
+
+konec = input("Chceš vybrat další vláček? ")
+if konec == "ano":
+    pass
+else:
+    konec
+    </solution>
+  <solution group="chatgpt" student_name="Trnkova_Rozalie" class="6.S"><![CDATA[x = float(input("zadejte prvni cislo"))
+y = float(input("zadejte druhe cislo"))
+
+
+def scitani(x, y):
+  vysledek = x + y
+  print(vysledek)
+def odcitani(x, y):
+  vysledek = x - y
+  print(vysledek)
+def nasobeni(x, y):
+  vysledek = x * y
+  print(vysledek)
+def deleni(x, y):
+  vysledek = x / y
+  if y == 0:
+    print("neni definovano")
+  else:
+    print(vysledek)
+
+print("vyber operaci")
+print("1.scitani")
+print("2.odcitani")
+print("3.nasobeni")
+print("4.deleni")
+
+while True:
+    choice = input("vyber (1/2/3/4):"),
+
+    if choice in ('1', '2', '3', '4'):
+        try:
+            num1 = float(input("zadej prvni cislo: "))
+            num2 = float(input("zadej druhe cislo: "))
+        except ValueError:
+            print("nevalidni vlozeni, vlozte cislo")
+            continue
+
+        if choice == '1':
+            print(num1, "+", num2, "=", add(num1, num2))
+
+        elif choice == '2':
+            print(num1, "-", num2, "=", subtract(num1, num2))
+
+        elif choice == '3':
+            print(num1, "*", num2, "=", multiply(num1, num2))
+
+        elif choice == '4':
+            print(num1, "/", num2, "=", divide(num1, num2))
+
+        next_calculation = input("chcete dale pocitat? (ano/ne): ")
+        if next_calculation == "ne":
+          break
+    else:
+        print("nevalidni vlozeni")]]></solution>
+  <solution group="chatgpt" student_name="Vokal_Jakub" class="6.S"><![CDATA[vlaky = ["Pendolino", "AZD", "R23", "RJ70"]
+stanice = ["Praha", "Litoměřice", "Berlin", "Vídeň"]
+
+def cestujici():
+  jmeno = str(input("Zadej jméno cestujícího: "))
+  return jmeno
+
+def c_stanice(jmena, stanice):
+  print(stanice)
+  print("Prosím vyberte jednu z výše uvedených cílových stanic: ")
+  uzivatel = str(input("Zadej cílovou stanici: "))
+  return uzivatel
+
+
+def vlak(uzivatel, stanice, vlaky):
+  for i in range (len(stanice)):
+    if uzivatel == stanice[i]:
+      vlak = vlaky[i]
+      return vlak
+
+def privitani(vlak, uzivatel):
+  print(f"Vítejte ve vlaku {vlak}, který jede do stanice {uzivatel}")
+
+pes = cestujici()
+cil = c_stanice(pes, stanice)
+vlacek = vlak(cil, stanice, vlaky)
+vitani = privitani(vlacek, stanice)
+
+cas = ["3h", "5h", "6h", "8h"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></solution>
+  <solution group="chatgpt" student_name="Zadak_Lukas" class="6.S"><![CDATA[#Uspořádání prvků
+from typing import List
+vlaky_seznam = ['TGV1','TGV2', 'TGV3', 'TGV4']
+stanice_seznam = ['Brno', 'Praha', 'Paříž', 'Berlín']
+odjezdy_seznam = ['12:00', '13:00', '14:00', '15:00']
+
+#Žádost o jméno cestujícího
+def jmeno():
+  jmeno_cestujiciho = input('Zadejte své jméno: ')
+  return jmeno_cestujiciho
+
+#Cílová destinace
+def cil_destinace(meno: str):
+  destinace = 'brm'
+  while (destinace != 'Brno') and (destinace != 'Praha') and (destinace != 'Paříž') and (destinace != 'Berlín'):
+   if destinace  == 'brm':
+    pass
+   elif (destinace != 'Brno') and (destinace != 'Praha') and (destinace != 'Paříž') and (destinace != 'Berlín'):
+    print('Do této zastávky vlak nejede')
+   destinace = input(f'Dobrý den {meno}, kam máte namířeno? Toto je seznam cílových stanic :\n1 - Brno\n2 - Praha\n3 - Paříž\n4 - Berlín')
+  return destinace
+
+#Úprava pro cestujícího
+def najdi(destinace: str, vlaky_seznam: List, stanice_seznam: List, odjezdy_seznam: List):
+  for i in range(len(stanice_seznam)):
+    if stanice_seznam[i] == destinace:
+      jmeno_vlaku = vlaky_seznam[i]
+      cas_odjezdu = odjezdy_seznam[i]
+  return jmeno_vlaku,cas_odjezdu
+
+#Rozšíření lístku
+def rozsireni():
+  rozsireni = input('Chcete si vybrat něco navíc? ')
+  if (rozsireni == 'ano'):
+   dalsi_rozsireni = input('Co přesně? ')
+  else:
+    print('Dobře, nic víc si nepřejete')
+  return dalsi_rozsireni
+
+#Přivítání uživatele ve vlaku
+def privitani(meno: str, jmeno_vlaku: str, destinace: str, cas_odjezdu):
+ print(f'Vítáme Vás pane,paní {meno} ve vlaku {jmeno_vlaku}, který jede do cílové stanice {destinace} s odjezdem v {cas_odjezdu}')
+ return None
+
+#Dodělání funkcí
+def main():
+  meno = jmeno()
+  stop = 'konec'
+  while stop != 'nou':
+    destinace = cil_destinace(meno)
+    jmeno_vlaku, cas_odjezdu = najdi(destinace,vlaky_seznam,stanice_seznam,odjezdy_seznam)
+    privitani(meno, jmeno_vlaku, destinace, cas_odjezdu)
+    stop = input('Chcete vybrat další vlak pro Vaši příští cestu? ')
+main()
+
+]]></solution>
+  <solution group="chatgpt" student_name="Zamecnik_Petr" class="6.S"><![CDATA[vlaky = ["R606-Krušnohor", "R23", "EC117-Silesia", "RJ70-Vindobona"]
+stanice = ["Praha-Hlavnínádraží", "Litoměřice", "Berlín", "Vídeň"]
+
+def cestujici():
+  jmeno = print(input("Zadej své jméno: "))
+  return jmeno
+
+def cil(jmeno, stanice):
+  print(stanice)
+  print(f"Kam by si {jmeno} přál jet?")
+  stanice1 = print(input("Zadej svojí cílovou destinaci: "))
+  index1 = stanice.index(stanice1)
+  return index1
+
+def vlak(index1):
+  print(f"na základě vaší cílové snanice jsme pto vás vybrali vlak {vlaky[index1]}")
+
+jmeno = cestujici()
+index = cil(jmeno, stanice)
+vlak(index)
+]]></solution>
+  <solution group="normal" student_name="antal" class="6.S"><![CDATA[from typing import List
+seznam_vlaku = ['Mašinka Tomáš','prdítko','kůň','motoráček']
+seznam_stanic = ['Praha','Brno','Polepy','Břehorye']
+seznam_odjezdu = ['10:10','12:12','14:14','16:16']
+
+def jmeno():
+  vase_jmeno = input('Zadej jméno kámo: ')
+  return vase_jmeno
+
+def destinacni_kalkulacka(meno: str):
+  destinace = 'negr'
+  while (destinace != 'Praha') and (destinace != 'Brno') and (destinace != 'Polepy') and (destinace != 'Břehorye'):
+    if destinace == 'negr':
+      pass
+    elif (destinace != 'Praha') and (destinace != 'Brno') and (destinace != 'Polepy') and (destinace != 'Břehorye'):
+      print('Tam nejedem')
+    destinace = input(f'Dobrý den {meno}, kam byste si přál jet? Zde je seznam možných cílových stanic:\n1 - Praha\n2 - Brno\n3 - Polepy\n4 - Břehorye')
+  return destinace
+
+def hledej(destinace: str, seznam_vlaku: List, seznam_stanic: List, seznam_odjezdu: List):
+  for i in range(len(seznam_stanic)):
+    if seznam_stanic[i] == destinace:
+      nazev_vlaku = seznam_vlaku[i]
+      cas_odjezdu = seznam_odjezdu[i]
+  return nazev_vlaku,cas_odjezdu
+
+def rozsireni_listku():
+  bonus = input('Chcete nějaký VIP bonus? ')
+  if (bonus == 'ano') or (bonus == 'jo'):
+    realnej_bonus = input('Co to bude? ')
+  else:
+    print('Tak jseš piča')
+  return realnej_bonus
+
+def privitani(meno: str, nazev_vlaku: str, destinace: str, cas_odjezdu, VIP):
+  print(f'Vítáme Vás {meno} ve vlaku {nazev_vlaku} Cílová stanice {nazev_vlaku} je: {destinace} a odjezd je zanedlouho v {cas_odjezdu}, sami jste si vybrali jako VIP prvek {VIP}')
+  return None
+
+
+
+def main():
+  stop = 'jdi se zabít'
+  meno = jmeno()
+  while stop != 'ne':
+    destinace = destinacni_kalkulacka(meno)
+    nazev_vlaku,cas_odjezdu = hledej(destinace,seznam_vlaku,seznam_stanic,seznam_odjezdu)
+    VIP = rozsireni_listku()
+    privitani(meno, nazev_vlaku, destinace, cas_odjezdu, VIP)
+    stop = input('Chceš vybrat další vlak? ')
+
+main()
+
+
+
+print('jseš'\n'tupá)]]></solution>
+  <solution group="normal" student_name="fraňková" class="6.S">seznam_vlaku = ["mašinka tomáš", "rozburk", "bojovnik", "novobřesk"]
+seznam_cilove_destinace = ["Morava", "Praha", "Litoměřice", "Brno"]
+def cestujici():
+    cestujici = input("zadej jmeno cestujiciho")
+    return cestujici
+def cilove_destinace():
+    destinace = input(f"Dobrý den {cestujici}, kam byste si přál jet? Zde je seznam možných cílových stanic: {seznam_cilove_destinace}")
+    input("vyber si cilovou destinaci")
+    return destinace</solution>
+  <solution group="normal" student_name="galia" class="6.S"><![CDATA[seznam_vlaku = ["smoula", "krtecek", "kremilek","rakosnicek"]
+destinace = ["litomerice", "praha", "brno", "znojmo"]
+odjezdy = ["11:11", "13:13", "15:15", "17:17"]
+
+def cestujici():
+    jmeno = input("zadejte jmeno:")
+    return jmeno
+
+def destinace():
+    while destinace (destinace!= litomerice) and (destinace != praha) and (destinace != brno) and (destinace != znojmo):
+       if destinace (destinace != litomerice) and (destinace != praha) and (destinace != brno) and (destinace != znojmo):
+          print("tam fakt nepojedeme vole")
+       destinace = input(f"Dobrej den{jmeno}, kam to bude? zde je seznam stanic:\n1 - litomerice\n2 - praha\n3 - brno\n4 - znojmo")
+       return destinace
+
+def hledej(destinace: str, seznam_vlaku: List, destinace: List, odjezdy: List):
+  for i in range(len(seznam_stanic)):
+    if destinace[i] == destinace:
+      nazev_vlaku = seznam_vlaku[i]
+      cas_odjezdu = odjezdy[i]
+  return nazev_vlaku, cas_od
+
+
+
+]]></solution>
+  <solution group="normal" student_name="krejča" class="6.S"><![CDATA[vlaky = ["vlacekmotoracek", "racek," "klacek", "macek"]
+destinace = ["most", "chanov", "usti", "teplice"]
+
+def jmeno():
+    jmena = input("zadej svoje jméno")
+    return jmena
+vysledek = jmeno()
+
+
+def stanice():
+    stanica = input("zadej prosím jméno cílové stanice, na výběr je: most, chanov, usti, teplice")
+    return stanica
+vysledek2 = stanice()
+print(f"dobrý den {vysledek} vase cislova stanice je {vysledek2} ")
+
+
+def vlak(a, b, c, d):
+  if stanica in destinace:
+    return vlak
+
+vysledek3 =
+
+  P.S. Nkdo mi nechtěl pomoct a proto jsem se s 5 dělal 4 hodiny, prosím o schovívavost a přikládám malý dárek :)
+
+  darek = [bonbony, žena snů, 4 miliony dolarů, práce snů]
+
+
+
+]]></solution>
+  <solution group="normal" student_name="němečková" class="6.S"><![CDATA[vlaky1=['rychlik','osobak','motoracek','lokomotiva']
+stanice=['litomerice','lovosice','sulejovice','most']
+odjezdy1=['10h','12h','14h','16h']
+
+def jmeno():
+  jmeno_uzivatele=input('zadejte sve jmeno: ')
+  return jmeno_uzivatele
+
+def zastavka(jmeno_uzivatele_x):
+  cilova_stanice='abc'
+  while (cilova_stanice!='litomerice') and (cilova_stanice!='lovosice') and (cilova_stanice!='sulejovice') and (cilova_stanice!='most'):
+    if cilova_stanice=='abc':
+      abcd=1234
+    elif (cilova_stanice!='litomerice') and (cilova_stanice!='lovosice') and (cilova_stanice!='sulejovice') and (cilova_stanice!='most'):
+      print('spatna zastavka')
+    cilova_stanice=input(f'dobry den {jmeno_uzivatele_x} vyberte si svou cilovou stanici-litomerice/lovosice/sulejovice/most')
+  return cilova_stanice
+
+def vlak(jmeno_uzivatele,vlaky,stanice,odjezdy):
+  for idx in range(len(stanice)):
+    if stanice[idx]==cilova_stanice:
+        vlaky2=vlaky1[idx]
+        odjezdy2=odjezdy1[idx]
+  return vlaky2,odjezdy2
+
+def treatment():
+  rozsireni=input('chcete si vybrat nejaky special treatment?')
+  if rozsireni=='ano':
+    konkretni_rozsireni=input('jaky?')
+  else:
+    print('dobre nic nedostanes')
+  return konkretni_rozsireni
+
+def vitej(jmeno_uzivatele_x,vlaky2,cilova_stanice,odjezdy2,special):
+  vitani=input(f'dobry den vitame te {jmeno_uzivatele_x} ve vlaku {vlaky2} do stanice {cilova_stanice}')
+def main():
+  jmeno_uzivatele_x=jmeno()
+xyz='456'
+jmeno_uzivatele_x=jmeno()
+while xyz != 'ne':
+    cilova_stanice=zastavka(jmeno_uzivatele_x)
+    vlaky2,odjezdy2=vlak(cilova_stanice,vlaky1,stanice,odjezdy1)
+    vip=treatment()
+    vitej(jmeno_uzivatele_x,vlaky2,cilova_stanice,odjezdy2,vip)
+    xyz=input('nechces jet jeste nekam?')
+    if xyz=='ne':
+      break
+
+main()]]></solution>
+  <solution group="normal" student_name="sabotinová" class="6.S"><![CDATA[seznam_vlaku = ["R606 - Krušnohor", "R23", "EC117 - Silesia", "RJ70 - Vindobona"]
+seznam_cilovych_stanic = ["Praha - Hlavni nadrazi", "Litomerice", "Berlin", "Viden"]
+odjezdy = ["11:02", "15:00", "13:01", "17:07"]
+
+
+def cestujici():
+    jmeno = input("Zadejte jmeno:")
+    return jmeno
+
+def destinace():
+    while destinace (destinace != Praha - Hlavni nadrazi) and (destinace != Litomerice) and (destinace != Berlin) and (destinace != Viden):
+       if destinace (destinace != Praha - Hlavni nadrazi) and (destinace != Litomerice) and (destinace != Berlin) and (destinace != Viden):
+          print("sem se fakt nepojede")
+      destinace = input(f"Dobry den {jmeno}, kam si dneska vyrazite? Zde mame v nabidce seznam destinaci - Praha - Hlavni nadrazi\n1, Litomerice\n2, Berlin\3, Viden\n4")
+      return destinace
+
+def hledej(destinace: str, seznam_vlaku: List, destinace: List, odjezdy: List)
+  for i in range(len(seznam_stanic):
+    if destinace
+
+
+]]></solution>
+  <solution group="normal" student_name="trejbal" class="6.S"><![CDATA[vlaky=["R606-Krušnohor","R23","EC117-Silesia","J70 - Vindobona"]
+stanice=["Praha-Hlavní nádraží","Litoměřice","Berlín","Víděň"]
+casy=["10:00","00:30","05:00","23:30"]
+A=True
+B=True
+def cestujici():
+  global jmeno
+  while A==True:
+    jmeno=input("Jak se jmenujete?")
+    if jmeno=="":
+      print("Určitě nějaké jméno máte, tak ho prosím zadejte: ")
+      continue
+    else:
+      break
+  return jmeno
+
+def vyber_stanice(jmeno,stanice):
+  B=True
+  global cesta
+  print(f"Dobrý den {jmeno}, kam byste si přál jet?")
+  print("Zde je seznam všech cílových stanic:")
+  for i in range(len(stanice)):
+    print(stanice[i])
+  while B==True:
+    cesta=input()
+    if cesta=="Praha-Hlavní nádraží"or "Litoměřice"or"Berlín"or"Víděň":
+      B=False
+    else:
+      print("Žádná taková stanice není na výběr vyberte jednu z možností:")
+  return cesta
+
+def cilova_stanice(cesta,vlaky, stanice):
+  for i in range(len(stanice)):
+    if cesta==stanice[i]:
+      print(f"Do stanice {cesta} se dostanete pomocí vlaku {vlaky[i]}")
+
+def privitani(cesta, vlaky, stanice, jmeno):
+  for i in range(len(stanice)):
+    if cesta==stanice[i]:
+      print(f"Vitame vás {jmeno}, ve vlaku {vlaky[i]}. Cílová stanice ve vlaku je: {stanice[i]}")
+
+def casy_vlaku(vlaky,casy):
+  print("Zde je čas odjezdů všech vlaků:")
+  for i in range(len(vlaky)):
+    print(f"Vlak {vlaky[i]} odjezd {casy[i]}")
+
+def vyber_sedadla():
+  while A==True:
+    a=input("V jakém typu vozu chcete sedět(tichý, kuřácký, normální)?")
+    if a=="tichý"or"kuřácký"or"normální":
+      break
+    else:
+      print("Vaše odpověď není platná:")
+      continue
+  while A==True:
+    b=input("Jaké sedadlo chcete(u okna, v uličce)?")
+    if a=="u okna"or"v uličce":
+      break
+    else:
+      print("Vaše odpověď není platná:")
+      continue
+
+while B==True:
+  cestujici()
+  vyber_stanice(jmeno,stanice)
+  cilova_stanice(cesta,vlaky,stanice)
+  privitani(cesta,vlaky,stanice,jmeno)
+  casy_vlaku(vlaky,casy)
+  vyber_sedadla()
+  print("Děkujeme a teď další")
+
+
+
+
+
+
+]]></solution>
+</Task>
+</tasks>
